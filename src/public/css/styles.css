@@ -1,0 +1,613 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+    body{
+      background-color: white;
+      color:#222831;
+      font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  #main-header {
+    transition: transform 0.3s ease-in-out;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  #main-header.hidden {
+    transform: translateY(-100%);
+    background-color:#ead279;
+  }
+  
+  .nav {
+      margin-bottom: 70px;
+      margin-bottom: 50px !important;
+      font-family: 'Yu Gothic', sans-serif;
+    }
+    
+    .nav a {
+      float: left;
+      display: block;
+      color:#222831;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-top: 30px;
+    }
+    
+    .nav a:hover {
+      color: black !important;
+      background-color: #ead279;
+    }
+  
+    /* Estilo del carrusel */
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+    /* Encabezados principales */
+  .titulo-index {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 3rem;
+    color:#222831;
+    font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  .subtitulo-shojin {
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  /* Sección de información */
+  .info-shojin {
+    font-family: 'Yu Gothic', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .info-shojin p {
+    margin: 20px 0;
+    text-align: justify;
+  }
+  .info-shojin strong {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .significado-shojin ul {
+    list-style-type: disc;
+    padding:0;
+    margin-left: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .significado-shojin li {
+    padding: 5px 0;
+    color: #5c5c5c;
+  }
+  
+  .significado-shojin p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilo para listas y texto */
+  ul {
+    margin-top: 15px;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+    /* Estilo para toda la sección */
+  .info-compasion {
+    font-family: 'Yu Gothic', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  
+  /* Estilo para el título */
+  .info-compasion h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los párrafos */
+  .info-compasion p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  /* Estilo para las listas */
+  .info-compasion ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding:0;
+  }
+  
+  .info-compasion ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para resaltar los términos importantes */
+  .info-compasion strong {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Estilo para las citas */
+  .info-compasion blockquote {
+    background-color:#ead279;
+    border-left: 5px solid #e74c3c;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  /* Estilo para el texto dentro de blockquote */
+  .info-compasion blockquote p {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para el fondo y las sombras */
+  .info-compasion {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+    /*Estilo h1 páginas menos index*/
+  h1{
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  /*Estilo para sección de búsqueda de recetas*/
+  .search-section{
+      font-family: 'Yu Gothic', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+      margin-top: 3rem;
+  }
+  
+  .search-section input{
+      width: 30rem;
+      padding: 1rem;
+      border: solid 1px #2c3e50;
+      border-radius: 1.5rem;
+      margin-bottom: 1rem;
+      color: #5a5a4a; 
+      font-size: 1rem;
+      font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  .search-section button{
+      padding: 0.8rem 1.2rem; 
+      border: none;
+      border-radius: 1.5rem;
+      background-color: #d0a13d ; 
+      color: black;
+      font-size: 1rem;
+      font-family: 'Yu Gothic', sans-serif;
+  }
+  
+  .search-section button:hover {
+      background-color: #ead279; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* Contenedor para la lista de enlaces de recetas en la pagina recetas */
+  .container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .container a {
+    font-family: 'Yu Gothic', sans-serif;
+    font-size: 1.0rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color:#222831;
+  }
+  
+  .container a:hover{
+    color:#d0a13d;
+    font-weight:500;
+  }
+  
+  /* Estilos para paginación recetas*/
+  
+  .page-item .page-link {
+    color: #222831;
+    background-color:white;
+    padding: 8px 12px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    border:2px solid #ead279;
+    border-radius: 10px;
+    font-family: 'Yu Gothic', sans-serif;
+  }
+  .page-item .page-link:hover {
+    background-color:#ead279;
+    color: #222831;
+  }
+  .page-item.active .page-link {
+    background-color:white;
+    color:#222831;
+    border:2px solid #ead279 ;
+    border-radius: 10px;
+    
+  }
+  .page-item.disabled .page-link {
+    background-color:#d0a13d !important;
+    color:#222831;
+    border-color: #d0a13d !important ;
+  }
+  
+  
+  /* Estilos para cada receta*/
+  
+  .titulo-nombre-receta{
+    color:#212529;
+    font-family: 'Yu Gothic', sans-serif;
+    letter-spacing: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .container-receta{
+    font-family: 'Yu Gothic', sans-serif;
+    color:#212529;
+    letter-spacing: 0.04rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    width: 75rem; 
+    margin: 0 auto; 
+    padding: 1rem;
+    margin-bottom: 80px;
+  }
+  
+  .image-ingredientes {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;
+    gap: 2rem; 
+    margin-bottom:50px;
+    
+  }
+  
+  #photo-recipe{
+    width: 50%;
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px;
+  }
+  
+  .container-ingredientes {
+    background-color: #f0db92;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    list-style-type: disc;
+    width: 45%;
+  }
+  
+  #portions{
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: end;
+    margin-bottom: 35px;
+  }
+  
+  .h5-receta{
+    font-family: 'Yu Gothic', sans-serif;
+    color:#212529;
+    letter-spacing: 0.04rem;
+    padding: 10px;
+  }
+  
+  .instrucciones-recetas{
+    font-family: 'Yu Gothic', sans-serif;
+    color:#212529;
+    letter-spacing: 0.04rem;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  #curiosidad-container {
+    margin: 30px auto; /* Centra horizontalmente y agrega espacio superior */
+    display: block;  /* Para que respete el ancho máximo y se centre */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.08;
+    font-size: 0.9rem;
+    display: inline-block;  /* Ajusta el tamaño automáticamente al contenido */
+    border: 1px solid transparent;
+    padding: 15px;             
+    max-width: 700px;       
+    box-sizing: border-box;
+    word-wrap: break-word; 
+    background-color: #f0ebe6;
+    color:#2c3e50;
+  }
+  
+  
+  /*Estilo para contacto */
+  
+  .contacto-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    font-family: 'Yu Gothic', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-align: start;
+    padding: 3rem;
+    margin: 2rem;
+  }
+  
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .imagen-contacto {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .pagina-fudoji {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center; 
+    gap: 2rem;
+    margin-top: 20px;
+  }
+  
+  .logo-fudoji,
+  .pagina-fudoji img {
+    width: 50px; 
+  }
+  
+  
+  /*Estilo para el footer*/
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color:#556B2F;
+    min-height:20vh;
+  }
+  
+  .text-footer{
+    margin: 40px 280px 40px 280px;
+    color: #212529;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .scroll-container{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .container-receta {
+      width: 100%; 
+      padding: 1rem;
+      margin-bottom: 40px;
+    }
+    
+    .titulo-nombre-receta {
+      font-size: 1.5rem; 
+      margin-bottom: 20px;
+    }
+    
+    .image-ingredientes {
+      flex-direction: row; 
+    }
+  
+    .contacto-info {
+      font-size: 1rem;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 890px) {
+    .container-receta {
+      width: 100%; 
+      padding: 1rem;
+      margin-bottom: 40px;
+    }
+    
+    .titulo-nombre-receta {
+      font-size: 1.5rem; 
+      letter-spacing: 0.2rem;
+      margin-bottom: 20px;
+    }
+    
+    .image-ingredientes {
+      flex-direction: column-reverse; 
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    #photo-recipe {
+      width: 80%; 
+    }
+    
+    .text-footer{
+      margin: 50px 20px 50px 20px;
+      line-height: 20px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+    .scroll-container{
+      display: flex;
+      justify-content:center;
+      padding: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .text-footer{
+      margin: 50px 20px 50px 20px;
+      line-height: 20px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  
+    .titulo-index {
+      font-size: 2.5rem;
+    }
+  
+    .search-section input{
+      width: 20rem;
+  }
+  
+  .search-section button{
+      padding: 0.6rem 1.1rem; 
+      border: none;
+  }
+  
+  
+  .container-receta {
+    width: 100%; 
+    padding: 1rem;
+    margin-bottom: 40px;
+  }
+  
+  .titulo-nombre-receta {
+    font-size: 1.5rem; 
+    margin-bottom: 15px;
+  }
+  
+  .image-ingredientes {
+    flex-direction: column-reverse; 
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  #photo-recipe {
+    width: 100%; 
+  }
+  
+  .container-ingredientes {
+    width: 100%; 
+    padding: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  #portions {
+    font-size: 0.8rem; 
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+  .instrucciones-recetas {
+    font-size: 1rem; 
+    padding: 1rem;
+  }
+  
+  #curiosidad-container {
+    max-width: 100%; 
+    margin-top: 10px; 
+    padding: 1rem;
+  }
+  
+  .contacto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: 'Yu Gothic', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-align:start;
+    padding: 10px;
+  }
+  
+  
+  .imagen-contacto {
+    width: 100%;
+  }
+  
+  .pagina-fudoji {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    gap: 1rem;
+    margin-top: 20px;
+    
+  }
+  }
+  @media only screen and (max-width: 480px) {
+    .titulo-nombre-receta {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    
+    .container-ingredientes, 
+    .instrucciones-recetas, 
+    #curiosidad-container {
+      padding: 0.5rem;
+    }
+  
+    #photo-recipe {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .contacto-info {
+      font-size: 0.9rem;
+    }
+  }
+  

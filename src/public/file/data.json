@@ -1,0 +1,349 @@
+[
+  {
+    "id": 1,
+    "title": "Goma Dofu (Tofu de sésamo)",
+    "description": "Tofu de sésamo blanco",
+    "portions": "Sirve entre 8 y 10 porciones",
+    "ingredients": [
+      "500 ml (1/2 litro) de agua filtrada o de manantial",
+      "Un trozo de 5 cm de kombu (opcional)",
+      "50 gramos de almidón de kudzu (búscalo en tiendas de alimentos naturales o mercados japoneses, posiblemente bajo el nombre de kuzuko)",
+      "70 gramos de pasta de sésamo blanco (puedes usar tahini de Oriente Medio o neri-goma japonés, lo que sea más fácil de encontrar)",
+      "1 cucharada de sake (opcional)"
+    ],
+    "image": "https://i.postimg.cc/VLPx26Rk/tofu-temple.png",
+    "tags": "sésamo, sesamo, tofu, koyasan, gomadofu",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Ponga el agua y el kombu (si lo usa) en un bol y deje reposar durante al menos 1 hora. Retire el kombu y deséchelo, o resérvelo para otro uso (yo lo agrego al agua cuando cocino legumbres, se dice que ayuda a que sean más fáciles de digerir).",
+      "Coloque el almidón de kudzu en un bol mediano para mezclar. Agregue un poco del agua infusionada con kombu y revuelva/triture hasta que esté completamente suave. Añada la pasta de sésamo y luego vierta el resto del agua poco a poco, revolviendo bien para que la mezcla se diluya sin formar grumos. Puede usar un batidor para mezclar, pero asegúrese de no incorporar aire en la mezcla: no debe volverse espumosa.",
+      "Vierta la mezcla en una cacerola mediana y añada el sake si lo usa. Coloque la cacerola a fuego medio y remueva constantemente con una espátula mientras la mezcla espesa. En cuanto comience a formar grumos, baje el fuego al mínimo y cocine durante 10 a 15 minutos más, removiendo continuamente, hasta que la mezcla adquiera una consistencia similar a la de un postre cremoso.",
+      "Humedezca el interior de un recipiente cuadrado o rectangular (esto es para que el gomadofu se desmolde fácilmente), con una capacidad de unos 750 ml (3 tazas), y vierta la mezcla espesa en él. Alise la superficie con la espátula y coloque el recipiente en la heladera para que se enfríe y solidifique durante 2 a 3 horas.",
+      "Desmolde sobre un plato grande y corte en porciones cuadradas con un cuchillo, sumergiendo la hoja en agua caliente entre cada corte."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Misoshiru",
+    "description": "Sopa de miso",
+    "portions": "Sirve 2 porciones",
+    "ingredients": [
+      "2 tazas de agua (500ml)",
+      "2 cucharadas de pasta de miso (40g)",
+      "1/3 de tofu (aproximadamente 100g) cortado en cubos",
+      "Opcional: alga wakame cortada en trozos, hongos shitakes hidratados y cortados en trozos, espinaca blanqueda y cortada, etc"
+    ],
+    "image": "https://i.postimg.cc/yYY21DqZ/misoSoup.webp",
+    "tags": "miso, sopa, tofu",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Hierva el agua. Separe 2 cuencos y coloque 1 cucharada de pasta de miso en cada uno. Agregue poco a poco el agua caliente a cada cuenco, disolviendo la pasta de miso. Finalmente, agregue los cubos de tofu.",
+      "Si está utilizando otros ingredientes, agréguelos también al final.",
+      "Tip adicional: Unas gotas de aceite de sésamo pueden darle un sabor muy rico a la sopa de miso."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Ganmodoki",
+    "description": "Hamburguesitas de tofu",
+    "portions": "Se hacen aproximadamente 11 hamburguesitas",
+    "ingredients": [
+      "1 paquete de tofu firme (400 gramos)",
+      "Media zanahoria",
+      "1 cuchara de alga hijiki seca (se puede remplazar por perejil)",
+      "4 hongos shitake (frescos o hidratados) o portobellos",
+      "3 cucharas de edamame cocido (se puede remplazar por arvejas o porotos de soja)",
+      "2-3 cucharas de fécula de papa (o fécula de mandioca)",
+      "1 cucharadita de sal",
+      "Aceite para freír"
+    ],
+    "image": "https://i.postimg.cc/htrjQXd6/ganmodoki2.webp",
+    "tags": "hijiki, tofu, koyasan, hamburguesas, algas",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Envuelve el tofu en papel de cocina y coloca un peso encima para escurrir el agua durante aproximadamente una hora. Mientras tanto, ralla la zanahoria, corta los hongos en trozos pequeños, corta finamente las edamames o soja (o aplasta groseramente las arvejas) y remoja el alga hijiki en 1/2 taza de agua.",
+      "Escurre el exceso de agua del tofu y amásalo bien en un bol hasta obtener una textura suave. Añade la sal y la fécula, y mezcla la zanahoria rallada, los hongos, las edamames (o su remplazo) y el alga hijiki remojada (o el perejil cortado finamente).",
+      "Calienta el aceite a fuego medio (aproximadamente 150°C/350°F).",
+      "Forma pequeñas hamburguesitas con la mezcla y colócalas con cuidado en el aceite.",
+      "*No sobrecargues la sartén, ya que bajará la temperatura del aceite.",
+      "*Comienza con el fuego bajo y aumenta gradualmente para cocinar las hamburguesas de manera uniforme.",
+      "*Si el aceite está demasiado caliente, las hamburguesas pueden romperse.",
+      "*Evita tocar las hamburguesas hasta que la superficie esté bien cocida.",
+      "Sirve y disfruta con sal, salsa de soja o salsa de soja mezclada con caldo dashi. Para más sabor, añade daikon (rábano) rallado, jengibre rallado o chile."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Kinoko-Gohan (Arroz con hongos)",
+    "description": "Arroz con hongos y otros vegetales.",
+    "portions": "Sirve 4 porciones",
+    "ingredients": [
+      "300 gramos de arroz (preferentemente arroz japonés como koshihikari, arroz fortuna o doble carolina)",
+      "50 gramos de zanahoria",
+      "100 gramos de hongos shimeji, portobello o champiñón",
+      "2 hongos shitake frescos o hidratados",
+      "80 gramos de batata",
+      "2 cucharadas de salsa de soja"
+    ],
+    "image": "https://i.postimg.cc/q7vN7bDX/kinoko-gohan.jpg",
+    "tags": "arroz, verduras, hongos, salsa de soja, shoyu, koyasan",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Primero, lave el arroz hasta que el agua se vuelva un poco transparente (unas 4 veces). Ponga el arroz en un colador y deje que se escurra durante unos 10 minutos.",
+      "Coloque el arroz en una cacerola con 400 ml de agua. Deje que el arroz se remoje durante 30 minutos. Esto asegura que el agua penetre hasta el centro de los granos.",
+      "Quite y deseche la parte dura al final de los tallos de los hongos shimeji (en el caso de usarlo). Separe los hongos. Quite y deseche los tallos de los hongos shiitake (o portobello), y corte los sombreros en tiras finas de 5 mm de ancho. Coloque los hongos en un colador y enjuáguelos rápidamente, sacudiendo el colador para eliminar el exceso de humedad.",
+      "Lave bien la superficie de la batata. Córtela en rodajas de 1 cm de grosor, y luego en dados de 1 cm. Remoje los dados de batata en agua para evitar que se decoloren.",
+      "Pele la zanahoria y córtela en trozos de 4 cm. Córtelos a lo largo en tiras finas. Coloque varias tiras una encima de otra y, comenzando por un borde, córtelas en tiras más finas (juliana).",
+      "Agregue 2 cucharadas de salsa de soja al arroz en la cacerola. Luego, coloque las verduras y los hongos en la parte superior del arroz. Coloque la tapa en la cacerola y cocine a fuego lento durante 10 minutos. Si ve vapor salir por la tapa, baje el fuego un poco más.",
+      "Después de 10 minutos, apague el fuego y deje reposar el arroz tapado durante 10 minutos adicionales. Luego retire la tapa, revuelva el arroz y las verduras y sirva."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Koya Dofu Frito con Ankake (Salsa dulce)",
+    "description": "Tofu frito acompañado con una salsa dulce espesa y verduras.",
+    "portions": "Sirve 4 porciones",
+    "ingredients": [
+      "2 cuadrados grandes de koya dofu (*puede ser remplazado por tofu congelado)",
+      "1/4 de zanahoria",
+      "4 chauchas",
+      "Aceite neutro para freír",
+      "200 ml de agua a temperatura ambiente (para cocinar)",
+      "1 cucharada de salsa de soja",
+      "1 cucharada de azúcar",
+      "1 cucharadita de sal",
+      "1 cucharadita de fécula de papa o maíz (o maicena)",
+      "2 cucharaditas de agua (para disolver la fécula)"
+    ],
+    "image": "https://i.postimg.cc/8ckYhKyn/koya_dofu_ankake.jpg",
+    "tags": "tofu, koya dofu, koyadofu, frito, salsa dulce, ankake, vegetales",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Si usar Koya Dofu es necesario reconstruirlo sumergiéndolo en agua hasta que esté suave. Si usar el tofu congelado es necesario descongelarlo. Luego presionarlo suavemente entre las palmas para eliminar el exceso de agua. Envolver en una toalla de papel para secar la superficie.",
+      "Cortar dos cuadrados grandes del koya dofu y cada cuadrado en diagonal en cuartos, obteniendo cuatro triángulos de cada cuadrado original. Calentar el aceite a 175º C (347º F) y freír hasta que estén dorados.",
+      "Cortar la zanahoria en tiras finas y las chauchas por la mitad, luego freírlas a unos 175º C (347º F).",
+      "Colocar el agua, la salsa de soja, el azúcar y la sal en una cacerola y llevar a ebullición. Disolver la fécula de papa en un poco de agua y añadirla a la cacerola. Cocinar a fuego lento, revolviendo hasta que la salsa espese.",
+      "Colocar el koya dofu frito en un plato de servir y cubrir con las zanahorias y guisantes fritos. Verter la ankake (salsa dulce) caliente sobre el koya dofu para completar.",
+      "*Los vegetales que acompañan el tofu pueden ser remplazados por los de su preferencia. También se puede usar hongos como shitake o portobello."
+    ],
+    "curiosidad": "El origen del Koyadofu se remonta al período Kamakura (1185 - 1333). Los registros muestran que los monjes lo desarrollaron en un templo budista en el Koyasan, prefectura de Wakayama. Como la montaña está en una altitud elevada y experimenta inviernos severos, los monjes descubrieron accidentalmente que la congelación era una excelente manera de conservar el tofu fresco. Este alimento bien conservado se hizo popular y se extendió desde Koyasan a la región de Kansai."
+  },
+  {
+    "id": 6,
+    "title": "Yaki Onigiri (Onigiri a la parrilla)",
+    "description": "Bolas de arroz a la parrilla.",
+    "portions": "Sirve 4 porciones",
+    "ingredients": [
+      "4 tazas de arroz japonés cocido",
+      "1 cucharadita de sal",
+      "1 cucharadita de aceite de sésamo",
+      "Semillas de sésamo previamente tostadas",
+      "Salsa de soja"
+    ],
+    "image": "https://i.postimg.cc/Mpb1YmjK/Whats-App-Image-2024-10-30-at-6-28-00-PM.jpg",
+    "tags": "arroz, onigiri, parrilla, koyasan, sésamo, sesamo, salsa de soja, shoyu",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Mezcle el arroz cocido con sal y un poco de aceite de sésamo en un bol. Forme pequeñas bolas o triángulos con el arroz.",
+      "Caliente una sartén a fuego medio y coloque los onigiris en la sartén. Cocine durante unos minutos por cada lado hasta que estén dorados y crujientes.",
+      "Cuando estén casi listos, unte un poco de salsa de soja en cada lado y cocine un poco más.",
+      "Sirva caliente, espolvoreado con semillas de sésamo."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Agedashi-dofu (Tofu Frito con Salsa Dashi vegana)",
+    "description": "Tofu frito cubierto con daikon rallado y jengibre, servido con una salsa de caldo dashi vegano.",
+    "portions": "Sirve 4 porciones",
+    "ingredients": [
+      "2 bloques de tofu firme, con un peso total de 600-700 g",
+      "100 g de rábano daikon",
+      "1 trozo (15 g) de jengibre",
+      "10-15 g de shiitake seco",
+      "2 cucharadas de salsa de soja",
+      "2 cucharaditas de azúcar",
+      "Harina",
+      "Aceite vegetal"
+    ],
+    "image": "https://i.postimg.cc/7PsrhR29/agedashi-dofu.jpg",
+    "tags": "tofu, frito, daikon, jengibre, shiitake, shoyu, agedashi, salsa de soja, dashi",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Primero, prepara la salsa a base de caldo dashi y las guarniciones. Añade la salsa de soja, el azúcar y el shiitake a 1 taza o 200 ml de agua y lleva a ebullición a fuego medio. Apaga el fuego y cuela la mezcla con un colador. Para un caldo más claro, usa una hoja de papel de cocina en el colador.",
+      "Pela el daikon y el jengibre. Rállalos por separado con un rallador. Asegúrate de rallarlos en un ángulo recto con respecto a la fibra. Coloca el daikon rallado en un colador para que escurra, sin exprimirlo.",
+      "Corta los 2 bloques de tofu en cuartos, en piezas de aproximadamente 4 x 5 cm y 4 cm de alto. Coloca los trozos en un colador grande y plano para que escurran.",
+      "Añade suficiente aceite vegetal a una sartén para alcanzar una profundidad de 4 a 5 cm y calienta a 180 °C.",
+      "Esparce un poco de harina en una bandeja. Coloca un trozo de tofu sobre una toalla de cocina limpia y seca para secarlo. Luego, cubre el tofu con la harina, asegurándote de que todos los lados queden cubiertos, y elimina el exceso de harina.",
+      "Fríe el tofu en el aceite caliente de inmediato. Asegúrate de enharinar el tofu justo antes de freírlo. No enharines todos los trozos a la vez; enharina cada trozo mientras lo colocas en el aceite.",
+      "Fríe el tofu durante aproximadamente 1 minuto y retíralo cuando esté dorado claro y se haya inflado un poco. Una vez que hayas frito todo el tofu, colócalo en un plato hondo y cúbrelo con el daikon y el jengibre rallados.",
+      "Recalienta la salsa a base de caldo dashi y vierte alrededor del tofu en el plato. El plato está listo para servirse.",
+      "*Los pedazos de tofu son grandes. También se puede cortar el bloque de tofu en 8 porciones para que sean más chicos."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Ensalada Shojin con Aderezo de Tofu y Maní",
+    "description": "Ensalada fresca con un cremoso aderezo de tofu, maní y limón, perfecta para realzar el sabor de las verduras frescas.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "1 bloque de tofu (preferentemente blando), aproximadamente 200g",
+      "2 cucharadas de mantequilla de maní sin azúcar",
+      "2 cucharadas de vinagre de arroz o cualquier vinagre blanco",
+      "2 cucharadas de aceite de oliva",
+      "2 cucharadas de maple syrup o 1 cucharada de azúcar",
+      "Una pizca de pimienta negra",
+      "1 cucharadita de sal",
+      "2 cucharadas de jugo de limón",
+      "8 espárragos, sin las extremidades fibrosas",
+      "4 hojas de lechuga, cortadas en trozos grandes",
+      "300g de tomates, cortados en cubos de 1cm, o tomates cherry cortados a la mitad",
+      "2 paltas, cortados en cubos de 1cm",
+      "2 pepinos japoneses, cortados en cubos de 1cm"
+    ],
+    "image": "https://i.postimg.cc/fRwtBnV9/ensalada-shojin2.jpg",
+    "tags": "ensalada, tofu, maní, vegano, saludable, fresco, lechuga, tomate, limón, palta, mani",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Prepara el tofu: Envuelve el tofu en una toalla de papel, coloca un plato encima y dejélo en la heladera durante aproximadamente 30 minutos para eliminar el exceso de humedad.",
+      "Haga el aderezo: En un procesador de alimentos, mezcla el tofu, la mantequilla de maní, el vinagre, el aceite de oliva, el maple syrup o azúcar, la pimienta negra, la sal y el jugo de limón hasta obtener una consistencia cremosa.",
+      "Blanquea los espárragos: Cocina los espárragos en agua hirviendo por unos segundos, escúrrelos, sumérgelos en agua fría y luego córtalos en diagonal en trozos de 2-3 cm.",
+      "Arma la ensalada: Coloca la lechuga en un plato o bowl para servir. Agrega los espárragos, los tomates, la palta y el pepino, finalmente cubre con el aderezo de tofu y maní.",
+      "Consejos adicionales: Si no se encuentra tofu blando, usar tofu firme, agregando un poco más de líquido al aderezo para que quede más cremoso. Ajusta la cantidad de vinagre y maple syrup o azúcar según su gusto. Para una presentación más atractiva, decora la ensalada con semillas de sésamo o trozos de maní."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Calabaza Frita con Salsa de Maní",
+    "description": "Rodajas de calabaza doradas y tiernas, acompañadas con una salsa cremosa de maní y miso.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "4 cucharadas de aceite de sésamo o aceite de oliva",
+      "Aproximadamente 400 gramos de calabaza kabocha, kikuzuki o una variedad similar, sin semillas ni fibra, cortada en rodajas finas",
+      "6 cucharadas de mantequilla de maní sin azúcar",
+      "2 cucharaditas de miso blanco o 1 cucharadita de miso rojo",
+      "2 cucharadas de sake o vino blanco seco",
+      "3 cucharadas de jugo de limón",
+      "2 cucharadas de mirin o 1 cucharada de azúcar"
+    ],
+    "image": "https://i.postimg.cc/fRSgK6mC/calabaza-mani3.jpg",
+    "tags": "calabaza, maní, mani, miso, frito, guarnición, vegano. aceite de sésamo, aceite de sesamo, limón, otoño",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Fríe la calabaza: Calienta el aceite de sésamo o de oliva en una sartén grande a fuego medio. Agrega las rodajas de calabaza y fríelas, tapadas, durante 10-15 minutos por cada lado, o hasta que estén doradas y tiernas. Alternativamente, puede pincelar las rodajas de calabaza con aceite y hornearlas en el horno a 160°C durante 15 minutos.",
+      "Prepara la salsa: En un tazón pequeño, combina la mantequilla de maní, el miso, el sake, el jugo de limón y el mirin (o azúcar). Mezcla bien hasta obtener una salsa cremosa.",
+      "Sirve: Coloca las rodajas de calabaza frita en un plato para servir. Vierte la salsa de maní por encima. Si quiere puede agregar trocitos de maní sobre el plato.",
+      "Sugerencias: Se puede utilizar cualquier variedad de calabaza. La calabaza kabocha y kikuzuki son buenas opciones por su sabor dulce y textura firme. Ajusta la cantidad de miso y azúcar en la salsa según su preferencia de sabor, y acompaña el plato con arroz, quinoa o ensalada."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Tempura de Banana",
+    "description": "Rodajas de banana cubiertas con una ligera masa de tempura y fritas hasta dorarse, perfectas para un postre ligero.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "4 bananas, peladas y cortadas en diagonal en rodajas de aproximadamente 2 cm de grosor",
+      "½ taza (60 gramos) de harina para todo uso",
+      "⅓ taza (80 ml) de agua",
+      "½ cucharadita de sal",
+      "2 cucharaditas de semillas de sésamo blanco, tostadas",
+      "Aceite vegetal para freír",
+      "Un toque de té verde en polvo o canela en polvo (opcional, para espolvorear)"
+    ],
+    "image": "https://i.postimg.cc/Kv6Y6VKD/banana-tempura.jpg",
+    "tags": "banana, tempura, frito, postre, vegano, sésamo, matcha, canela",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Prepara la masa: En un bol, mezcla la harina, el agua, la sal y las semillas de sésamo hasta obtener una masa homogénea.",
+      "Fríe las bananas: Calienta abundante aceite vegetal en una sartén a 170°C. Sumerge las rodajas de banana en la masa, asegurándose de cubrirlas por completo. Fríelas hasta que estén doradas. Tenga cuidado, las bananas se queman fácilmente, así que no las cocine en exceso.",
+      "Sirve: Coloca las bananas fritas en platos individuales y espolvorea con té verde en polvo o canela al gusto.",
+      "Nota: Asegúrese de que el aceite esté a la temperatura correcta para obtener una fritura perfecta. Si el aceite está demasiado frío, las bananas absorberán demasiado aceite. Si está demasiado caliente, se quemarán por fuera antes de cocinarse por dentro."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Filets de Papa y Alga Nori",
+    "description": "Filets de papa con alga nori, con un toque de salsa de soja y mirin.",
+    "portions": "Rinde 9 filets",
+    "ingredients": [
+      "120 gramos de papas, peladas",
+      "1 hoja de alga nori, aproximadamente 19x21 cm",
+      "1/2 cucharada de aceite de sésamo",
+      "1 cucharada de mirin mezclada con 1 cucharada de salsa de soja",
+      "1 cucharadita de semillas de sésamo blanco, tostadas (opcional)",
+      "Shichimi togarashi, para decorar (opcional)"
+    ],
+    "image": "https://i.postimg.cc/mgK6NY5D/patties.jpg",
+    "tags": "papa, alga nori, frito, japonés, vegano, filet, salsa de soja",
+    "link": "./recetas/recipe.html",
+    "instruction": [
+      "Puré de papa: En un procesador de alimentos, procesa las papas hasta obtener una pasta gruesa. Envuelve la pasta en papel absorbente para eliminar el exceso de humedad.",
+      "Armado de los filets: Corta el alga nori en 9 cuadrados. Coloca una cucharada de puré de papa sobre cada cuadrado de nori.",
+      "Freír: Calienta el aceite de sésamo en una sartén. Fríe los filets con el lado del nori hacia abajo hasta que el puré de papa esté dorado. Luego, fríe brevemente el lado del nori.",
+      "Servir: Coloca los filets en un plato. Rocía con la mezcla de mirin y salsa de soja. Decora con semillas de sésamo tostado y shichimi togarashi al gusto.",
+      "Nota: El shichimi togarashi es una mezcla de especias japonesa que le dará un toque picante y aromático a tus tortitas. Si no tiene shichimi togarashi, puede utilizar otras especias como pimienta negra o paprika. Puede ajustar la cantidad de puré de papa en cada filet según su preferencia."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Kakiage de Papa y Zanahoria",
+    "description": "Kakiage crujiente de papa, zanahoria y perejil fresco, acompañado de una salsa Tendashi.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "120 gramos de zanahoria, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
+      "120 gramos de papa, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
+      "2 cucharadas de perejil fresco picado",
+      "1 taza (200 ml) de agua helada",
+      "1 1/2 tazas (150 gramos) de harina",
+      "Aceite vegetal para freír",
+      "150 ml de agua (para la salsa Tendashi)",
+      "2 cucharadas (30 ml) de salsa de soja",
+      "2 cucharaditas (6 gramos) de azúcar",
+      "1 trozo pequeño de alga kombu (para la salsa Tendashi)"
+    ],
+    "image": "https://i.postimg.cc/0QZ4qcRn/kakiage.jpg",
+    "tags": "kakiage, papa, zanahoria, perejil, vegano, japonés",
+    "link": "./recetas/recipe",
+    "instruction": [
+      "Corta las verduras: Corta la zanahoria y la papa en tiras finas de aproximadamente 6 cm de largo y 1/2 cm de grosor. Pica finamente el perejil fresco.",
+      "Prepara la masa: En un bol grande, mezcla el agua helada con la harina hasta obtener una masa suave y homogénea. Añade las verduras (zanahoria, papa y perejil) y mézclalas bien para que queden cubiertas uniformemente.",
+      "Fríe el kakiage: Calienta aceite vegetal en una sartén a 160 °C. Toma porciones de la mezcla con una cuchara y colócalas cuidadosamente en el aceite caliente. Fríe durante 4 minutos o hasta que estén dorados y crujientes. Retira y deja escurrir en papel absorbente.",
+      "Prepara la salsa Tendashi: En una cacerola, combina el agua, la salsa de soja, el azúcar y el alga kombu. Lleva a ebullición, retira el kombu y cuela la mezcla. Sirve la salsa en pequeños recipientes.",
+      "Sirve: Acompaña el kakiage con la salsa Tendashi. Si lo desea, añade daikon rallado o jengibre rallado como guarnición opcional.",
+      "Nota: Se pude remplazar las verduras del Kakiage por la de su preferencia. También puede mezclar las verduras con shitake.",
+      "Tip: El kakiage también es muy consumido en Japón sobre la sopa de udon."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Dago-Jiru (Sopa con Dango y Verduras)",
+    "description": "Deliciosa sopa vegana de miso con dumplings (dango) y una combinación de vegetales frescos.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "1200 ml de caldo dashi vegano (o caldo de verduras)",
+      "2 hongos shiitake secos",
+      "150 g de daikon (nabo)",
+      "100 g o 1 zanahoria pequeña",
+      "50 g o 1/2 raíz de bardana (opcional, puede ser remplazada por otra verdura como papa ñame o batata)",
+      "3 a 4 cucharadas de pasta de miso",
+      "100 g de harina (para los dango)",
+      "Pizca de sal (para los dango)",
+      "50 ml de agua tibia (para los dango)"
+    ],
+    "image": "https://i.postimg.cc/d0w7b1Vv/dago-jiru.jpg",
+    "tags": "sopa, vegano, miso, dango, verduras, shitake, dango, dumplings",
+    "link": "./recetas/recipe",
+    "instruction": [
+      "Rehidratar los shiitake: Sumerge los hongos shiitake en 200 ml de agua tibia durante 1 a 2 horas. Si tiene tiempo, déjelos en remojo en agua fría durante la noche para obtener una mejor textura. Reserve el agua del remojo.",
+      "Preparar los dango: En un bol grande, coloca la harina. En otro recipiente, mezcla los 50 ml de agua tibia con una pizca de sal hasta que esta se disuelva. Agrega el agua salada a la harina y mezcla con palitos o una cuchara hasta que la mezcla sea homogénea. Amasa con las manos, cubre con papel film o un paño húmedo y deja reposar por 30 minutos.",
+      "Preparar los vegetales: Raspa la piel de la raíz de bardana con el dorso de un cuchillo hasta que la superficie esté blanca y enjuaga. Corta la bardana en láminas finas de 3 a 4 cm de largo usando un movimiento similar al de afilar un lápiz. Inmediatamente sumérgelas en agua para evitar que se oxiden.",
+      "Pelar y cortar: Pela el daikon y la zanahoria, córtalos por la mitad a lo largo y luego en cuartos. Corta el daikon en rodajas de 5 mm y la zanahoria en rodajas de 4 mm. Retira los tallos de los shiitake y corta los sombreros en láminas finas.",
+      "Cocinar el caldo: En una olla, combina el caldo dashi con 100 ml del agua del remojo de los shiitake. Añade el daikon, la zanahoria, los shiitake y las láminas de bardana escurridas. Calienta a fuego medio hasta que hierva, luego reduce a fuego bajo y retira la espuma que se forme.",
+      "Formar y cocinar los dango: Toma pequeñas porciones de la masa de dango (tamaño uva) y dales forma de discos delgados con los dedos, presionando ligeramente el centro para que se cocinen rápidamente. Agrégalos a la olla, coloca una tapa y cocina a fuego lento durante 30 minutos.",
+      "Verificar la cocción: Toma un dango y córtalo. Si el interior está transparente, retira la olla del fuego.",
+      "Agregar el miso: Coloca la pasta de miso en un colador con mango dentro de la olla. Con una cuchara, disuelve el miso en el caldo. Lleva la sopa a ebullición una vez más y retira del fuego.",
+      "Servir: Sirve la sopa en tazones. ¡Disfruta!",
+      "Tip: Para hacer un dashi vegano, en lugar de los ingredientes tradicionales como el bonito seco, se utiliza una base de kombu (alga marina) y shiitake deshidratados. Ambos ingredientes se remojan en agua fría durante varias horas o se calientan a fuego lento para extraer su sabor umami. Este caldo es ideal para complementar platos tradicionales como el Dago-jiru, manteniendo su esencia y respetando los principios de la cocina Shojin Ryori."
+    ],
+    "curiosidad": "El Dago-jiru es una sopa que se elabora amasando harina de trigo (o harina de arroz) con agua, dejando reposar la mezcla, y luego extendiéndola a mano para formar pequeños dumplings. Enriquecida con vegetales de temporada como taro y raíz de bardana, y sazonada con miso o salsa de soja, esta receta es nutritiva, fácil de preparar y muy sustanciosa. Durante generaciones, ha sido un alimento básico entre las jornadas agrícolas. \n\nLa palabra 'Dago' significa 'dango' en el dialecto de Kumamoto, lo que da lugar a su nombre alternativo: 'sopa de dango'. Aunque se consume en toda Kyushu, en la región de Kumamoto es común que los dango se elaboren con batatas, aportando un toque dulce y característico a esta sopa tradicional."
+  }
+]
