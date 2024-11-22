@@ -4,6 +4,7 @@ import path from "path";
 import __dirname from "./utils/utils.js";
 import { config } from "../src/config/config.js";
 import mongoose from "mongoose";
+import { routerVistas } from "./routes/vistasRouter.js";
 
 const PORT = config.PORT;
 //servidor: consigue responder solitaciones. App es el servidor del express. El servidor estará escuchando en el puerto 3000, es decir, pueden hacer solicitaciones desde el puerto 3000. 3000 es un puerto que se usa para un servidor local.Todo servidor es una computadora. Este es local porque lo construimos en nuestra compu y utilizamos una de sus puertas para comunicación. Ahora necesitamos crear un camino para llegar a este servidor; y decir qué va a responder el servidor.
@@ -14,35 +15,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static(path.join(__dirname, "../public")));
 
+app.use("/", routerVistas);
+
 app.listen(PORT, () => {
   console.log("Server listening...");
 });
 
-//ruta; requisición y respuesta
-app.get("/", (req, res) => {
-  res.setHeader("Content-Type", "text/html");
-  res.status(200).sendFile(path.join(__dirname, "../public/html/index.html"));
-});
-
-app.get("/recipes", (req, res) => {
-  res.setHeader("Content-Type", "text/html");
-  res.status(200).sendFile(path.join(__dirname, "../public/html/recipes.html"));
-});
-
-app.get("/recipes/recipe", (req, res) => {
-  const { id } = req.query; // Captura el ID desde los parámetros de ruta
-  if (!id) {
-    return res.status(400).send("Recipe ID is required.");
-  }
-  // Realiza acciones con el ID, como buscar datos en la base de datos.
-  res.sendFile(path.join(__dirname, "../public/html/recipe.html"));
-});
-
-app.get("/contact", (req, res) => {
-  res.setHeader("Content-Type", "text/html");
-  res.status(200).sendFile(path.join(__dirname, "../public/html/contact.html"));
-});
-
+//primero instala con npm install mongodb y después configura; podría estar en config también
 const connDB = async () => {
   try {
     await mongoose.connect(config.MONGO_URL, {
@@ -54,4 +33,5 @@ const connDB = async () => {
   }
 };
 
+//ejecuta la función que conecta con la base de datos
 connDB();
