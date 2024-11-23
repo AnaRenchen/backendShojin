@@ -32,6 +32,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mongodb": "^6.10.0",
-    "mongoose": "^8.8.2"
+    "mongoose": "^8.8.2",
+    "mongoose-paginate-v2": "^1.8.5",
+    "paginate": "^0.2.0"
   }
 }

@@ -5,6 +5,7 @@ import __dirname from "./utils/utils.js";
 import { config } from "../src/config/config.js";
 import mongoose from "mongoose";
 import { routerVistas } from "./routes/vistasRouter.js";
+import { routerRecipes } from "./routes/recipesRouter.js";
 
 const PORT = config.PORT;
 //servidor: consigue responder solitaciones. App es el servidor del express. El servidor estará escuchando en el puerto 3000, es decir, pueden hacer solicitaciones desde el puerto 3000. 3000 es un puerto que se usa para un servidor local.Todo servidor es una computadora. Este es local porque lo construimos en nuestra compu y utilizamos una de sus puertas para comunicación. Ahora necesitamos crear un camino para llegar a este servidor; y decir qué va a responder el servidor.
@@ -15,7 +16,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static(path.join(__dirname, "../public")));
 
+app.use((req, res, next) => {
+  console.log(`${req.method} request to ${req.url}`);
+  console.log("Headers:", req.headers);
+  console.log("Body:", req.body);
+  next();
+});
+
 app.use("/", routerVistas);
+app.use("/api/recipes", routerRecipes);
 
 app.listen(PORT, () => {
   console.log("Server listening...");
