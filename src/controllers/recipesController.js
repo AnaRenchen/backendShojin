@@ -9,6 +9,7 @@ export class RecipesController {
 
       return res.status(200).json({ recipes });
     } catch (error) {
+      console.error(error.message);
       res.setHeader("Content-Type", "application/json");
       return res
         .status(500)
@@ -18,7 +19,6 @@ export class RecipesController {
 
   static addRecipe = async (req, res) => {
     try {
-      console.log("POST request received:", req.body);
       let {
         title,
         description,
@@ -27,9 +27,25 @@ export class RecipesController {
         image,
         tags,
         instruction,
+        code,
         category,
         curiosidad,
       } = req.body;
+
+      let exists;
+      try {
+        exists = await recipesServices.getRecipeBy({ code });
+      } catch (error) {
+        res.setHeader("Content-Type", "application/json");
+        return res.status(500).json({ error: "Internal server error." });
+      }
+
+      if (exists) {
+        res.setHeader("Content-Type", "application/json");
+        return res
+          .status(400)
+          .json({ error: `Receta con el código ${code} ya existe` });
+      }
 
       let recipeData = {
         title,
@@ -39,6 +55,7 @@ export class RecipesController {
         image,
         tags,
         instruction,
+        code,
       };
 
       if (category) recipeData.category = category;
@@ -46,11 +63,10 @@ export class RecipesController {
 
       let newRecipe = await recipesServices.addRecipe(recipeData);
 
-      console.log(newRecipe);
-
       res.setHeader("Content-Type", "application/json");
       return res.status(201).json({ message: "Recipe added.", newRecipe });
     } catch (error) {
+      console.error(error.message);
       res.setHeader("Content-Type", "application/json");
       return res
         .status(500)

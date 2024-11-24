@@ -10,6 +10,7 @@ const recipesSchema = new mongoose.Schema(
     image: { type: String, required: true },
     tags: [{ type: String }],
     instruction: [{ type: String, required: true }],
+    code: { type: String, required: true, unique: true },
     category: { type: String },
     curiosidad: { type: String },
   },

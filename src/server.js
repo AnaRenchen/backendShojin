@@ -16,13 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static(path.join(__dirname, "../public")));
 
-app.use((req, res, next) => {
-  console.log(`${req.method} request to ${req.url}`);
-  console.log("Headers:", req.headers);
-  console.log("Body:", req.body);
-  next();
-});
-
 app.use("/", routerVistas);
 app.use("/api/recipes", routerRecipes);
 
