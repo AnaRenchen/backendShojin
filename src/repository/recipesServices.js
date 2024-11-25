@@ -14,7 +14,7 @@ class RecipesServices {
   };
 
   getRecipebyId = async (id) => {
-    return await this.dao.getRecipeId(id);
+    return await this.dao.getRecipebyId(id);
   };
 
   addRecipe = async (recipe) => {
