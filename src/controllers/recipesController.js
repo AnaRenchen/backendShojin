@@ -8,7 +8,7 @@ export class RecipesController {
     try {
       let recipes = await recipesServices.getRecipes();
 
-      return res.status(200).json({ recipes });
+      return res.status(200).json(recipes);
     } catch (error) {
       console.error(error.message);
       res.setHeader("Content-Type", "application/json");
@@ -30,7 +30,7 @@ export class RecipesController {
 
       if (recipe) {
         res.setHeader("Content-Type", "application/json");
-        return res.status(200).json({ recipe });
+        return res.status(200).json(recipe);
       } else {
         res.setHeader("Content-Type", "application/json");
         return res
