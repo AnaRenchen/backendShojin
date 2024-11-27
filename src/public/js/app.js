@@ -61,7 +61,7 @@ function mostrarAlerta(mensaje) {
 // Cargar recetas al inicio
 document.addEventListener("DOMContentLoaded", async () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const recipeId = parseInt(urlParams.get("id"), 10);
+  const recipeId = urlParams.get("id");
 
   data = await obtenerRecetas();
 
@@ -110,7 +110,7 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
     card.style.width = "100%";
 
     const linkWrapper = document.createElement("a");
-    linkWrapper.href = `/recipes/recipe?id=${item.id}`;
+    linkWrapper.href = `/recipes/recipe/?id=${item._id}`;
     linkWrapper.className = "card-link";
 
     const img = document.createElement("img");
@@ -128,7 +128,7 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
 
     const linkTitle = document.createElement("a");
     linkTitle.textContent = item.title;
-    linkTitle.href = `/recipes/recipe?id=${item.id}`;
+    linkTitle.href = `/recipes/recipe?id=${item._id}`;
     linkTitle.className = "card-title";
     linkTitle.style.textDecoration = "none";
 

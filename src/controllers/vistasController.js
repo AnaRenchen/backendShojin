@@ -1,3 +1,4 @@
+import { recipesServices } from "../repository/recipesServices.js";
 import __dirname from "../utils/utils.js";
 import path from "path";
 
@@ -32,6 +33,7 @@ export class VistasController {
       if (!id) {
         return res.status(400).send("Recipe ID is required.");
       }
+
       // Realiza acciones con el ID, como buscar datos en la base de datos.
       res.sendFile(path.join(__dirname, "../public/html/recipe.html"));
     } catch (error) {
