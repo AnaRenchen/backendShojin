@@ -110,7 +110,7 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
     card.style.width = "100%";
 
     const linkWrapper = document.createElement("a");
-    linkWrapper.href = `/recipes/recipe/?id=${item._id}`;
+    linkWrapper.href = `/recipes/recipe?id=${item._id}`;
     linkWrapper.className = "card-link";
 
     const img = document.createElement("img");
@@ -176,12 +176,19 @@ function showPagination(totalRecipes, actualPage) {
   paginationDiv.appendChild(ul);
 }
 
-// Buscar recetas
-function buscarRecetas() {
+function search() {
   const searchTerm = document
     .getElementById("campo-pesquisa")
     .value.toLowerCase();
 
+  // Si el término de búsqueda está vacío, mostrar todas las recetas
+  if (!searchTerm.trim()) {
+    currentPage = 1;
+    mostrarRecetas(data, currentPage);
+    return;
+  }
+
+  // Filtrar recetas en base al término de búsqueda
   const filteredRecetas = data.filter(
     (item) =>
       item.title.toLowerCase().includes(searchTerm) ||
@@ -189,11 +196,15 @@ function buscarRecetas() {
       item.ingredients.some((ingredient) =>
         ingredient.toLowerCase().includes(searchTerm)
       ) ||
-      item.tags.toLowerCase().includes(searchTerm)
+      (Array.isArray(item.tags)
+        ? item.tags.some((tag) => tag.toLowerCase().includes(searchTerm))
+        : item.tags?.toLowerCase().includes(searchTerm))
   );
 
   if (filteredRecetas.length === 0) {
-    mostrarAlerta("No se encontraron recetas. Intenta con otro término.");
+    mostrarAlerta(
+      "No se encontraron recetas. Intenta con otro término de búsqueda."
+    );
   } else {
     currentPage = 1;
     mostrarRecetas(filteredRecetas, currentPage);
