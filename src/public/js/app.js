@@ -196,9 +196,7 @@ function search() {
       item.ingredients.some((ingredient) =>
         ingredient.toLowerCase().includes(searchTerm)
       ) ||
-      (Array.isArray(item.tags)
-        ? item.tags.some((tag) => tag.toLowerCase().includes(searchTerm))
-        : item.tags?.toLowerCase().includes(searchTerm))
+      item.tags.some((tag) => tag.toLowerCase().includes(searchTerm))
   );
 
   if (filteredRecetas.length === 0) {
