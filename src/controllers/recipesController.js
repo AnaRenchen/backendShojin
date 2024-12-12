@@ -1,6 +1,8 @@
 import { recipesServices } from "../repository/recipesServices.js";
 import { isValidObjectId } from "mongoose";
 import { config } from "../config/config.js";
+import __dirname from "../utils/utils.js";
+import path from "path";
 import fs from "fs";
 
 export class RecipesController {
@@ -59,7 +61,7 @@ export class RecipesController {
       } = req.body;
 
       if (req.file) {
-        image = req.file.path;
+        image = `/uploads/${req.file.filename}`;
       }
 
       let exists;
@@ -141,13 +143,17 @@ export class RecipesController {
         const existingRecipe = await recipesServices.getRecipebyId({ _id: id });
 
         if (existingRecipe && existingRecipe.image) {
-          const oldImagePath = existingRecipe.image;
+          const oldImagePath = path.join(
+            __dirname,
+            "../public",
+            existingRecipe.image
+          );
           // Verificar si el archivo existe y eliminarlo
           if (fs.existsSync(oldImagePath)) {
             fs.unlinkSync(oldImagePath);
           }
         }
-        updateProperties.image = req.file.path;
+        updateProperties.image = `/uploads/${req.file.filename}`;
       }
 
       if (updateProperties.code) {
@@ -242,18 +248,13 @@ export class RecipesController {
       }
 
       if (recipe.image) {
-        const imagePath = recipe.image;
-
-        try {
-          if (fs.existsSync(imagePath)) {
-            fs.unlinkSync(imagePath);
-          }
-        } catch (error) {
-          console.error("Error al eliminar la imagen:", error.message);
+        const imagePath = path.join(__dirname, "../public", recipe.image);
+        if (fs.existsSync(imagePath)) {
+          fs.unlinkSync(imagePath);
         }
       }
 
-      let deletedRecipe = recipesServices.deleteRecipe(id);
+      let deletedRecipe = await recipesServices.deleteRecipe(id);
 
       if (!deletedRecipe) {
         return res.status(404).json({

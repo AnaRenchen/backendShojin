@@ -153,9 +153,38 @@ function showPagination(totalRecipes, actualPage) {
   paginationDiv.innerHTML = "";
 
   const ul = document.createElement("ul");
-  ul.className = "pagination justify-content-center";
+  ul.className = "pagination justify-content-center pagination-sm";
 
-  for (let i = 1; i <= totalPages; i++) {
+  // Definir el rango de páginas visibles
+  const maxVisiblePages = 3; // Número máximo de páginas visibles
+  let startPage = Math.max(1, actualPage - Math.floor(maxVisiblePages / 2));
+  let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+  // Ajustar si está cerca del inicio o del final
+  if (endPage - startPage < maxVisiblePages - 1) {
+    startPage = Math.max(1, endPage - maxVisiblePages + 1);
+  }
+
+  // Botón "Previous"
+  if (actualPage > 1) {
+    const prevLi = document.createElement("li");
+    prevLi.className = "page-item";
+    const prevLink = document.createElement("a");
+    prevLink.className = "page-link";
+    prevLink.textContent = "Anterior";
+    prevLink.href = "#";
+    prevLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      showPagination(totalRecipes, actualPage - 1);
+      mostrarRecetas(data, actualPage - 1);
+    });
+
+    prevLi.appendChild(prevLink);
+    ul.appendChild(prevLi);
+  }
+
+  // Números de página
+  for (let i = startPage; i <= endPage; i++) {
     const li = document.createElement("li");
     li.className = `page-item ${i === actualPage ? "active" : ""}`;
 
@@ -165,12 +194,30 @@ function showPagination(totalRecipes, actualPage) {
     link.href = "#";
     link.addEventListener("click", function (e) {
       e.preventDefault();
-      currentPage = i;
-      mostrarRecetas(data, currentPage);
+      showPagination(totalRecipes, i);
+      mostrarRecetas(data, i);
     });
 
     li.appendChild(link);
     ul.appendChild(li);
+  }
+
+  // Botón "Next"
+  if (actualPage < totalPages) {
+    const nextLi = document.createElement("li");
+    nextLi.className = "page-item";
+    const nextLink = document.createElement("a");
+    nextLink.className = "page-link";
+    nextLink.textContent = "Siguiente";
+    nextLink.href = "#";
+    nextLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      showPagination(totalRecipes, actualPage + 1);
+      mostrarRecetas(data, actualPage + 1);
+    });
+
+    nextLi.appendChild(nextLink);
+    ul.appendChild(nextLi);
   }
 
   paginationDiv.appendChild(ul);

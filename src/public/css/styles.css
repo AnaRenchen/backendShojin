@@ -247,6 +247,7 @@
   }
   
   /* Estilos para paginación recetas*/
+
   
   .page-item .page-link {
     color: #222831;
@@ -257,6 +258,8 @@
     border:2px solid #ead279;
     border-radius: 10px;
     font-family: 'Yu Gothic', sans-serif;
+    font-size: 0.8rem;
+
   }
   .page-item .page-link:hover {
     background-color:#ead279;
