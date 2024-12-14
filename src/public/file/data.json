@@ -799,5 +799,128 @@
       "Sirva el estofado en tazones individuales.",
       "Nota: no deje que este plato siga hirviendo después de agregar la leche de soya. El sabor de la leche de soja alcanza su punto máximo en el momento en que se calienta."
     ]
+  },
+  {
+    "id": 27,
+    "title": "Papas con Aderezo de Maní y Miso",
+    "description": "Un plato delicioso y nutritivo con papas tiernas y un aderezo cremoso y lleno de sabor.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "240 gramos de papas, peladas y cortadas en palitos de 5 cm",
+      "60 gramos de zanahoria, peladas y cortadas en palitos de 5 cm",
+      "1 cucharada sopera de miso rojo",
+      "2 cucharadas soperas de mirin",
+      "1 cucharada sopera de azúcar",
+      "2 cucharadas soperas de jugo de limón",
+      "4 cucharadas soperas de maní triturado finamente (o semillas de sésamo, nueces, o 2 cucharadas de mantequilla de maní sin azúcar)"
+    ],
+    "image": "https://i.postimg.cc/B6W0jc6h/papa-zanahoria.jpg",
+    "tags": [
+      "papas",
+      "zanahoria",
+      "miso",
+      "aderezo",
+      "maní",
+      "vegano",
+      "acompañamiento",
+      "sano"
+    ],
+    "instruction": [
+      "Hervir las papas: Coloca las papas en una olla con agua salada y hervir a fuego medio hasta que estén cocidas pero aún ligeramente firmes en el centro. Escurre.",
+      "Cocinar la zanahoria: Cocina la zanahoria en una olla con agua durante 5 minutos a fuego medio, luego escurre.",
+      "Preparar el aderezo: En un recipiente, combina el miso rojo, el mirin, el azúcar, el jugo de limón y el maní triturado. Mezcla bien hasta obtener una pasta homogénea.",
+      "Servir: Escurre bien las papas y la zanahoria. Colócalas en un plato para servir y cúbrelas con el aderezo. ",
+      "Tip: Para darle un toque crocante al plato, puede agregar mani tostado arriba.",
+      "Variaciones: Puedes utilizar otros tipos de nueces o semillas en el aderezo, como almendras o semillas de girasol."
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Tofu con Salsa de Hongos",
+    "description": "Un plato nutritivo y reconfortante para los días más fríos.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "1 bloque de tofu (blando si lo prefiere), aproximadamente 400 gramos",
+      "50 gramos de hongos variados (por ejemplo: shimeji, enoki, matsutake, shiitake o portobello)",
+      "1 2/3 tazas o 400 ml de caldo de alga kombu (o caldo de verduras)",
+      "40 gramos de zanahoria, pelada y cortada en juliana",
+      "2 cucharadas de salsa de soja",
+      "2 cucharadas de sake para cocina",
+      "2 cucharadas de mirin",
+      "1 cucharada de azúcar",
+      "1 cucharadita de sal",
+      "4 cucharadas de maicena disueltas en 4 cucharadas de agua",
+      "Vainas de chauchas blanqueadas, para decorar (opcional)"
+    ],
+    "image": "https://i.postimg.cc/zBhM7Hx2/hongos-tofu.jpg",
+    "tags": [
+      "tofu",
+      "hongos",
+      "salsa",
+      "otoño",
+      "vegano",
+      "invierno",
+      "saludable",
+      "zanahoria",
+      "chaucha",
+      "salsa de soja",
+      "mirin",
+      "matsutake",
+      "shimeji",
+      "shitake",
+      "portobello",
+      "enoki"
+    ],
+    "instruction": [
+      "Prepare el tofu: Envuelva el tofu en una toalla de papel, coloque un plato encima y refrigere durante 30 minutos para eliminar el exceso de humedad.",
+      "Prepare los hongos: Rompa los hongos shimeji y enoki en bocados y corte los demás hongos en rodajas finas.",
+      "Haga la salsa: En una sartén, combine el caldo de konbu, la salsa de soja, el sake, el mirin, el azúcar y la sal. Lleve a ebullición y luego agregue los hongos y la zanahoria. Baje el fuego a medio y cocine durante 3-4 minutos más.",
+      "Cocine el tofu: Corte el tofu por la mitad y colóquelo en la sartén, teniendo cuidado de que las mitades no se superpongan. Cocine a fuego bajo durante 5 minutos.",
+      "Espese la salsa: Agregue la maicena disuelta a la sartén y revuelva suavemente, sin romper el tofu, hasta que la salsa se espese.",
+      "Servir: Corte el tofu en 4 piezas y sírvalo caliente en tazones individuales, cubierto con la salsa de hongos y decorado con las vainas de chauchas.",
+      "Nota: El caldo de konbu se puede encontrar en locales de alimentos asiáticos. De no conseguirlo se puede remplazar por caldo de verduras.",
+      "Si no encuentra tofu blando, puede utilizar tofu firme, pero deberá presionarlo más tiempo para eliminar el exceso de humedad."
+    ],
+    "curiosidad": "Los hongos matsutake, muy valorados por su sabor único, crecen en terrenos forestales específicos y pueden alcanzar precios de más de $1,000 por kilogramo durante la primera cosecha en Japón. Históricamente, recolectar matsutake era una actividad favorita de los samuráis."
+  },
+  {
+    "id": 29,
+    "title": "Sunomono de Pepinos y Hongos",
+    "description": "Una refrescante ensalada de pepinos y hongos con un aderezo suave y ácido, ideal para acompañar platos japoneses.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "2 pepinos (aproximadamente 200 g)",
+      "¼ de cucharadita de sal (para salar los pepinos)",
+      "200 g de hongos (puede usar shiitake, portobello o champiñones)",
+      "1 taza de agua (200 ml)",
+      "1 cucharadita de sal (5 g)",
+      "2 cucharaditas de azúcar (6 g) (para el aderezo)",
+      "3 cucharadas de vinagre (45 ml) (para el aderezo)",
+      "¼ de cucharadita de sal (para el aderezo)",
+      "2 cucharadas de agua (30 ml) (para diluir el aderezo, opcional)"
+    ],
+    "image": "https://i.postimg.cc/rspq0PZ1/sunomono-shitake.jpg",
+    "tags": [
+      "ensalada",
+      "pepino",
+      "hongos",
+      "aderezo",
+      "vegetariano",
+      "japonés",
+      "picle",
+      "sunomono",
+      "shitake",
+      "portobello",
+      "champiñones"
+    ],
+    "instruction": [
+      "Corte los pepinos en rodajas finas de aproximadamente 1 mm de grosor. Colóquelos en un tazón, frótelos con ¼ de cucharadita de sal y deje reposar durante unos 5 minutos.",
+      "Limpie y corte los hongos en tiras finas. Lleve 1 taza de agua a ebullición y agregue 1 cucharadita de sal. Cocine los hongos a fuego suave durante unos 3 minutos o hasta que estén tiernos. Retírelos del fuego y deje que se enfríen en el agua con sal.",
+      "En un tazón, agregue 3 cucharadas de vinagre, ¼ de cucharadita de sal y 2 cucharaditas de azúcar para preparar el aderezo awase-zu. Mezcle bien, asegurándose de que la sal y el azúcar se disuelvan en el vinagre. Si lo desea, diluya con agua a gusto.",
+      "Aderece los pepinos y los hongos justo antes de servir.",
+      "Tip: agregue semillas de sésamo tostadas sobre el sunomono para un toque especial.",
+      "Nota: el pepino también puede ser cortado con la ayuda de una mandolina para que quede más fino."
+    ],
+    "curiosidad": "Su, Vinagre japonés: Se dice que el vinagre es uno de los condimentos más antiguos, con una historia de aproximadamente 7,000 años. Se cree que el vinagre, o su, fue introducido en Japón alrededor de los siglos IV o V. Se preparaba a partir de arroz fermentado y se dejaba envejecer. En tiempos recientes, el arroz ha sido sustituido o complementado con trigo, maíz u otros cereales. Los vinagres a base de cereales, preparados con arroz sin pulir y cebada, pueden adquirir un tono marrón oscuro a medida que maduran, y se les conoce como kuro-zu o vinagre oscuro. También existen vinagres a base de frutas, como los preparados con manzanas, uvas, etc. En Japón, el vinagre también se sazona con otros ingredientes para diversos usos. Los vinagres sazonados se conocen como awase-zu. En el sushi, el arroz se sazona con sushi-zu o vinagre para sushi (vinagre sazonado con sal, azúcar y otros ingredientes). Ama-zu se refiere a vinagres endulzados. Tosa-zu o vinagre al estilo Tosa es un vinagre sazonado con copos de bonito seco. En tiempos recientes, una variedad de bebidas a base de vinagre son populares en Japón, ya que se cree que el vinagre ayuda a regular la presión arterial y actúa como un restaurador."
   }
 ]

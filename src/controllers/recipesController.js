@@ -1,31 +1,44 @@
 import { recipesServices } from "../repository/recipesServices.js";
 import { isValidObjectId } from "mongoose";
-import { config } from "../config/config.js";
+import CustomError from "../utils/customError.js";
+import { TYPES_ERROR } from "../utils/EErrors.js";
 import __dirname from "../utils/utils.js";
 import path from "path";
 import fs from "fs";
 
 export class RecipesController {
-  static getRecipes = async (req, res) => {
+  static getRecipes = async (req, res, next) => {
     try {
       let recipes = await recipesServices.getRecipes();
 
       return res.status(200).json(recipes);
     } catch (error) {
-      console.error(error.message);
-      res.setHeader("Content-Type", "application/json");
-      return res
-        .status(500)
-        .json({ status: "error", error: "Internal server error." });
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
     }
   };
 
-  static getRecipe = async (req, res) => {
+  static getRecipe = async (req, res, next) => {
     try {
       let id = req.params.id;
       if (!isValidObjectId(id)) {
-        res.setHeader("Content-Type", "application/json");
-        return res.status(400).json({ error: "Elija un mongo id válido." });
+        throw CustomError.createError(
+          "Mongo Id no válido.",
+          "El id proporcionado no cumple con el formato de Mongo Id.",
+          "Elija un Mongo Id válido.",
+          TYPES_ERROR.INVALID_ARGUMENTS
+        );
       }
 
       let recipe = await recipesServices.getRecipebyId({ _id: id });
@@ -34,18 +47,30 @@ export class RecipesController {
         res.setHeader("Content-Type", "application/json");
         return res.status(200).json(recipe);
       } else {
-        res.setHeader("Content-Type", "application/json");
-        return res
-          .status(400)
-          .json({ error: `No hay recetas con el id ${id}` });
+        throw CustomError.createError(
+          "No hay recetas con el Id elegido",
+          "No hay recetas con el Id elegido",
+          TYPES_ERROR.NOT_FOUND
+        );
       }
     } catch (error) {
-      res.setHeader("Content-Type", "application/json");
-      return res.status(500).json({ error: "Internal server error." });
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
     }
   };
 
-  static addRecipe = async (req, res) => {
+  static addRecipe = async (req, res, next) => {
     try {
       let {
         title,
@@ -65,21 +90,20 @@ export class RecipesController {
       }
 
       let exists;
-      try {
-        exists = await recipesServices.getRecipeBy({ code });
-      } catch (error) {
-        res.setHeader("Content-Type", "application/json");
-        return res.status(500).json({ error: "Internal server error." });
-      }
+
+      exists = await recipesServices.getRecipeBy({ code });
 
       if (exists) {
         if (req.file) {
           fs.unlinkSync(image);
+        } else {
+          throw CustomError.createError(
+            "Código existente.",
+            "El código de la receta ya existe.",
+            "Ya hay una receta con el código seleccionado.",
+            TYPES_ERROR.INVALID_ARGUMENTS
+          );
         }
-        res.setHeader("Content-Type", "application/json");
-        return res
-          .status(400)
-          .json({ error: `Receta con el código ${code} ya existe` });
       }
 
       let recipeData = {
@@ -108,10 +132,14 @@ export class RecipesController {
       ) {
         if (req.file) {
           fs.unlinkSync(image);
+        } else {
+          throw CustomError.createError(
+            "Campos sin completar.",
+            "Hay campos sin completar.",
+            "Es necesario completar todos los campos para agregar una receta.",
+            TYPES_ERROR.INVALID_ARGUMENTS
+          );
         }
-        return res
-          .status(400)
-          .json({ error: `Es necesario completar todos los campos.` });
       }
 
       let newRecipe = await recipesServices.addRecipe(recipeData);
@@ -119,21 +147,33 @@ export class RecipesController {
       res.setHeader("Content-Type", "application/json");
       return res.status(201).json({ message: "Recipe added.", newRecipe });
     } catch (error) {
-      console.error(error.message);
-      res.setHeader("Content-Type", "application/json");
-      return res
-        .status(500)
-        .json({ status: "error", error: "Internal server error." });
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
     }
   };
 
-  static updateRecipe = async (req, res) => {
+  static updateRecipe = async (req, res, next) => {
     try {
       let id = req.params.id;
 
       if (!isValidObjectId(id)) {
-        res.setHeader("Content-Type", "application/json");
-        return res.status(400).json({ error: "Elija un id mongo válido." });
+        throw CustomError.createError(
+          "Mongo Id no válido.",
+          "El id proporcionado no cumple con el formato de Mongo Id.",
+          "Elija un Mongo Id válido.",
+          TYPES_ERROR.INVALID_ARGUMENTS
+        );
       }
 
       let updateProperties = req.body;
@@ -223,19 +263,33 @@ export class RecipesController {
         updatedRecipe,
       });
     } catch (error) {
-      console.error(error.message);
-      res.setHeader("Content-Type", "application/json");
-      return res.status(500).json({ error: "Internal server error." });
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
     }
   };
 
-  static deleteRecipe = async (req, res) => {
+  static deleteRecipe = async (req, res, next) => {
     try {
       let id = req.params.id;
 
       if (!isValidObjectId(id)) {
-        res.setHeader("Content-Type", "application/json");
-        return res.status(400).json({ error: "Elija un mongo id válido." });
+        throw CustomError.createError(
+          "Mongo Id no válido.",
+          "El id proporcionado no cumple con el formato de Mongo Id.",
+          "Elija un Mongo Id válido.",
+          TYPES_ERROR.INVALID_ARGUMENTS
+        );
       }
 
       let recipe = await recipesServices.getRecipebyId({ _id: id });
@@ -266,9 +320,20 @@ export class RecipesController {
         .status(200)
         .json({ message: `La receta con el id ${id} fue eliminada.` });
     } catch (error) {
-      console.error(error.message);
-      res.setHeader("Content-Type", "application/json");
-      return res.status(500).json({ error: "Internal server error." });
+      console.error(error);
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
     }
   };
 }
