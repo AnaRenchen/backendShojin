@@ -126,8 +126,9 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
+
   
   /* Estilo para el título */
   .info-compasion h2 {
@@ -180,6 +181,40 @@
   
   /* Estilo para el fondo y las sombras */
   .info-compasion {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-ritual{
+    font-family: 'Yu Gothic', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+  /* Estilo para el título */
+  .info-ritual h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los párrafos */
+  .info-ritual p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  /* Estilo para el fondo y las sombras */
+  .info-ritual {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

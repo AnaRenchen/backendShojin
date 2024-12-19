@@ -272,7 +272,28 @@ function cargarDetalleReceta(receta) {
   listaIngredientes.innerHTML = "";
   receta.ingredients.forEach((ingredient) => {
     const li = document.createElement("li");
-    li.textContent = ingredient;
+
+    if (typeof ingredient === "string") {
+      // Si es texto plano, agrégalo directamente
+      li.textContent = ingredient;
+    } else if (
+      typeof ingredient === "object" &&
+      ingredient.text &&
+      ingredient.linkText &&
+      ingredient.link
+    ) {
+      // Si es un objeto con texto y enlace, crea el contenido mixto
+      const span = document.createElement("span");
+      span.textContent = ingredient.text;
+
+      const a = document.createElement("a");
+      a.textContent = ingredient.linkText;
+      a.href = ingredient.link;
+
+      li.appendChild(span);
+      li.appendChild(a);
+    }
+
     listaIngredientes.appendChild(li);
   });
 

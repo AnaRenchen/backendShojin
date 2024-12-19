@@ -100,7 +100,7 @@ export class RecipesController {
           throw CustomError.createError(
             "Código existente.",
             "El código de la receta ya existe.",
-            "Ya hay una receta con el código seleccionado.",
+            `Ya hay una receta con el código ${code}.`,
             TYPES_ERROR.INVALID_ARGUMENTS
           );
         }
@@ -198,20 +198,18 @@ export class RecipesController {
 
       if (updateProperties.code) {
         let exists;
-        try {
-          exists = await recipesServices.getRecipeBy({
-            _id: { $ne: id },
-            code: updateProperties.code,
-          });
-          if (exists) {
-            res.setHeader("Content-Type", "application/json");
-            return res.status(400).json({
-              error: `El código ${updateProperties.code} ya existe.`,
-            });
-          }
-        } catch (error) {
-          res.setHeader("Content-Type", "application/json");
-          return res.status(500).json({ error: "Internal server error." });
+
+        exists = await recipesServices.getRecipeBy({
+          _id: { $ne: id },
+          code: updateProperties.code,
+        });
+        if (exists) {
+          throw CustomError.createError(
+            "Código existente.",
+            "El código de la receta ya existe.",
+            `Ya hay una receta con el código ${updateProperties.code}.`,
+            TYPES_ERROR.INVALID_ARGUMENTS
+          );
         }
       }
 
@@ -239,10 +237,12 @@ export class RecipesController {
       let valid = properties.every((prop) => validProperties.includes(prop));
 
       if (!valid) {
-        res.setHeader("Content-Type", "application/json");
-        return res.status(400).json({
-          error: `Alguna de las propiedades no es válida. Propiedades válidas son: ${validProperties}.`,
-        });
+        throw CustomError.createError(
+          "Propiedad no válida.",
+          "Alguna de las propiedades no es válida.",
+          `Alguna de las propiedades no es válida. Propiedades válidas son: ${validProperties}.`,
+          TYPES_ERROR.INVALID_ARGUMENTS
+        );
       }
 
       let updatedRecipe = await recipesServices.updateRecipe(
@@ -251,10 +251,12 @@ export class RecipesController {
       );
 
       if (!updatedRecipe) {
-        res.setHeader("Content-Type", "application/json");
-        return res
-          .status(404)
-          .json({ error: `La receta con el ${id} no fue encontrada.` });
+        throw CustomError.createError(
+          "Receta no encontrada.",
+          "Receta con el id elegido no fue encontrada.",
+          `La receta con el id ${id} no fue encontrada.`,
+          TYPES_ERROR.NOT_FOUND
+        );
       }
 
       res.setHeader("Content-Type", "application/json");
@@ -295,10 +297,12 @@ export class RecipesController {
       let recipe = await recipesServices.getRecipebyId({ _id: id });
 
       if (!recipe) {
-        res.setHeader("Content-Type", "application/json");
-        return res
-          .status(400)
-          .json({ error: `No hay recetas con el id ${id}.` });
+        throw CustomError.createError(
+          "Receta no encontrada.",
+          "Receta con el id elegido no fue encontrada.",
+          `La receta con el id ${id} no fue encontrada.`,
+          TYPES_ERROR.NOT_FOUND
+        );
       }
 
       if (recipe.image) {
@@ -311,16 +315,18 @@ export class RecipesController {
       let deletedRecipe = await recipesServices.deleteRecipe(id);
 
       if (!deletedRecipe) {
-        return res.status(404).json({
-          error: `La receta con el id ${id} no fue encontrada u ocurrió un error.`,
-        });
+        throw CustomError.createError(
+          "Receta no encontrada o error.",
+          "Receta con el id elegido no fue encontrada o hubo un error.",
+          `La receta con el id ${id} no fue encontrada o ocurrió un error.`,
+          TYPES_ERROR.NOT_FOUND
+        );
       }
 
       return res
         .status(200)
         .json({ message: `La receta con el id ${id} fue eliminada.` });
     } catch (error) {
-      console.error(error);
       req.logger.error(
         JSON.stringify(
           {

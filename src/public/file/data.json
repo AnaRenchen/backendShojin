@@ -922,5 +922,125 @@
       "Nota: el pepino también puede ser cortado con la ayuda de una mandolina para que quede más fino."
     ],
     "curiosidad": "Su, Vinagre japonés: Se dice que el vinagre es uno de los condimentos más antiguos, con una historia de aproximadamente 7,000 años. Se cree que el vinagre, o su, fue introducido en Japón alrededor de los siglos IV o V. Se preparaba a partir de arroz fermentado y se dejaba envejecer. En tiempos recientes, el arroz ha sido sustituido o complementado con trigo, maíz u otros cereales. Los vinagres a base de cereales, preparados con arroz sin pulir y cebada, pueden adquirir un tono marrón oscuro a medida que maduran, y se les conoce como kuro-zu o vinagre oscuro. También existen vinagres a base de frutas, como los preparados con manzanas, uvas, etc. En Japón, el vinagre también se sazona con otros ingredientes para diversos usos. Los vinagres sazonados se conocen como awase-zu. En el sushi, el arroz se sazona con sushi-zu o vinagre para sushi (vinagre sazonado con sal, azúcar y otros ingredientes). Ama-zu se refiere a vinagres endulzados. Tosa-zu o vinagre al estilo Tosa es un vinagre sazonado con copos de bonito seco. En tiempos recientes, una variedad de bebidas a base de vinagre son populares en Japón, ya que se cree que el vinagre ayuda a regular la presión arterial y actúa como un restaurador."
+  },
+  {
+    "id": 30,
+    "title": "Soja en Salsa de Miso con Vegetales",
+    "description": "Un delicioso platillo de soja y vegetales con un toque de miso, ideal para una comida nutritiva y sabrosa.",
+    "portions": "Rinde 2-3 porciones",
+    "ingredients": [
+      "50 gramos de raíz de bardana",
+      "20 gramos de hongos shitake secos",
+      "50 gramos de zanahoria, pelada y cortada en cubos de 1 cm",
+      "50 gramos de chauchas, cortadas en tiras finas",
+      "50 gramos de soja cocida",
+      "2 cucharadas de sake para cocina",
+      "2 cucharadas de azúcar",
+      "1/2 cucharadita de jengibre fresco finamente picado",
+      "2 cucharadas de aceite de sésamo",
+      "Una pisca de shichimi tōgarashi (opcional)",
+      "2 cucharadas de miso rojo (puede ser remplazado por el miso blanco"
+    ],
+    "image": "https://i.postimg.cc/kGPLXp2y/soja-con-verduras.jpg",
+    "tags": [
+      "soja",
+      "miso",
+      "vegetales",
+      "japonés",
+      "salteado",
+      "invierno",
+      "otoño",
+      "chauchas",
+      "shitake",
+      "bardana",
+      "gobo"
+    ],
+    "instruction": [
+      "Limpie y raspe la raíz de bardana. Córtela en cubos de 1 cm y remoje en agua fría durante 5 minutos.",
+      "Remoje los hongos shitake en agua fría durante 30 minutos para rehidratarlos. Quite las partes duras de los tallos y córtelos en cubos o en láminas.",
+      "Hierva las chauchas en agua salada durante 2-3 minutos.",
+      "En un bowl, combine el miso rojo con el azúcar y 1 cucharada de sake. Mezcle bien.",
+      "Saltee el jengibre en el aceite de sésamo durante 2 minutos. Agregue la raíz de bardana, los shitake y la zanahoria, y saltee hasta que estén cocidos. Incorpore la soja y el sake restante.",
+      "Agregue la mezcla de miso a la sartén y revuelva a fuego bajo durante 5 minutos. Luego, agregue las chauchas y continúe revolviendo durante 2-3 minutos.",
+      "Divida la mezcla entre los platos individuales y espolvoree con shichimi tōgarashi si lo desea.",
+      "Nota: si no se consigue la bardana, remplace por otro vegetal como el daikon (nabo)."
+    ],
+    "curiosidad": "La raíz de bardana, conocida como gobo en japonés, es un ingrediente tradicional muy valorado en la cocina japonesa. Aunque originalmente fue introducida desde China como una planta medicinal, con el tiempo se convirtió en un alimento esencial en Japón. Rica en fibra y antioxidantes, se utiliza tanto por sus beneficios para la salud como por su sabor único, terroso y ligeramente dulce. En la gastronomía japonesa, el gobo es un componente clave de platillos como el kinpira gobo (raíz de bardana salteada con zanahorias en una mezcla de salsa de soja y mirin) y se incluye en sopas, ensaladas, o incluso tempura. También se cree que tiene propiedades desintoxicantes y que ayuda a mejorar la digestión. Un dato curioso es que la bardana no se consume ampliamente en otros países, pero en Japón es tan popular que se cultiva especialmente para la cocina local, y su uso ha pasado a formar parte del concepto de washoku (la cocina tradicional japonesa) reconocida como Patrimonio Cultural Inmaterial por la UNESCO."
+  },
+  {
+    "id": 31,
+    "title": "Chauchas y berenjena con aderezo de sésamo",
+    "description": "Un platillo japonés delicioso y saludable, ideal como guarnición o plato principal acompañado de arroz.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "150 gramos de chauchas",
+      "3 berenjenas medianas (aproximadamente 120 gramos cada una), cortadas en rodajas de 1 centímetro",
+      "3 cucharadas de aceite de sésamo",
+      "4 cucharadas de sake",
+      "3 cucharadas de pasta de sésamo negro (o sesamo blanco, o tahini)",
+      "2 cucharadas de azúcar",
+      "2 cucharadas de salsa de soja"
+    ],
+    "image": "https://i.postimg.cc/Y2gGV8TR/chauchas-berenjenas.jpg",
+    "tags": ["japonés", "sésamo", "berenjena", "chauchas", "tahihi"],
+    "instruction": [
+      "Cocine las chauchas: Hierva las chauchas en agua con sal hasta que estén tiernas. Luego, córtelas en trozos de 3-4 centímetros.",
+      "Prepare la berenjena: Remoje las rodajas de berenjena en agua durante unos minutos para eliminar el amargor. Escúrralas bien.",
+      "Saltee la berenjena: Caliente el aceite de sésamo en una sartén y fría las rodajas de berenjena hasta que estén doradas por ambos lados. Añada el sake, tape la sartén y deje cocinar a fuego medio durante 2-3 minutos para que se cocine al vapor.",
+      "Prepare el aderezo: En un bowl, combine la pasta de sésamo negro, el azúcar y la salsa de soja. Mezcle bien hasta obtener una salsa homogénea.",
+      "Ensamble el plato: Mezcle las chauchas cocidas y la berenjena salteada con el aderezo de sésamo. Si prefiere también puede verter el aderezo sobre los vegetales y agrgear semillas de sésamo tostadas.",
+      "Sabor: Si desea un sabor más intenso, puede aumentar la cantidad de pasta de sésamo."
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Chirashizushi",
+    "description": "Un sushi desconstruido.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      {
+        "text": "700 g de ",
+        "linkText": "arroz para sushi",
+        "link": "/recipes/recipe?id=675c89d987a3ee560c1c13c1"
+      },
+      "6 hongos shitakes secos",
+      "200 ml de agua",
+      "60 g de raíz de bardana",
+      "400 g de tofu",
+      "3 cucharadas de azúcar",
+      "4 cucharadas de salsa de soja",
+      "4 cucharadas de sake para cocina",
+      "60 g de zanahoria, pelada y cortada en tiras finas",
+      "40 g de chauchas cocidas",
+      "60 g de raíz de loto, pelada, cortada en cuartos y en rodajas finas",
+      "1 cucharada de vinagre de arroz",
+      "1 cucharada de azúcar mezclada con 2 cucharadas de vinagre de arroz",
+      "Semillas de sésamo tostadas, para decorar",
+      "Ramitas de sansho, para decorar (opcional)"
+    ],
+    "instruction": [
+      "Remoje los hongos shitake en agua durante 30 minutos para rehidratarlos. Retire los tallos duros y corte las tapas en rodajas finas. Reserve el agua de remojo.",
+      "Limpie y raspe la raíz de bardana. Corte en trozos de 2 cm de largo e inmediatamente remoje en agua durante 5 minutos.",
+      "Corte el tofu en cubos pequeños. Saltée el tofu en una sartén con un poco de aceite hasta que esté dorado. Reserve.",
+      "En una olla, combine el agua de remojo de los hongos shitake, el azúcar, la salsa de soja y el sake. Coloque a fuego medio y agregue los hongos, la raíz de bardana y el tofu frito. Lleve a ebullición y retire la espuma de la superficie. Baje el fuego a bajo y cocine durante 7-8 minutos más. Apague el fuego y deje reposar durante unos 15 minutos, luego escurra.",
+      "Remoje la raíz de loto en agua fría con unas gotas de vinagre de arroz durante unos minutos para eliminar la astringencia, luego escurra.",
+      "Coloque la raíz de loto en una cacerola con 1 cucharada de vinagre de arroz y suficiente agua para cubrirla. Cocine a fuego medio durante 5-6 minutos hasta que esté tierna y crujiente, luego retire, escurra y remoje en la mezcla de azúcar y vinagre durante 20 minutos. Escurra.",
+      "Blanquee las chauchas en agua hirviendo con sal, luego escurra.",
+      "Mezcle suavemente todos los ingredientes con el arroz para sushi.",
+      "Decore con semillas de sésamo tostadas y sansho, si lo desea.",
+      "Variaciones: Elija los vegetales según su preferencia y de estación. Acompañe el plato con salsa de soja, salsa cremosa de sésamo o salsa teriyaki.",
+      "Tip: en lugar de mezclar todos los ingredientes antes de servir, también es muy común servir todos los acompañamientos sobre el arroz, dejando el plato más colorido.",
+      "* Técnicas Básicas de Preparación del arroz de suhi. Cómo Lavar el Arroz:  Vierta el arroz en un bowl o recipiente adecuado. Añada abundante agua, cubra el arroz con agua fría y revuelva suavemente con las manos. Deseche el agua que se ha vuelto turbia debido al almidón del arroz. Repita los pasos 2 y 3 varias veces, hasta que el agua salga casi transparente. Esto eliminará el exceso de almidón y garantizará un arroz más suelto y de mejor textura. Una vez que el agua esté clara, escurra el arroz en un colador fino para eliminar el agua restante. Cómo Cocinar el Arroz. Rinde: Aproximadamente 5 tazas y media (700 gramos) de arroz cocido. Ingredientes: 1 taza y media (320 gramos) de arroz, 1 taza y media (440 mililitros) de agua, 1 pieza de alga kombu seca, aproximadamente de 5 x 5 centímetros. Instrucciones: Coloque el arroz y el agua en una olla y deje reposar durante 30 minutos. Esto permitirá que el arroz se hidrate y se cocine de manera más uniforme.Coloque el alga kombu seca en la olla con el arroz y el agua. Lleve la olla a fuego alto y deje que hierva. Una vez que el agua empiece a hervir, reduzca el fuego a bajo y tape la olla. Cocine a fuego lento durante aproximadamente 14-15 minutos, o hasta que el arroz haya absorbido todo el líquido y esté tierno. Retire la olla del fuego y deje reposar el arroz, cubierto, durante 10 minutos adicionales. Esto permitirá que el arroz termine de cocinarse al vapor y se vuelva más esponjoso. Retire el alga kombu del arroz cocido. Mientras el arroz se enfría, prepare el aderezo de vinagre siguiendo la receta a continuación: Rinde: Para 5 tazas y media (700 gramos) de arroz cocido. Ingredientes: ½ taza (60 mililitros) de vinagre de arroz, 2 cucharadas de azúcar, 1 cucharadita de sal. Instrucciones: En una olla pequeña, combine el vinagre de arroz, el azúcar y la sal. Coloque la olla a fuego medio-bajo y caliente la mezcla, revolviendo constantemente, hasta que el azúcar se disuelva por completo. Retire la olla del fuego y deje que el aderezo se enfríe completamente antes de usarlo. Una vez que el arroz esté listo y el aderezo esté frío, mezcle suavemente ambos ingredientes con un tenedor de arroz o una espátula de madera. "
+    ],
+    "image": "https://i.postimg.cc/90LQTxx5/chirashi.jpg",
+    "tags": [
+      "sushi",
+      "vegetal",
+      "raíz de loto",
+      "shirake",
+      "chaucha",
+      "tofu",
+      "bardana"
+    ]
   }
 ]
