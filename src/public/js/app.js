@@ -289,6 +289,7 @@ function cargarDetalleReceta(receta) {
       const a = document.createElement("a");
       a.textContent = ingredient.linkText;
       a.href = ingredient.link;
+      a.className = "ingredient-link"; // Clase personalizada
 
       li.appendChild(span);
       li.appendChild(a);
