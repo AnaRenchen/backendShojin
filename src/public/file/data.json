@@ -1001,7 +1001,7 @@
       {
         "text": "700 g de ",
         "linkText": "arroz para sushi",
-        "link": "/recipes/recipe?id=675c89d987a3ee560c1c13c1"
+        "link": "/recipes/recipe?id=6765521f412679f5bb3eef00"
       },
       "6 hongos shitakes secos",
       "200 ml de agua",
@@ -1029,8 +1029,7 @@
       "Mezcle suavemente todos los ingredientes con el arroz para sushi.",
       "Decore con semillas de sésamo tostadas y sansho, si lo desea.",
       "Variaciones: Elija los vegetales según su preferencia y de estación. Acompañe el plato con salsa de soja, salsa cremosa de sésamo o salsa teriyaki.",
-      "Tip: en lugar de mezclar todos los ingredientes antes de servir, también es muy común servir todos los acompañamientos sobre el arroz, dejando el plato más colorido.",
-      "* Técnicas Básicas de Preparación del arroz de suhi. Cómo Lavar el Arroz:  Vierta el arroz en un bowl o recipiente adecuado. Añada abundante agua, cubra el arroz con agua fría y revuelva suavemente con las manos. Deseche el agua que se ha vuelto turbia debido al almidón del arroz. Repita los pasos 2 y 3 varias veces, hasta que el agua salga casi transparente. Esto eliminará el exceso de almidón y garantizará un arroz más suelto y de mejor textura. Una vez que el agua esté clara, escurra el arroz en un colador fino para eliminar el agua restante. Cómo Cocinar el Arroz. Rinde: Aproximadamente 5 tazas y media (700 gramos) de arroz cocido. Ingredientes: 1 taza y media (320 gramos) de arroz, 1 taza y media (440 mililitros) de agua, 1 pieza de alga kombu seca, aproximadamente de 5 x 5 centímetros. Instrucciones: Coloque el arroz y el agua en una olla y deje reposar durante 30 minutos. Esto permitirá que el arroz se hidrate y se cocine de manera más uniforme.Coloque el alga kombu seca en la olla con el arroz y el agua. Lleve la olla a fuego alto y deje que hierva. Una vez que el agua empiece a hervir, reduzca el fuego a bajo y tape la olla. Cocine a fuego lento durante aproximadamente 14-15 minutos, o hasta que el arroz haya absorbido todo el líquido y esté tierno. Retire la olla del fuego y deje reposar el arroz, cubierto, durante 10 minutos adicionales. Esto permitirá que el arroz termine de cocinarse al vapor y se vuelva más esponjoso. Retire el alga kombu del arroz cocido. Mientras el arroz se enfría, prepare el aderezo de vinagre siguiendo la receta a continuación: Rinde: Para 5 tazas y media (700 gramos) de arroz cocido. Ingredientes: ½ taza (60 mililitros) de vinagre de arroz, 2 cucharadas de azúcar, 1 cucharadita de sal. Instrucciones: En una olla pequeña, combine el vinagre de arroz, el azúcar y la sal. Coloque la olla a fuego medio-bajo y caliente la mezcla, revolviendo constantemente, hasta que el azúcar se disuelva por completo. Retire la olla del fuego y deje que el aderezo se enfríe completamente antes de usarlo. Una vez que el arroz esté listo y el aderezo esté frío, mezcle suavemente ambos ingredientes con un tenedor de arroz o una espátula de madera. "
+      "Tip: en lugar de mezclar todos los ingredientes antes de servir, también es muy común servir todos los acompañamientos sobre el arroz, dejando el plato más colorido."
     ],
     "image": "https://i.postimg.cc/90LQTxx5/chirashi.jpg",
     "tags": [
@@ -1042,5 +1041,48 @@
       "tofu",
       "bardana"
     ]
+  },
+  {
+    "id": 33,
+    "title": "Técnicas Básicas de Preparación del Arroz de Sushi",
+    "description": "Instrucciones detalladas para lavar, cocinar y aderezar el arroz de sushi.",
+    "portions": "Rinde aproximadamente 5 tazas y media (700 gramos) de arroz cocido",
+    "ingredients": [
+      "1 taza y media (320 gramos) de arroz",
+      "1 taza y media (440 mililitros) de agua",
+      "1 pieza de alga kombu seca (aproximadamente de 5 x 5 centímetros)",
+      "½ taza (60 mililitros) de vinagre de arroz",
+      "2 cucharadas de azúcar",
+      "1 cucharadita de sal"
+    ],
+    "image": "https://i.postimg.cc/zfzRShLZ/arroz-sushi.jpg",
+    "tags": [
+      "arroz",
+      "sushi",
+      "japonés",
+      "básico",
+      "aderezo",
+      "kombu",
+      "vinagre"
+    ],
+    "instruction": [
+      "Vierta el arroz en un bowl o recipiente adecuado.",
+      "Añada abundante agua, cubra el arroz con agua fría y revuelva suavemente con las manos.",
+      "Deseche el agua turbia debido al almidón del arroz.",
+      "Repita este proceso varias veces, hasta que el agua salga casi transparente.",
+      "Escurra el arroz en un colador fino para eliminar el agua restante.",
+      "Coloque el arroz y el agua en una olla y deje reposar durante 30 minutos.",
+      "Agregue el alga kombu seca a la olla con el arroz y el agua.",
+      "Lleve la olla a fuego alto y deje que hierva.",
+      "Reduzca el fuego a bajo, tape la olla y cocine a fuego lento durante 14-15 minutos.",
+      "Retire la olla del fuego y deje reposar, cubierto, durante 10 minutos adicionales.",
+      "Retire el alga kombu del arroz cocido.",
+      "En una olla pequeña, combine el vinagre de arroz, el azúcar y la sal.",
+      "Caliente la mezcla a fuego medio-bajo, revolviendo constantemente, hasta que el azúcar se disuelva por completo.",
+      "Retire del fuego y deje que el aderezo se enfríe completamente.",
+      "Mezcle suavemente el arroz cocido y el aderezo frío con un tenedor de arroz o espátula de madera.",
+      "Tip: también puede agregar sésamo tostado al arroz para darle un toque extra."
+    ],
+    "curiosidad": "El arroz es uno de los cultivos más antiguos del mundo, con evidencia de su cultivo hace más de 8,000 años en Asia. En Japón, el arroz no solo es un alimento básico, sino también un símbolo cultural de prosperidad y unidad. El arroz utilizado para sushi, conocido como 'uruchimai', tiene un grano corto que se vuelve pegajoso al cocinarse, ideal para moldearlo en formas específicas como nigiri y maki. Su preparación es considerada un arte que requiere precisión y dedicación."
   }
 ]

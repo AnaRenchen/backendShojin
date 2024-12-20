@@ -410,15 +410,15 @@
   }
 
   .ingredient-link {
-    color: #ff6600; /* Cambia el color del texto */
-    text-decoration: none; /* Elimina el subrayado */
+    color: #556B2F; 
+    text-decoration: none; 
     font-weight: bold; /* Aumenta el grosor del texto */
     transition: color 0.3s; /* Añade una animación al pasar el ratón */
   }
   
   .ingredient-link:hover {
-    color: #ff3300; /* Cambia el color al pasar el ratón */
-    text-decoration: underline; /* Añade subrayado al pasar el ratón */
+    color: #556B2F; 
+    text-decoration: underline; 
   }
   
   
