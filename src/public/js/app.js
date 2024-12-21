@@ -118,12 +118,11 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
     img.alt = item.title;
     img.className = "card-img-top";
     img.style.width = "100%";
-    img.style.height = "200px";
+    img.style.height = "250px";
     img.style.objectFit = "cover";
 
     const cardBody = document.createElement("div");
-    cardBody.className =
-      "card-body d-flex align-items-center justify-content-center";
+    cardBody.className = "card-body d-flex  justify-content-center";
     cardBody.style.height = "90px";
 
     const linkTitle = document.createElement("a");
@@ -299,10 +298,41 @@ function cargarDetalleReceta(receta) {
   });
 
   const contenedorInstrucciones = document.getElementById("instrucciones");
-  contenedorInstrucciones.innerHTML = "";
+  contenedorInstrucciones.innerHTML = ""; // Limpiamos el contenedor antes de renderizar
+
   receta.instruction.forEach((instruction) => {
     const p = document.createElement("p");
-    p.textContent = instruction;
+
+    if (typeof instruction === "string") {
+      // Si es texto plano, agrégalo directamente
+      p.textContent = instruction;
+    } else if (
+      typeof instruction === "object" &&
+      instruction.text &&
+      instruction.linkText &&
+      instruction.link
+    ) {
+      // Si es un objeto con texto y enlace, crea contenido mixto
+      const span = document.createElement("span");
+      span.textContent = instruction.text;
+
+      const a = document.createElement("a");
+      a.textContent = instruction.linkText;
+      a.href = instruction.link;
+      a.className = "instruction-link"; // Clase personalizada para estilo
+
+      p.appendChild(span);
+      p.appendChild(a);
+    } else if (typeof instruction === "object" && instruction.link) {
+      // Si es un objeto que solo contiene un enlace
+      const a = document.createElement("a");
+      a.textContent = instruction.linkText || instruction.link;
+      a.href = instruction.link;
+      a.className = "instruction-link"; // Clase personalizada para estilo
+
+      p.appendChild(a);
+    }
+
     contenedorInstrucciones.appendChild(p);
   });
 

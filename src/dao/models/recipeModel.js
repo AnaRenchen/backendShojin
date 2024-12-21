@@ -9,12 +9,18 @@ const recipesSchema = new mongoose.Schema(
     portions: { type: String, required: true },
     ingredients: [
       {
-        type: mongoose.Schema.Types.Mixed, // Acepta cadenas y objetos
+        type: mongoose.Schema.Types.Mixed,
+        required: true, // Acepta cadenas y objetos
       },
     ],
     image: { type: String, required: true },
     tags: [{ type: String }],
-    instruction: [{ type: String, required: true }],
+    instruction: [
+      {
+        type: mongoose.Schema.Types.Mixed,
+        required: true, // Acepta cadenas y objetos
+      },
+    ],
     code: { type: String, required: true, unique: true },
     category: { type: String },
     curiosidad: { type: String },

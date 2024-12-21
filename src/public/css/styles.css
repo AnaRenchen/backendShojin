@@ -270,7 +270,7 @@
   }
   .container a {
     font-family: 'Yu Gothic', sans-serif;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     letter-spacing: 0.1rem;
     text-decoration: none;
     color:#222831;
@@ -280,6 +280,16 @@
     color:#d0a13d;
     font-weight:500;
   }
+
+  .card{
+    border: none !important; 
+  }
+
+  .card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  
   
   /* Estilos para paginación recetas*/
 
@@ -469,13 +479,13 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    background-color:#556B2F;
+    background-color:#72884c;
     min-height:20vh;
   }
   
   .text-footer{
     margin: 40px 280px 40px 280px;
-    color: #212529;
+    color: black;
     font-size: 0.8rem;
     text-align: center;
   }
