@@ -46,7 +46,7 @@
   
     /* Estilo del carrusel */
   .carousel-item img {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     object-position: center;
   }
@@ -490,12 +490,21 @@
     text-align: center;
   }
   
-  .scroll-container{
-    display: flex;
-    justify-content:flex-end;
-    padding: 20px;
-    margin-right: 20px;
-  }
+  .scroll-container {
+  display: none; /* Oculta inicialmente */
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  position: fixed; /* Hace que el contenedor permanezca fijo en la ventana */
+  bottom: 20px;    /* Ajusta la distancia desde la parte inferior */
+  right: 20px;     /* Ajusta la distancia desde el lado derecho */
+  z-index: 1000;   /* Asegura que esté sobre otros elementos */
+}
+
+.scroll-top{
+  width:80%
+}
+
   
   
   @media only screen and (max-width: 1200px) {
@@ -553,10 +562,9 @@
   
   @media only screen and (max-width: 768px){
     .scroll-container{
-      display: flex;
-      justify-content:center;
-      padding: 0px;
-      margin-bottom: 20px;
+      bottom: 10px; /* Reduce la distancia desde abajo */
+      right: 10px;  /* Reduce la distancia desde la derecha */
+      padding: 10px; /* Reduce el padding */
     }
   
     .text-footer{
@@ -669,6 +677,12 @@
   
     .contacto-info {
       font-size: 0.9rem;
+    }
+
+    .scroll-container {
+      bottom: 5px; /* Más cerca del borde inferior */
+      right: 5px;  /* Más cerca del borde derecho */
+      padding: 5px; /* Padding mínimo */
     }
   }
   

@@ -1,4 +1,5 @@
 let data;
+let filteredData = [];
 const apiUrl = "/api/recipes";
 
 // Obtener todas las recetas
@@ -16,6 +17,7 @@ async function obtenerRecetas() {
     }
 
     data = await response.json();
+    filteredData = [...data]; // Inicializa filteredData con todas las recetas
     return data;
   } catch (error) {
     mostrarAlerta("Error al cargar las recetas. Intenta más tarde.");
@@ -63,13 +65,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   const urlParams = new URLSearchParams(window.location.search);
   const recipeId = urlParams.get("id");
 
-  data = await obtenerRecetas();
+  await obtenerRecetas();
 
   if (recipeId) {
     const receta = await obtenerRecetaPorId(recipeId);
     cargarDetalleReceta(receta);
   } else {
-    mostrarRecetas(data);
+    mostrarRecetas(filteredData, currentPage);
   }
 });
 
@@ -175,7 +177,7 @@ function showPagination(totalRecipes, actualPage) {
     prevLink.addEventListener("click", function (e) {
       e.preventDefault();
       showPagination(totalRecipes, actualPage - 1);
-      mostrarRecetas(data, actualPage - 1);
+      mostrarRecetas(filteredData, actualPage - 1);
     });
 
     prevLi.appendChild(prevLink);
@@ -194,7 +196,7 @@ function showPagination(totalRecipes, actualPage) {
     link.addEventListener("click", function (e) {
       e.preventDefault();
       showPagination(totalRecipes, i);
-      mostrarRecetas(data, i);
+      mostrarRecetas(filteredData, i);
     });
 
     li.appendChild(link);
@@ -212,7 +214,7 @@ function showPagination(totalRecipes, actualPage) {
     nextLink.addEventListener("click", function (e) {
       e.preventDefault();
       showPagination(totalRecipes, actualPage + 1);
-      mostrarRecetas(data, actualPage + 1);
+      mostrarRecetas(filteredData, actualPage + 1);
     });
 
     nextLi.appendChild(nextLink);
@@ -229,29 +231,51 @@ function search() {
 
   // Si el término de búsqueda está vacío, mostrar todas las recetas
   if (!searchTerm.trim()) {
+    filteredData = [...data]; // Restaurar los datos completos
     currentPage = 1;
-    mostrarRecetas(data, currentPage);
+    mostrarRecetas(filteredData, currentPage);
     return;
   }
 
   // Filtrar recetas en base al término de búsqueda
-  const filteredRecetas = data.filter(
-    (item) =>
-      item.title.toLowerCase().includes(searchTerm) ||
-      item.description.toLowerCase().includes(searchTerm) ||
-      item.ingredients.some((ingredient) =>
-        ingredient.toLowerCase().includes(searchTerm)
-      ) ||
-      item.tags.some((tag) => tag.toLowerCase().includes(searchTerm))
-  );
+  filteredData = data.filter((item) => {
+    const titleMatches = item.title.toLowerCase().includes(searchTerm);
+    const descriptionMatches = item.description
+      .toLowerCase()
+      .includes(searchTerm);
 
-  if (filteredRecetas.length === 0) {
+    const ingredientsMatches = item.ingredients.some((ingredient) => {
+      if (typeof ingredient === "string") {
+        return ingredient.toLowerCase().includes(searchTerm);
+      } else if (typeof ingredient === "object") {
+        return (
+          (ingredient.text &&
+            ingredient.text.toLowerCase().includes(searchTerm)) ||
+          (ingredient.linkText &&
+            ingredient.linkText.toLowerCase().includes(searchTerm)) ||
+          (ingredient.link &&
+            ingredient.link.toLowerCase().includes(searchTerm))
+        );
+      }
+      return false;
+    });
+
+    const tagsMatches = item.tags.some((tag) =>
+      tag.toLowerCase().includes(searchTerm)
+    );
+
+    return (
+      titleMatches || descriptionMatches || ingredientsMatches || tagsMatches
+    );
+  });
+
+  if (filteredData.length === 0) {
     mostrarAlerta(
       "No se encontraron recetas. Intenta con otro término de búsqueda."
     );
   } else {
     currentPage = 1;
-    mostrarRecetas(filteredRecetas, currentPage);
+    mostrarRecetas(filteredData, currentPage);
   }
 }
 
