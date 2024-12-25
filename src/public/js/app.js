@@ -17,7 +17,7 @@ async function obtenerRecetas() {
     }
 
     data = await response.json();
-    filteredData = [...data]; // Inicializa filteredData con todas las recetas
+    filteredData = [...data]; // Una copia de data que inicializa filteredData con todas las recetas inicialmente
     return data;
   } catch (error) {
     mostrarAlerta("Error al cargar las recetas. Intenta más tarde.");
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 let currentPage = 1;
 const recipePerPage = 8;
 
-// Limpiar contenedor de recetas
+// Limpiar contenedor de recetas antes de mostrar un nuevo set
 function limpiarContenedorRecetas() {
   const listaNames = document.getElementById("recetas");
   if (listaNames) listaNames.innerHTML = "";
@@ -100,6 +100,7 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
 
   const start = (actualPage - 1) * recipePerPage;
   const end = start + recipePerPage;
+  //Recetas por página
   const recipesPage = arregloRecetas.slice(start, end);
 
   recipesPage.forEach((item) => {
@@ -147,6 +148,7 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
 
 // Mostrar paginación
 function showPagination(totalRecipes, actualPage) {
+  // Calcula el número de páginas necesario para mostrar todas las recetas
   const totalPages = Math.ceil(totalRecipes / recipePerPage);
   const paginationDiv = document.getElementById("pagination");
   if (!paginationDiv) return;
@@ -158,6 +160,7 @@ function showPagination(totalRecipes, actualPage) {
 
   // Definir el rango de páginas visibles
   const maxVisiblePages = 3; // Número máximo de páginas visibles
+  //Ajusta el número de la página inicial y final que se mostrarán de acuerdo con la página actual y el máximo de páginas visibles
   let startPage = Math.max(1, actualPage - Math.floor(maxVisiblePages / 2));
   let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
 
@@ -166,7 +169,7 @@ function showPagination(totalRecipes, actualPage) {
     startPage = Math.max(1, endPage - maxVisiblePages + 1);
   }
 
-  // Botón "Previous"
+  // Botón "Anterior"
   if (actualPage > 1) {
     const prevLi = document.createElement("li");
     prevLi.className = "page-item";
@@ -203,7 +206,7 @@ function showPagination(totalRecipes, actualPage) {
     ul.appendChild(li);
   }
 
-  // Botón "Next"
+  // Botón "Siguiente"
   if (actualPage < totalPages) {
     const nextLi = document.createElement("li");
     nextLi.className = "page-item";
@@ -237,7 +240,7 @@ function search() {
     return;
   }
 
-  // Filtrar recetas en base al término de búsqueda
+  // Filtrar recetas en base al término de búsqueda. Si alguna propiedad coincide entonces se agrega a un nuevo arreglo filteredData
   filteredData = data.filter((item) => {
     const titleMatches = item.title.toLowerCase().includes(searchTerm);
     const descriptionMatches = item.description
@@ -274,12 +277,12 @@ function search() {
       "No se encontraron recetas. Intenta con otro término de búsqueda."
     );
   } else {
-    currentPage = 1;
-    mostrarRecetas(filteredData, currentPage);
+    currentPage = 1; // Para mostrar la primera página de resultados
+    mostrarRecetas(filteredData, currentPage); // Muestra las recetas filtradas
   }
 }
 
-// Cargar detalle de una receta
+// Cargar detalle de una receta a partir del parámetro receta que contiene sus datos
 function cargarDetalleReceta(receta) {
   if (!receta) return;
 
@@ -343,7 +346,7 @@ function cargarDetalleReceta(receta) {
       const a = document.createElement("a");
       a.textContent = instruction.linkText;
       a.href = instruction.link;
-      a.className = "instruction-link"; // Clase personalizada para estilo
+      a.className = "instruction-link";
 
       p.appendChild(span);
       p.appendChild(a);
@@ -352,7 +355,7 @@ function cargarDetalleReceta(receta) {
       const a = document.createElement("a");
       a.textContent = instruction.linkText || instruction.link;
       a.href = instruction.link;
-      a.className = "instruction-link"; // Clase personalizada para estilo
+      a.className = "instruction-link";
 
       p.appendChild(a);
     }

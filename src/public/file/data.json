@@ -1112,7 +1112,7 @@
   },
   {
     "id": 35,
-    "title": "Hobak Mandu (Gyozas de Zucchini de los templos coreanos)",
+    "title": "Hobak Mandu (Gyozas de Zucchini de los Templos Coreanos)",
     "description": "Delicadas gyozas rellenas de zucchini y shitakes, inspiradas en la cocina tradicional de los templos coreanos.",
     "portions": "Rinde aproximadamente 24 gyozas",
     "ingredients": [
@@ -1138,5 +1138,36 @@
       "Tip: Puedes cocinar tus gyozas al vapor o también en una sartén, mezclando saltearlas y cocinarlas al vapor para que el fondo se ponga crujiente."
     ],
     "curiosidad": "Los mandu coreanos no solo son un delicioso platillo, sino que también tienen un significado especial en la cultura de Corea. Tradicionalmente, se preparan en familia durante las festividades, especialmente en el Año Nuevo Lunar (Seollal). Se cree que comer mandu simboliza prosperidad y suerte, ya que su forma redondeada se asemeja a un monedero antiguo que representa riqueza. Además, cada región de Corea tiene su propia versión de mandu, con rellenos y técnicas que varían, reflejando la rica diversidad culinaria del país."
+  },
+  {
+    "id": 36,
+    "title": "Arroz con Gondre (cardo coreano)",
+    "description": "Un plato tradicional coreano hecho con gondre (cardo coreano) y arroz, acompañado de un condimento sabroso. Ideal para una comida nutritiva y reconfortante.",
+    "portions": "Rinde 2-3 porciones",
+    "ingredients": [
+      "50 gramos de gondre (cardo coreano)",
+      "1,5 tazas de arroz",
+      "1,5 tazas de agua",
+      "1 cucharada de aceite de perilla o aceite de sésamo (para condimentar el gondre)",
+      "1 cucharada de salsa de soja (para condimentar el gondre)",
+      "3 cucharadas de salsa de soja (para el aderezo)",
+      "1 cucharada de aceite de sésamo",
+      "½ cucharada de gochugaru (ají coreano en polvo)",
+      "1 cucharada de semillas de sésamo"
+    ],
+    "image": "https://i.postimg.cc/RFF2JNQt/cardo-coreano-arroz.jpg",
+    "tags": "gondre, arroz, coreano, vegetariano, saludable, tradicional, cardo, aceite de sésamo, perilla",
+    "instruction": [
+      "Remoje el gondre toda la noche en un bowl grande, o al menos 5-6 horas si lo prepara el mismo día. Escurra el gondre después del remojo y lávelo con agua corriente, enjuagándolo 2-3 veces para eliminar cualquier suciedad o residuo. Colóquelo en un colador.",
+      "Hierva una olla con agua y añada el gondre. Reduzca el fuego a medio, tape la olla y deje hervir suavemente durante 30 minutos.",
+      "Mientras tanto, lave el arroz 2-3 veces y luego añada 1,5 tazas de agua. Déjelo reposar para más tarde.",
+      "Después de 30 minutos, escurra el gondre hervido y enjuáguelo con agua fría para enfriarlo completamente. Exprima el agua del gondre con las manos y córtelo en trozos más pequeños.",
+      "Condimente el gondre con 1 cucharada de aceite de perilla y 1 cucharada de salsa de soja. Mezcle bien para cubrirlo uniformemente.",
+      "Coloque el arroz y su agua en una olla y agregue el gondre encima. Añada 2-3 chorritos de agua adicionales al arroz.",
+      "Cocine el arroz en una arrocera o en una olla. Si usa una olla, cocine a fuego alto hasta que hierva, luego reduzca a fuego bajo y cocine hasta que el agua se evapore. Deje reposar con la olla tapada de 5 a 10 minutos.",
+      "Mientras el arroz se cocina, prepare el condimento mezclando las 3 cucharadas de salsa de soja, 1 cucharada de aceite de sésamo, ½ cucharada de gochugaru y 1 cucharada de semillas de sésamo.",
+      "Cuando el arroz esté listo, mezcle el gondre con el arroz usando una espátula. Sirva el arroz mezclado en un bowl y añada unas cucharadas del condimento para arroz antes de servir.",
+      "Nota: de no conseguir el cardo coreano usar otra hoja verde como la espinaca, el kale o la mostaza."
+    ]
   }
 ]
