@@ -6,7 +6,7 @@ import { config } from "../src/config/config.js";
 import mongoose from "mongoose";
 import { routerVistas } from "./routes/vistasRouter.js";
 import { routerRecipes } from "./routes/recipesRouter.js";
-import { errorHandler } from "./middleware/errorhandler.js";
+import { errorHandler } from "./middleware/errorHandler.js";
 import { logger, middLogger } from "./utils/logger.js";
 
 const PORT = config.PORT;
