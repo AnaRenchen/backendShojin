@@ -491,19 +491,19 @@
   }
   
   .scroll-container {
-  display: none; /* Oculta inicialmente */
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
-  position: fixed; /* Hace que el contenedor permanezca fijo en la ventana */
-  bottom: 20px;    /* Ajusta la distancia desde la parte inferior */
-  right: 20px;     /* Ajusta la distancia desde el lado derecho */
-  z-index: 1000;   /* Asegura que esté sobre otros elementos */
-}
-
-.scroll-top{
-  width:80%
-}
+    display: none; /* Inicialmente oculto */
+    justify-content: flex-end;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .scroll-top {
+    width: 80%;
+  }
+  
 
   
   
