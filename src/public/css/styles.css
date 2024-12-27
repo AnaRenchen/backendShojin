@@ -293,7 +293,6 @@
   
   /* Estilos para paginación recetas*/
 
-  
   .page-item .page-link {
     color: #222831;
     background-color:white;
@@ -383,6 +382,7 @@
     font-size: 0.9rem;
     font-style: italic;
     text-align: end;
+    margin-top: 20px ;
     margin-bottom: 35px;
   }
   
@@ -408,7 +408,7 @@
     display: block;  /* Para que respete el ancho máximo y se centre */
     font-family:Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.08;
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: inline-block;  /* Ajusta el tamaño automáticamente al contenido */
     border: 1px solid transparent;
     padding: 15px;             
