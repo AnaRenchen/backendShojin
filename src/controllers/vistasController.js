@@ -1,7 +1,7 @@
 import __dirname from "../utils/utils.js";
 import path from "path";
 import { TYPES_ERROR } from "../utils/EErrors.js";
-import CustomError from "../utils/customError.js";
+import CustomError from "../utils/CustomError.js";
 
 export class VistasController {
   static getHome = async (req, res, next) => {

@@ -1,6 +1,6 @@
 import { recipesServices } from "../repository/recipesServices.js";
 import { isValidObjectId } from "mongoose";
-import CustomError from "../utils/customError.js";
+import CustomError from "../utils/CustomError.js";
 import { TYPES_ERROR } from "../utils/EErrors.js";
 import __dirname from "../utils/utils.js";
 import path from "path";
