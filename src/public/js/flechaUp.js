@@ -1,10 +1,11 @@
-const scrollToTopButton = document.getElementById("scrollToTop");
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollToTopButton = document.getElementById("scrollToTop");
 
-window.addEventListener("scroll", () => {
-  // Si el usuario ha hecho scroll más de 200px
-  if (window.scrollY > 400) {
-    scrollToTopButton.style.display = "flex"; // Mostrar la flecha
-  } else {
-    scrollToTopButton.style.display = "none"; // Ocultar la flecha
-  }
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) {
+      scrollToTopButton.style.display = "flex"; // Mostrar la flecha
+    } else {
+      scrollToTopButton.style.display = "none"; // Ocultar la flecha
+    }
+  });
 });
