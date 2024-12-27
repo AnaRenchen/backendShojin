@@ -406,7 +406,7 @@
   #curiosidad-container {
     margin: 30px auto; /* Centra horizontalmente y agrega espacio superior */
     display: block;  /* Para que respete el ancho máximo y se centre */
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Yu Gothic', sans-serif; ;
     letter-spacing: 0.08;
     font-size: 1rem;
     display: inline-block;  /* Ajusta el tamaño automáticamente al contenido */
