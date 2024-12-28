@@ -6,7 +6,7 @@
   
     body{
       background-color: white;
-      color:#222831;
+      color:#212529;
       font-family: 'Yu Gothic', sans-serif;
   }
   
@@ -26,6 +26,7 @@
       margin-bottom: 70px;
       margin-bottom: 50px !important;
       font-family: 'Yu Gothic', sans-serif;
+
     }
     
     .nav a {
@@ -36,6 +37,7 @@
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+      color: #212529;
       margin-top: 30px;
     }
     
@@ -56,7 +58,7 @@
     text-align: center;
     margin: 30px 0;
     font-size: 3rem;
-    color:#222831;
+    color:#212529;
     font-family: 'Yu Gothic', sans-serif;
   }
   
@@ -98,7 +100,7 @@
   
   .significado-shojin li {
     padding: 5px 0;
-    color: #5c5c5c;
+    color: #212529;
   }
   
   .significado-shojin p {
@@ -133,7 +135,7 @@
   /* Estilo para el título */
   .info-compasion h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #212529;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
@@ -200,7 +202,7 @@
   /* Estilo para el título */
   .info-ritual h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #212529;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
@@ -253,7 +255,7 @@
       border: none;
       border-radius: 1.5rem;
       background-color: #d0a13d ; 
-      color: black;
+      color: #212529;
       font-size: 1rem;
       font-family: 'Yu Gothic', sans-serif;
   }
@@ -266,7 +268,7 @@
   /* Contenedor para la lista de enlaces de recetas en la pagina recetas */
   .container{
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
   }
   .container a {
     font-family: 'Yu Gothic', sans-serif;
@@ -283,6 +285,10 @@
 
   .card{
     border: none !important; 
+  }
+
+  .card :hover{
+    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2); 
   }
 
   .card-img-top {
@@ -303,6 +309,7 @@
     border-radius: 10px;
     font-family: 'Yu Gothic', sans-serif;
     font-size: 0.8rem;
+    margin-bottom: 30px;
 
   }
   .page-item .page-link:hover {
@@ -328,13 +335,14 @@
   .titulo-nombre-receta{
     color:#212529;
     font-family: 'Yu Gothic', sans-serif;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     text-align: center;
     margin-bottom: 50px;
+    font-weight: bold;
   }
   
   .container-receta{
@@ -374,8 +382,11 @@
     background-color: #f0db92;
     border-radius: 1rem;
     padding: 1.5rem;
-    list-style-type: disc;
     width: 45%;
+  }
+
+  .ingredient-item{
+    list-style-type:disc;
   }
   
   #portions{
@@ -391,6 +402,8 @@
     color:#212529;
     letter-spacing: 0.04rem;
     padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
   }
   
   .instrucciones-recetas{
@@ -411,12 +424,20 @@
     font-size: 1rem;
     display: inline-block;  /* Ajusta el tamaño automáticamente al contenido */
     border: 1px solid transparent;
-    padding: 15px;             
+    padding: 20px;             
     max-width: 700px;       
     box-sizing: border-box;
     word-wrap: break-word; 
     background-color: #f0ebe6;
     color:#2c3e50;
+    
+  }
+
+  .titulo_curiosidad{
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+    text-align: center;
+    font-weight: 500;
   }
 
   .ingredient-link {
@@ -445,6 +466,7 @@
     text-align: start;
     padding: 3rem;
     margin: 2rem;
+    color:#212529;
   }
   
   .container-info {
@@ -614,6 +636,7 @@
   .container-ingredientes {
     width: 100%; 
     margin-bottom: 20px;
+    
   }
   
   #portions {
@@ -630,7 +653,7 @@
   #curiosidad-container {
     max-width: 100%; 
     margin-top: 10px; 
-    padding: 1rem;
+    padding: 2rem;
   }
   
   .contacto-info {
@@ -664,9 +687,8 @@
       margin-bottom: 15px;
     }
     
-    .container-ingredientes, 
-    .instrucciones-recetas, 
-    #curiosidad-container {
+   
+    .instrucciones-recetas {
       padding: 0.5rem;
     }
   
@@ -676,8 +698,9 @@
     }
   
     .contacto-info {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
+
 
     .scroll-container {
       bottom: 5px; /* Más cerca del borde inferior */

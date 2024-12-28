@@ -298,6 +298,7 @@ function cargarDetalleReceta(receta) {
   listaIngredientes.innerHTML = "";
   receta.ingredients.forEach((ingredient) => {
     const li = document.createElement("li");
+    li.className = "ingredient-item";
 
     if (typeof ingredient === "string") {
       // Si es texto plano, agrégalo directamente
