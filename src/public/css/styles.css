@@ -16,7 +16,7 @@
   }
 
   .navbar .navbar-brand, 
-.navbar .nav-link {
+  .navbar .nav-link {
   margin-top: 20px;
   margin-left: 20px;
   font-family: 'Yu Gothic', sans-serif;
@@ -45,16 +45,15 @@
     /* Encabezados principales */
   .titulo-index {
     text-align: center;
-    margin-top: 50px ;
-    margin-bottom: 50px ;
+    margin-top: 10px;
+    margin-bottom: 20px ;
     font-size: 3rem;
     color:#212529;
     font-family: 'Yu Gothic', sans-serif;
   }
   
   .subtitulo-shojin {
-    font-size: 2rem;
-    margin: 20px 0;
+    font-size: 2.5rem;
     text-align: center;
     font-family: 'Yu Gothic', sans-serif;
   }
@@ -68,8 +67,8 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
   
   .info-shojin p {
@@ -117,8 +116,8 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   
@@ -185,8 +184,8 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 
   /* Estilo para el título */
@@ -213,7 +212,7 @@
   
     /*Estilo h1 páginas menos index*/
   .titulos-paginas{
-    margin-top: 50px ;
+    margin-top: 10px ;
     font-size: 2.5rem;
     text-align: center;
     letter-spacing: 0.4rem;
@@ -228,7 +227,7 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 1rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
   }
   
   .search-section input{
@@ -259,7 +258,7 @@
   
   /* Contenedor para la lista de enlaces de recetas en la pagina recetas */
   .container{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 10px;
   }
   .container a {
@@ -279,10 +278,9 @@
     border: none !important; 
   }
 
-  .card :hover{
-    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2); 
+  .card .card-img-top:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra en los 4 lados */
   }
-
   .card-img-top {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
@@ -622,6 +620,10 @@
     .titulo-index {
       font-size: 2.5rem;
     }
+
+    .subtitulo-shojin {
+      font-size: 2rem;
+    }
   
     .search-section input{
       width: 20rem;
@@ -714,7 +716,6 @@
       margin-bottom: 15px;
     }
     
-   
     .instrucciones-recetas {
       padding: 0.5rem;
     }
