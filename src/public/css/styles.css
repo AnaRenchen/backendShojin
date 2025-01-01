@@ -10,21 +10,41 @@
       font-family: 'Yu Gothic', sans-serif;
   }
 
+  .logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .logo-shojin{
+    width:20rem;
+  }
+
+  .container-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#556B2F!important;
+
+  }
+
   .navbar{
-    background-color: white!important;
+    
     border:none;
   }
 
   .navbar .navbar-brand, 
   .navbar .nav-link {
-  margin-top: 20px;
   margin-left: 20px;
+  font-size: 1.2rem;
   font-family: 'Yu Gothic', sans-serif;
-  color:#212529;
+  color:black;
 }
  
 .navbar .nav-link:hover  {
-  color:#d0a13d; 
+  color:white; 
  }
   
 
@@ -545,22 +565,17 @@
 
 /* Fondo del menú desplegable solo en pantallas pequeñas */
 @media (max-width: 991.98px) { 
-  .navbar-collapse {
-    margin-top: 10px;
-    background-color:#ead279;
-    padding: 10px;
-  }
 
-  /* Agregar línea entre enlaces en el menú desplegable */
-  .navbar-nav .nav-link {
+  .container-nav{
+    justify-content: flex-start;
     border-bottom: 1px solid white; /* Línea entre enlaces */
-    padding: 10px 0;
   }
 
-  /* Quitar la línea del último enlace */
-  .navbar-nav .nav-link:last-child {
-    border-bottom: none;
+  .navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
   }
+
 }
 
 
