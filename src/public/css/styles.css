@@ -33,7 +33,6 @@
       border: none !important;;
     }
 
-
   
     /* Estilo del carrusel */
   .carousel-item img {
@@ -545,7 +544,7 @@
 
 
 /* Fondo del menú desplegable solo en pantallas pequeñas */
-@media (max-width: 991.98px) { /* Ajusta según el tamaño de colapso de Bootstrap */
+@media (max-width: 991.98px) { 
   .navbar-collapse {
     margin-top: 10px;
     background-color:#ead279;
@@ -608,6 +607,10 @@
       bottom: 10px; /* Reduce la distancia desde abajo */
       right: 10px;  /* Reduce la distancia desde la derecha */
       padding: 10px; /* Reduce el padding */
+    }
+
+    .carousel-item img{
+      height: 400px;
     }
   
     .text-footer{

@@ -1172,7 +1172,7 @@
   },
   {
     "id": 37,
-    "title": "Dulce cremoso de azafrán (Malai Peda)",
+    "title": "Malai Peda (Dulce cremoso de azafrán)",
     "description": "Un dulce que se deshace en la boca, tradicionalmente elaborado con leche condensada y leche en polvo, aquí adaptado con ingredientes veganos como anacardos y leche de almendras, con el exquisito aroma del azafrán.",
     "portions": "Rinde 10 porciones o más",
     "ingredients": [
@@ -1184,26 +1184,26 @@
       "½ taza de azúcar",
       "1 cucharadita de extracto de vainilla",
       "2 cucharaditas de jugo de limón",
-      "½ taza de harina de avena",
+      "½ taza de harina de avena (o más para hacer los pedas)",
       "1 a 2 cucharadas de harina blanca o 1 cucharada de maicena",
       "1 a 2 cucharadas de azúcar molida o azúcar impalpable",
       "Almendras y pistachos en láminas, para decorar"
     ],
     "image": "https://i.postimg.cc/kgbTbqPG/malai-peda2.jpg",
-    "tags": "dulce, azafrán, vegano, postre, india, castaña de cajú",
+    "tags": "dulce, azafrán, vegano, postre, india, castaña de cajú, peda",
     "instruction": [
-      "Procese las castañas con 2 cucharadas de leche de almendras para conseguir una crema de castañas suave pero espesa. Usa más leche de almendras o ½ taza de crema espesa de castañas, si fuera necesario, para procesarla. Añade la sal, el azúcar y el azafrán, y procese un poco más hasta que se incorporen todos los ingredientes y quede suave.",
-      "Coloque la crema de castañas en una sartén a fuego medio-bajo. Añade la manteca y cocínala, revolviendo hasta que la mezcla se espese y adquiera la textura de un flan (entre 3 y 5 minutos). Revuelve con frecuencia para evitar la formación de grumos. Déjala enfriar completamente para después pasarla a la heladera y refrigerarla durante 15 minutos.",
-      "Añade el extracto de vainilla y el jugo de limón. Incorpora ½ taza de harina de avena dosificándola a cucharadas y revolviendo para mezclarla. Añade la harina blanca. La mezcla debe convertirse en una masa espesa y pegajosa. Prueba y agrega azúcar glas si fuera necesario.",
-      "Coloque aceite en las manos, toma 1 cucharada de la mezcla y forme discos con las manos. Coloque los pistachos o almendras en su parte superior con una ligera presión. O si lo desea, azúcar impalpable. Puede guardarlos a temperatura ambiente todo el día o refrigerarlos hasta una semana.",
-      "Variación: Para convertirlos en galletas, cocina los Pedas en un horno precalentado a 150 °C durante 10 a 12 minutos. Déjelos enfriar por completo antes de servir.",
+      "Procese las castañas con 2 cucharadas de leche de almendras para conseguir una crema de castañas suave pero espesa. Usa más leche de almendras o ½ taza de crema espesa de castañas, si fuera necesario, para procesarlas. Añade la sal, el azúcar y el azafrán, y procese un poco más hasta que se incorporen todos los ingredientes y quede suave.",
+      "Coloque la crema de castañas en una sartén a fuego medio-bajo. Añade la manteca y cocínala, revolviendo hasta que la mezcla se espese y adquiera la textura de una crema pastelera (entre 3 y 5 minutos). Revuelve con frecuencia para evitar la formación de grumos. Déjala enfriar completamente para después pasarla a la heladera y refrigerarla durante 15 minutos.",
+      "Añade el extracto de vainilla y el jugo de limón. Incorpora ½ taza de harina de avena dosificándola a cucharadas y revolviendo para mezclarla. Añade la harina blanca. La mezcla debe convertirse en una masa espesa y pegajosa. Si la masa está muy pegajosa para hacer los dulces, siga añadiendo harina de avena y/o castaña de cajú molida hasta que adquiera la textura necesaria. Prueba y agrega azúcar impalpable si fuera necesario.",
+      "Coloque aceite en las manos, toma 1 cucharada de la mezcla y forme discos con las manos. Si lo desea, pase las pedas por azúcar impalpable. Eso hace que las bolitas queden menos pegajosas. Coloque los pistachos o almendras en su parte superior con una ligera presión. Puede guardarlos a temperatura ambiente todo el día o refrigerarlos hasta una semana.",
+      "Variación: Para convertirlos en galletas, cocina los pedas en un horno precalentado a 150 °C durante 10 a 12 minutos. Déjelos enfriar por completo antes de servir.",
       "Tip: Puede agregar un poco de cardamomo en polvo para dejar los dulces más especiados."
     ],
     "curiosidad": "El Malai Peda es un dulce muy popular en la India, especialmente en las festividades religiosas. Tradicionalmente, se ofrece como prasad (ofrenda sagrada) en los templos hindúes. Su distintivo aroma a azafrán y cardamomo lo convierte en un símbolo de pureza y lujo culinario. Este dulce también simboliza prosperidad y buenos deseos, por lo que es común regalarlo en bodas y celebraciones."
   },
   {
     "id": 38,
-    "title": "Bolas dulces de harina de garbanzo (Besan Ladoo)",
+    "title": "Besan Ladoo(Bolas dulces de harina de garbanzo)",
     "description": "Un delicioso dulce tradicional elaborado con harina de garbanzo, cardamomo y anacardos, perfecto para celebraciones y festividades.",
     "portions": "Rinde 12 unidades",
     "ingredients": [
@@ -1262,7 +1262,7 @@
   },
   {
     "id": 40,
-    "title": "Guthuk Vegetariano",
+    "title": "Guthuk (Guiso tibetano)",
     "description": "El Guthuk Vegetariano es una sopa tibetana tradicional que se disfruta especialmente en el festival de Losar, con fideos caseros y bolas de masa que esconden mensajes o artículos especiales.",
     "portions": "Rinde 2-3 porciones",
     "ingredients": [
