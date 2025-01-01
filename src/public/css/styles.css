@@ -612,6 +612,10 @@
     .carousel-item img{
       height: 400px;
     }
+
+    .titulos-paginas{
+      font-size: 2rem;
+    }
   
     .text-footer{
       margin: 50px 20px 50px 20px;
@@ -625,7 +629,7 @@
     }
 
     .subtitulo-shojin {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   
     .search-section input{
