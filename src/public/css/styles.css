@@ -22,39 +22,43 @@
     width:20rem;
   }
 
-  .container-nav{
+  .container-nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color:#556B2F!important;
-
+    justify-content: space-between; /* Distribuye el botón y los enlaces */
+    align-items: center; /* Alinea verticalmente el contenido */
+    background-color: #556B2F !important;
+    padding: 0 1rem; /* Ajusta los márgenes laterales */
   }
-
-  .navbar{
-    
-    border:none;
-  }
-
-  .navbar .navbar-brand, 
-  .navbar .nav-link {
-  margin-left: 20px;
-  font-size: 1.2rem;
-  font-family: 'Yu Gothic', sans-serif;
-  color:black;
-}
- 
-.navbar .nav-link:hover  {
-  color:white; 
- }
   
-
-    .navbar-toggler {
-      margin-top: 20px;
-      border: none !important;;
-    }
-
+  .navbar {
+    flex: 1; /* Hace que la barra ocupe todo el espacio disponible */
+  }
+  
+  .navbar-toggler {
+    margin-right: auto; /* Alinea el botón al lado izquierdo */
+    border: none !important;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0; /* Evita que los enlaces se expandan innecesariamente */
+    justify-content: center; /* Centra los enlaces */
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-family: 'Yu Gothic', sans-serif;
+    color: black;
+  }
+  
+  .navbar .nav-link:hover {
+    color: white;
+  }
+  
   
     /* Estilo del carrusel */
+
   .carousel-item img {
     height: 500px;
     object-fit: cover;
@@ -62,15 +66,7 @@
   }
   
     /* Encabezados principales */
-  .titulo-index {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px ;
-    font-size: 3rem;
-    color:#212529;
-    font-family: 'Yu Gothic', sans-serif;
-  }
-  
+
   .subtitulo-shojin {
     font-size: 2.5rem;
     text-align: center;
@@ -231,7 +227,7 @@
   
     /*Estilo h1 páginas menos index*/
   .titulos-paginas{
-    margin-top: 10px ;
+    margin-top: 1.5rem ;
     font-size: 2.5rem;
     text-align: center;
     letter-spacing: 0.4rem;
@@ -563,21 +559,48 @@
   }
 
 
+
 /* Fondo del menú desplegable solo en pantallas pequeñas */
 @media (max-width: 991.98px) { 
 
-  .container-nav{
-    justify-content: flex-start;
-    border-bottom: 1px solid white; /* Línea entre enlaces */
+  .container-nav {
+    justify-content: flex-start; /* Mantiene el botón de hamburguesa en el lado izquierdo */
+    
   }
+
+  .container-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#556B2F!important;
+  }
+
+  .navbar-toggler {
+    margin: 0!important; /* Elimina margen extra */
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: center; /* Centra los enlaces del menú desplegable horizontalmente */
+    align-items: center; /* Centra los enlaces verticalmente */
+    flex-direction: column; /* Asegura que los enlaces se organicen en una columna */
+    background-color: #556B2F; /* Asegura que el fondo sea consistente */
+    width: 100%; /* Asegura que el menú desplegable ocupe todo el ancho */
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column; /* Coloca los enlaces en una columna */
+    align-items: center; /* Centra los enlaces horizontalmente */
+    width: 100%; /* Asegura que los enlaces ocupen todo el ancho disponible */
+  }
+
 
   .navbar-toggler:focus {
     outline: none!important;
     box-shadow: none!important;
   }
-
 }
-
 
   
   @media only screen and (max-width: 890px) {
