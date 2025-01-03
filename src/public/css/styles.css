@@ -797,6 +797,11 @@
     .titulo-sobre-fondo {
       font-size: 2.5rem; 
     }
+
+    .container-imagen-recetas {
+      height: 15rem; /* Establece la altura fija en 18rem */
+    }
+
     .titulo-nombre-receta {
       font-size: 1.5rem;
       margin-bottom: 15px;
