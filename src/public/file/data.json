@@ -1297,5 +1297,38 @@
       "Coloque una bola de masa grande en cada tazón y sirva caliente."
     ],
     "curiosidad": "El Guthuk es una sopa tradicional tibetana que se sirve durante el festival de Losar (año nuevo tibetano). En algunas culturas, cada persona debe pescar su bola de masa para descubrir el mensaje o artículo escondido adentro de la masa, lo que agrega un elemento divertido y simbólico a la comida."
+  },
+  {
+    "id": 41,
+    "title": "Kitchari",
+    "description": "Un plato tradicional ayurvédico, balanceado y nutritivo, ideal para desintoxicar el cuerpo y aportar energía.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "1/2 cucharadita de semillas de comino",
+      "2 cucharadas de ghee vegano o aceite de girasol",
+      "1 hoja de laurel",
+      "1/2 cucharadita de semillas de cilantro",
+      "1 cucharadita de cúrcuma",
+      "1 cucharadita de orégano seco",
+      "1 taza de arroz basmati",
+      "1/2 taza de porotos mung partidos (o enteros si no se consigue partidos. Si son eneteros dejar en remojo por mínimo 8 horas)",
+      "4-6 tazas de agua",
+      "3 tazas de vegetales mixtos (zanahorias, zucchini, zapallitos) cortados en cubos",
+      "Sal marina al gusto"
+    ],
+    "instruction": [
+      "En una olla grande, calienta el ghee o aceite de girasol a fuego medio.",
+      "Agrega las semillas de comino, la hoja de laurel, las semillas de cilantro, la cúrcuma y el orégano. Sofríe durante unos 30 segundos, o hasta que las especias liberen su aroma.",
+      "Incorpora el arroz basmati y los porotos mung partidos a la olla. Revuelve bien para cubrirlos con las especias.",
+      "Vierte el agua y agrega los vegetales cortados en cubos. Añade sal al gusto.",
+      "Lleva la mezcla a ebullición, luego reduce el fuego a bajo y cocina a fuego lento, tapado, durante unos 25-30 minutos, o hasta que el arroz y los porotos estén tiernos y el líquido se haya absorbido casi por completo.",
+      "Si nota que el líquido se está consumiendo demasiado rápido, agrega un poco más de agua caliente para evitar que el Kitchari se seque.",
+      "Puede personalizar el Kitchari agregando otras especias como jengibre, cardamomo o pimienta negra, o utilizando diferentes tipos de legumbres o verduras.",
+      "Retire la olla del fuego y deje reposar el Kitchari durante unos minutos antes de servir.",
+      "El Kitchari se puede servir solo o acompañado de yogur vegano, chutney o encurtidospara resaltar los sabores."
+    ],
+    "image": "https://i.postimg.cc/L4ZXPJvW/kitchari.jpg",
+    "tags": "kitchari, ayurvédico, saludable, arroz basmati, porotos mung,india, arroz, zucchini, zanahoria, especias",
+    "curiosidad": "¿Sabía que el Kitchari es considerado un plato medicinal en la tradición ayurvédica? Gracias a su combinación de arroz, legumbres y especias, se cree que equilibra los tres doshas (vata, pitta y kapha), promueve la desintoxicación del cuerpo y es ideal para quienes necesitan una dieta fácil de digerir durante periodos de sanación o estrés. "
   }
 ]
