@@ -464,7 +464,7 @@
     font-size: 1.2rem;
     display: inline-block;  /* Ajusta el tamaño automáticamente al contenido */
     border: 1px solid transparent;
-    padding: 20px;             
+    padding: 15px;             
     max-width: 70rem;       
     box-sizing: border-box;
     word-wrap: break-word; 
