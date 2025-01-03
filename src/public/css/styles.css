@@ -246,6 +246,7 @@
     width: 100%; /* Ocupa todo el ancho del contenedor */
     height: 100%; /* Ajusta la altura al contenedor */
     object-fit: cover; /* Mantiene las proporciones y recorta si es necesario */
+    object-position: center; /* Centra la imagen dentro del contenedor */
   }
   
   .content {
@@ -266,8 +267,6 @@
     text-shadow: 0px 0px 10px black;
   }
   
-
-  
   /*Estilo para sección de búsqueda de recetas*/
   .search-section{
       font-family: 'Yu Gothic', sans-serif;
@@ -275,27 +274,30 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 1rem;
-      margin-top: 2rem;
+      margin-top: 1rem;
   }
   
   .search-section input{
       width: 30rem;
-      padding: 1rem;
-      border: solid 1px #2c3e50;
+      height: calc(1.5em + .75rem + 2px);
+      padding: .375rem .75rem;
+      border: solid 1.5px #878E3E;
       border-radius: 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       color: #5a5a4a; 
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-family: 'Yu Gothic', sans-serif;
+      box-shadow: 0 0 .4rem rgba(135, 142, 62, 0.5);
+      transition: 0.3s ease-in-out;
   }
   
   .search-section button{
-      padding: 0.8rem 1.2rem; 
+      padding: 0.5rem 1rem; 
       border: none;
       border-radius: 1.5rem;
       background-color: #d0a13d ; 
-      color: #212529;
-      font-size: 1rem;
+      color: hsl(210, 11%, 15%);
+      font-size: 0.9rem;
       font-family: 'Yu Gothic', sans-serif;
   }
   
@@ -306,7 +308,7 @@
   
   /* Contenedor para la lista de enlaces de recetas en la pagina recetas */
   .container{
-    margin-top: 40px;
+    margin-top: 3rem;
     margin-bottom: 10px;
   }
   .container a {
@@ -691,6 +693,18 @@
     .titulos-paginas{
       font-size: 2rem;
     }
+
+    .titulo-sobre-fondo {
+      font-size: 2.5rem; 
+    }
+
+    .container-imagen-recetas {
+      height: 15rem; /* Establece la altura fija en 18rem */
+    }
+
+    .imagen-recetas {
+      object-position: center center; /* Centra la imagen dentro del contenedor */
+    }
   
     .text-footer{
       margin: 50px 20px 50px 20px;
@@ -793,14 +807,6 @@
   }
   }
   @media only screen and (max-width: 480px) {
-
-    .titulo-sobre-fondo {
-      font-size: 2.5rem; 
-    }
-
-    .container-imagen-recetas {
-      height: 15rem; /* Establece la altura fija en 18rem */
-    }
 
     .titulo-nombre-receta {
       font-size: 1.5rem;
