@@ -1330,5 +1330,37 @@
     "image": "https://i.postimg.cc/L4ZXPJvW/kitchari.jpg",
     "tags": "kitchari, ayurvédico, saludable, arroz basmati, porotos mung,india, arroz, zucchini, zanahoria, especias",
     "curiosidad": "¿Sabía que el Kitchari es considerado un plato medicinal en la tradición ayurvédica? Gracias a su combinación de arroz, legumbres y especias, se cree que equilibra los tres doshas (vata, pitta y kapha), promueve la desintoxicación del cuerpo y es ideal para quienes necesitan una dieta fácil de digerir durante periodos de sanación o estrés. "
+  },
+  {
+    "id": 42,
+    "title": "Tsukudani de Pepino del Templo Otowasan Kannonji en Sakurai",
+    "description": "Una receta tradicional japonesa para preparar pepinos marinados en una mezcla de sabores dulces, salados y umami. Perfecto como acompañamiento o snack saludable.",
+    "portions": "Rinde entre 20 y 25 porciones",
+    "ingredients": [
+      "1.5 kilos de pepino",
+      "15 gramos de sal",
+      "60 gramos de azúcar",
+      "70 ml de dashi de salsa de soja",
+      "100 ml de vinagre",
+      "30 ml de mirin",
+      "2 pimientas rojas (o al gusto)",
+      "1 pedazo de jengibre (a gusto)",
+      "Alga kombu cortada finamente"
+    ],
+    "instruction": [
+      "Lava bien los pepinos y córtalos en rodajas finas, de aproximadamente 2 a 3 mm de grosor.",
+      "Coloca las rodajas de pepino en un recipiente y añade 15 gramos de sal. Frota suavemente los pepinos con la sal para que comiencen a liberar líquido. Deja reposar durante 15 minutos.",
+      "Lava los pepinos con agua fría para retirar la sal. Colócalos en una bolsa de tela o un repasador limpio, y apriétalos firmemente para eliminar el exceso de líquido.",
+      "En una olla mediana, mezcla el azúcar, el dashi de salsa de soja, el vinagre y el mirin.",
+      "Corta las pimientas rojas, el jengibre y el alga kombu finamente, y agrégalos a la olla.",
+      "Añade los pepinos escurridos a la olla con el aderezo preparado.",
+      "Lleva la mezcla a ebullición a fuego medio y deja hervir durante aproximadamente 10 minutos, permitiendo que los pepinos absorban los sabores y el exceso de líquido se evapore.",
+      "Ajusta el color y el sabor añadiendo más salsa de soja si lo desea.",
+      "Una vez que el líquido se haya reducido casi por completo, retira la olla del fuego.",
+      "Deja que los pepinos marinados se enfríen completamente antes de servir o almacenar en un frasco hermético en la heladera."
+    ],
+    "image": "https://i.postimg.cc/JhwdjtG8/tsukudani.jpg",
+    "tags": "tsukudani, pepino, japonés, saludable, acompañamiento, kombu, dashi, mirin, umami, picle, alga, salsa de soja, shoyu",
+    "curiosidad": "El Tsukudani es una técnica tradicional de conservación en Japón. Originalmente creada para preservar pescados y algas, esta preparación combina ingredientes con sabores profundos y equilibrados, haciendo que los alimentos duren más tiempo mientras potencian su sabor."
   }
 ]
