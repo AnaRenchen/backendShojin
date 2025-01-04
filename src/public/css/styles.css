@@ -595,47 +595,32 @@
 
 
 
-/* Fondo del menú desplegable solo en pantallas pequeñas */
-@media (max-width: 991.98px) { 
+  @media (max-width: 991.98px) { 
+    .container-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #556B2F;
+    }
+  
+    .navbar-toggler {
+      margin: 0;
+      outline: none;
+      box-shadow: none;
+    }
+  
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .container-nav {
-    justify-content: flex-start; /* Mantiene el botón de hamburguesa en el lado izquierdo */
-    
+    .navbar-toggler:focus {
+      box-shadow:none!important;
+    }
   }
-
-  .container-nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color:#556B2F!important;
-  }
-
-  .navbar-toggler {
-    margin: 0!important; /* Elimina margen extra */
-  }
-
-  .navbar-collapse {
-    display: flex;
-    justify-content: center; /* Centra los enlaces del menú desplegable horizontalmente */
-    align-items: center; /* Centra los enlaces verticalmente */
-    flex-direction: column; /* Asegura que los enlaces se organicen en una columna */
-    background-color: #556B2F; /* Asegura que el fondo sea consistente */
-    width: 100%; /* Asegura que el menú desplegable ocupe todo el ancho */
-  }
-
-  .navbar-nav {
-    display: flex;
-    flex-direction: column; /* Coloca los enlaces en una columna */
-    align-items: center; /* Centra los enlaces horizontalmente */
-    width: 100%; /* Asegura que los enlaces ocupen todo el ancho disponible */
-  }
-
-
-  .navbar-toggler:focus {
-    outline: none!important;
-    box-shadow: none!important;
-  }
-}
+  
 
   
   @media only screen and (max-width: 890px) {
@@ -726,7 +711,7 @@
   }
   
   .search-section button{
-      padding: 0.6rem 1.1rem; 
+      padding: 0.5rem 1rem; 
       border: none;
   }
   
