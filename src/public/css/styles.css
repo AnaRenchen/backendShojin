@@ -243,12 +243,14 @@
   
     /*Estilo h1 páginas menos index*/
   .titulos-paginas{
-    margin-top: 1.5rem ;
-    font-size: 2.5rem;
+    margin-top: 3rem ;
+    font-size: 4.5rem;
     text-align: center;
     letter-spacing: 0.4rem;
+    font-weight:550;
     font-family: 'Yu Gothic', sans-serif;
   }
+
 
   /*Estilo imagen página de recetas*/
   .container-imagen-recetas {
@@ -649,6 +651,9 @@
     .titulo-sobre-fondo {
       font-size: 3.5rem; 
     }
+    .titulos-paginas{
+      font-size: 3.5rem;
+    }
 
     .container-receta {
       width: 100%; 
@@ -697,7 +702,7 @@
     }
 
     .titulos-paginas{
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     .titulo-sobre-fondo {
