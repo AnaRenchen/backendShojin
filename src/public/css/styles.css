@@ -297,7 +297,7 @@
   
   .search-section input{
       width: 30rem;
-      height: calc(1.5em + .75rem + 2px);
+      height: 2.5rem;
       padding: .375rem .75rem;
       border: solid 1.5px #878E3E;
       border-radius: 1.5rem;
@@ -850,6 +850,20 @@
       bottom: 5px; /* Más cerca del borde inferior */
       right: 5px;  /* Más cerca del borde derecho */
       padding: 5px; /* Padding mínimo */
+    }
+
+    @media (min-width: 1200px) {
+      /* Estilos para pantallas de 1200px de ancho o más */
+      .search-section input{
+        width: 50rem;
+        height: 2.75rem;
+        padding: .375rem .75rem;
+
+    }
+    
+    .search-section button{
+        padding: 0.6rem 1.1rem; 
+    }
     }
   }
   
