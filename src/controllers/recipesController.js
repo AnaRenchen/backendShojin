@@ -83,6 +83,7 @@ export class RecipesController {
         code,
         category,
         curiosidad,
+        notes,
       } = req.body;
 
       if (req.file) {
@@ -119,6 +120,7 @@ export class RecipesController {
 
       if (category) recipeData.category = category;
       if (curiosidad) recipeData.curiosidad = curiosidad;
+      if (notes) recipeData.notes = notes;
 
       if (
         !title ||
@@ -231,6 +233,7 @@ export class RecipesController {
         "curiosidad",
         "instruction",
         "code",
+        "notes",
       ];
 
       let properties = Object.keys(updateProperties);

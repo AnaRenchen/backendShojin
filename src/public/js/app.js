@@ -364,6 +364,47 @@ function cargarDetalleReceta(receta) {
     contenedorInstrucciones.appendChild(p);
   });
 
+  // Renderizar notas
+  const notesList = document.getElementById("notas-container");
+  if (receta.notes && Array.isArray(receta.notes)) {
+    notesList.style.display = "block";
+    notesList.innerHTML = "<h5 class='h6-receta'>Notas:</h5>";
+
+    const ul = document.createElement("ul"); // Lista para las notas
+    ul.className = "notes-list";
+
+    receta.notes.forEach((note) => {
+      const li = document.createElement("li");
+      li.className = "notes-item";
+
+      if (typeof note === "string") {
+        // Si es texto plano, agrégalo directamente
+        li.textContent = note;
+      } else if (
+        typeof note === "object" &&
+        note.text &&
+        note.linkText &&
+        note.link
+      ) {
+        // Si es un objeto con texto y enlace, crea el contenido mixto
+        const span = document.createElement("span");
+        span.textContent = note.text;
+
+        const a = document.createElement("a");
+        a.textContent = note.linkText;
+        a.href = note.link;
+        a.className = "notes-link"; // Clase personalizada
+
+        li.appendChild(span);
+        li.appendChild(a);
+      }
+
+      notesList.appendChild(li);
+    });
+  } else {
+    notesList.style.display = "none";
+  }
+
   const curiosidadContainer = document.getElementById("curiosidad-container");
   if (receta.curiosidad) {
     curiosidadContainer.style.display = "block";

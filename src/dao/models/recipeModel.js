@@ -21,6 +21,11 @@ const recipesSchema = new mongoose.Schema(
         required: true, // Acepta cadenas y objetos
       },
     ],
+    notes: [
+      {
+        type: mongoose.Schema.Types.Mixed,
+      },
+    ],
     code: { type: String, required: true, unique: true },
     category: { type: String },
     curiosidad: { type: String },
