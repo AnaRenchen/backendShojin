@@ -64,12 +64,15 @@
     "image": "https://i.postimg.cc/htrjQXd6/ganmodoki2.webp",
     "tags": "hijiki, tofu, koyasan, hamburguesas, algas",
     "instruction": [
-      "Envuelve el tofu en papel de cocina y coloca un peso encima para escurrir el agua durante aproximadamente una hora. Mientras tanto, ralla la zanahoria, corta los hongos en trozos pequeños, corta finamente las edamames o soja (o aplasta groseramente las arvejas) y remoja el alga hijiki en 1/2 taza de agua.",
-      "Escurre el exceso de agua del tofu y amásalo bien en un bol hasta obtener una textura suave. Añade la sal y la fécula, y mezcla la zanahoria rallada, los hongos, las edamames (o su remplazo) y el alga hijiki remojada (o el perejil cortado finamente).",
+      "Envuelve el tofu en papel de cocina y coloca un peso encima para escurrir el agua durante aproximadamente una hora. Mientras tanto, ralla la zanahoria, corta los hongos en pedazos pequeños, corta finamente las edamames o soja (o aplasta groseramente las arvejas) y remoja el alga hijiki en 1/2 taza de agua.",
+      "Escurre el exceso de agua del tofu y amásalo bien en un bowl hasta obtener una textura suave. Añade la sal y la fécula, y mezcla la zanahoria rallada, los hongos, las edamames (o su remplazo) y el alga hijiki remojada (o el perejil cortado finamente).",
       "Calienta el aceite a fuego medio (aproximadamente 150°C/350°F).",
       "Forma pequeñas hamburguesitas con la mezcla y colócalas con cuidado en el aceite. No sobrecargue la sartén, ya que bajará la temperatura del aceite.",
       "Comienza con el fuego bajo y aumenta gradualmente para cocinar las hamburguesas de manera uniforme. Si el aceite está demasiado caliente, las hamburguesas pueden romperse. Evita tocar las hamburguesas hasta que la superficie esté bien cocida.",
       "Sirve y disfruta con sal, salsa de soja o salsa de soja mezclada con caldo dashi. Para más sabor, añade daikon (nabo) rallado, jengibre rallado o picante."
+    ],
+    "notes": [
+      "Si necesario, agregue más fécula o harina de trigo (o de arroz) a la masa hasta que se pueda formar las hamburguesitas."
     ]
   },
   {
@@ -795,10 +798,10 @@
       "otoño"
     ],
     "instruction": [
-      "Corte las berenjenas: Corte las berenjenas en tiras largas de aproximadamente 1 centímetro de ancho. Si las berenjenas son muy largas, córtelas por la mitad o en tercios primero. Remoje las tiras en agua durante unos minutos para eliminar cualquier amargor. Escúrralas y séquelas bien.",
-      "Prepare la salsa Dengaku: En una olla pequeña, combine el miso rojo, el azúcar, el sake y las semillas de sésamo. Revuelva suavemente a fuego bajo durante 3-4 minutos hasta que la mezcla comience a espesarse.",
-      "Cocine las berenjenas: Caliente una sartén, agregue el aceite de sésamo y luego las berenjenas. Fríalas a fuego medio hasta que ambos lados estén dorados. Alternativamente, puede pincelar las berenjenas con aceite de sésamo y asarlas en el horno a 180°C durante 5-6 minutos.",
-      "Servir: Coloque las berenjenas en un plato para servir y báñelas con la salsa Dengaku. Si quiere puede espolvorear semillas de sésamo a gusto."
+      "Corte las berenjenas en tiras largas de aproximadamente 1 centímetro de ancho. Si las berenjenas son muy largas, córtelas por la mitad o en tercios primero. Remoje las tiras en agua durante unos minutos para eliminar cualquier amargor. Escúrralas y séquelas bien.",
+      "En una olla pequeña, combine el miso rojo, el azúcar, el sake y las semillas de sésamo. Revuelva suavemente a fuego bajo durante 3-4 minutos hasta que la mezcla comience a espesarse.",
+      "Caliente una sartén, agregue el aceite de sésamo y luego las berenjenas. Fríalas a fuego medio hasta que ambos lados estén dorados. Alternativamente, puede pincelar las berenjenas con aceite de sésamo y asarlas en el horno a 180°C durante 5-6 minutos.",
+      "Coloque las berenjenas en un plato para servir y báñelas con la salsa Dengaku. Si quiere puede espolvorear semillas de sésamo a gusto."
     ],
     "curiosidad": "La salsa Dengaku tiene su origen en la cocina japonesa tradicional y suele usarse para glasear vegetales, dándoles un toque dulce y umami único."
   },
@@ -1434,5 +1437,58 @@
       "El miso blanco tiene un sabor más suave que el miso rojo. Ajusta la cantidad de miso según su preferencia de sabor."
     ],
     "curiosidad": "El tofu es una fuente rica en proteínas de origen vegetal, altamente apreciada en la cocina asiática. Su origen se remonta a China hace más de 2,000 años, y su versatilidad lo convierte en un ingrediente ideal para ensaladas, sopas y platos principales."
+  },
+  {
+    "id": 44,
+    "title": "Ñoqui Gigante Relleno",
+    "description": "Un ñoqui gigante relleno con espinaca y queso vegano, acompañado de una deliciosa salsa cremosa de tomates y hongos.",
+    "portions": "Rinde entre 6 a 8 porciones",
+    "ingredients": [
+      "1 kilo de puré de papas",
+      "2 cucharadas de manteca vegana, margarina u otro aceite vegetal",
+      "100 gramos de queso de rallar vegano (o levadura nutricional)",
+      "100 gramos de maicena",
+      "Harina de trigo (lo necesario)",
+      "Sal y nuez moscada a gusto",
+      "200 gramos de espinaca blanqueada y cortada en pedazos pequeños",
+      "500 gramos de queso vegano rallado o cortado en pedazos pequeños (o tofu desmenuzado y condimentado)*",
+      "2 cucharadas de aceite de oliva (para la salsa)",
+      "4 tomates sin piel ni semillas, picados en cubos",
+      "250 gramos de hongos shitake frescos o secos hidratados, cortados en rodajas finas",
+      "500 ml de caldo de verduras",
+      "1 lata (aproximadamente 300 gramos) de crema vegana (o leche de coco)",
+      "1 cucharadita de pimentón ahumado",
+      "Perejil picado a gusto",
+      "Pimienta blanca a gusto",
+      "Sal a gusto"
+    ],
+    "image": "https://i.postimg.cc/857W3wZn/nhocao.jpg",
+    "tags": [
+      "ñoqui",
+      "vegano",
+      "espinaca",
+      "queso vegano",
+      "shitake",
+      "plato principal",
+      "salsa cremosa",
+      "leche de coco",
+      "brasil"
+    ],
+    "instruction": [
+      "Para la masa, mezcle el puré de papas, la manteca vegana, el queso de rallar vegano, la maicena, la harina de trigo, la sal y la nuez moscada. Agregue la harina de a pocos hasta lograr una masa suave y manipulable (mínimo 1 taza).",
+      "Extienda la masa sobre una superficie enharinada. Distribuya el queso vegano (o tofu desmenuzado) y la espinaca sobre la masa. Puede mezclar ambos ingredientes previamente si lo desea.",
+      "Enrolle la masa como un pionono, asegurándose de apretar bien las puntas laterales y el largo para que no se salga el relleno. Envuelva el ñoqui en un repasador limpio y átelo con hilo o soga.",
+      "Coloque el ñoqui gigante en una olla con agua hirviendo. Cocine hasta que flote, como un ñoqui tradicional. Una vez que flote, retírelo.",
+      "Para la salsa, caliente el aceite de oliva en una sartén y añada los tomates y los hongos shitake. Condimente con sal y pimienta blanca. Agregue el caldo y cocine hasta que los tomates estén tiernos.",
+      "Incorpore la crema vegana (o leche de coco) y mezcle bien. Ajuste los condimentos a gusto y añada perejil picado.",
+      "Sirva el ñoqui gigante en una fuente y cúbralo con la salsa cremosa."
+    ],
+    "notes": [
+      "Se puede reemplazar los hongos shitake por champiñones o portobellos.",
+      "En lugar de blanquear la espinaca, puede saltearla con aceite de oliva y sal.",
+      "*Si usar tofu, opte por uno firme. Envuélvalo en toallas de papel para quitar el exceso de humedad y luego lo desmenuce. También es posible rallarlo en un rallador común. En seguida condimente el tofu con un poco de sal y levadura nutricional. Para darle un sabor ahumado agregue un poco de pimentón ahumado.",
+      "Para una salsa más cremosa, puede agregar maicena diluida en agua fría.",
+      "El tamaño del ñoqui gigante dependerá del tamaño de la olla utilizada, pero generalmente mide unos dos palmos."
+    ]
   }
 ]
