@@ -812,7 +812,7 @@
     "portions": "Rinde 4 porciones",
     "ingredients": [
       "1 taza (200 ml) de caldo de kombu (o caldo de verduras)",
-      "100 g de arvejas frescas, sin vaina",
+      "100 g de arvejas frescas, sin vaina (o arvejas congeladas)",
       "200 g de coliflor, separada en floretes",
       "1 cucharadita de sal",
       "2 cucharadas de sake de cocina o vino blanco",
@@ -831,10 +831,12 @@
       "leche vegetal"
     ],
     "instruction": [
-      "En una olla, lleve el caldo de kombu a ebullición. Reduzca el fuego a medio, agregue las arvejas, la coliflor, la sal y el sake, y cocine durante 10 minutos.",
-      "Disuelva el miso en el caldo, luego agregue la leche de soja. Lleve a ebullición y luego retire del fuego.",
-      "Sirva el estofado en tazones individuales.",
-      "Nota: no deje que este plato siga hirviendo después de agregar la leche de soya. El sabor de la leche de soja alcanza su punto máximo en el momento en que se calienta."
+      "En una olla, lleve el caldo de kombu a ebullición. Reduzca el fuego a medio, agregue las arvejas, el coliflor, la sal y el sake, y cocine durante 10 minutos.",
+      "Disuelva el miso en el caldo, luego agregue la leche de soja. Lleve a ebullición y retire del fuego.",
+      "Sirva el estofado en tazones individuales."
+    ],
+    "notes": [
+      "No deje que este plato siga hirviendo después de agregar la leche de soja. El sabor de la leche de soja alcanza su punto máximo en el momento en que se calienta."
     ]
   },
   {
@@ -863,12 +865,14 @@
       "sano"
     ],
     "instruction": [
-      "Hervir las papas: Coloca las papas en una olla con agua salada y hervir a fuego medio hasta que estén cocidas pero aún ligeramente firmes en el centro. Escurre.",
-      "Cocinar la zanahoria: Cocina la zanahoria en una olla con agua durante 5 minutos a fuego medio, luego escurre.",
-      "Preparar el aderezo: En un recipiente, combina el miso rojo, el mirin, el azúcar, el jugo de limón y el maní triturado. Mezcla bien hasta obtener una pasta homogénea.",
-      "Servir: Escurre bien las papas y la zanahoria. Colócalas en un plato para servir y cúbrelas con el aderezo. ",
-      "Tip: Para darle un toque crocante al plato, puede agregar mani tostado arriba.",
-      "Variaciones: Puedes utilizar otros tipos de nueces o semillas en el aderezo, como almendras o semillas de girasol."
+      "Coloca las papas en una olla con agua salada y hierva a fuego medio hasta que estén cocidas pero aún ligeramente firmes en el centro. Escurre.",
+      "Cocina la zanahoria en una olla con agua durante 5 minutos a fuego medio, luego escurre.",
+      "En un recipiente, combina el miso rojo, el mirin, el azúcar, el jugo de limón y el maní triturado. Mezcla bien hasta obtener una pasta homogénea.",
+      "Escurre bien las papas y la zanahoria. Colócalas en un plato para servir y cúbrelas con el aderezo. "
+    ],
+    "notes": [
+      "Para darle un toque crocante al plato, agregue mani tostado arriba.",
+      "Experimente agregar 1 cucharada de tahini a la salsa. Eso equilibra el sabor del miso y le da un sabor más intenso a sésamo."
     ]
   },
   {
@@ -878,7 +882,7 @@
     "portions": "Rinde 4 porciones",
     "ingredients": [
       "1 bloque de tofu (blando si lo prefiere), aproximadamente 400 gramos",
-      "50 gramos de hongos variados (por ejemplo: shimeji, enoki, matsutake, shiitake o portobello)",
+      "50 gramos de hongos variados (por ejemplo: shimeji, enoki, matsutake, shitake o portobello)",
       "1 2/3 tazas o 400 ml de caldo de alga kombu (o caldo de verduras)",
       "40 gramos de zanahoria, pelada y cortada en juliana",
       "2 cucharadas de salsa de soja",
@@ -895,7 +899,6 @@
       "hongos",
       "salsa",
       "otoño",
-      "vegano",
       "invierno",
       "saludable",
       "zanahoria",
@@ -909,13 +912,15 @@
       "enoki"
     ],
     "instruction": [
-      "Prepare el tofu: Envuelva el tofu en una toalla de papel, coloque un plato encima y refrigere durante 30 minutos para eliminar el exceso de humedad.",
-      "Prepare los hongos: Rompa los hongos shimeji y enoki en bocados y corte los demás hongos en rodajas finas.",
-      "Haga la salsa: En una sartén, combine el caldo de konbu, la salsa de soja, el sake, el mirin, el azúcar y la sal. Lleve a ebullición y luego agregue los hongos y la zanahoria. Baje el fuego a medio y cocine durante 3-4 minutos más.",
-      "Cocine el tofu: Corte el tofu por la mitad y colóquelo en la sartén, teniendo cuidado de que las mitades no se superpongan. Cocine a fuego bajo durante 5 minutos.",
-      "Espese la salsa: Agregue la maicena disuelta a la sartén y revuelva suavemente, sin romper el tofu, hasta que la salsa se espese.",
-      "Servir: Corte el tofu en 4 piezas y sírvalo caliente en tazones individuales, cubierto con la salsa de hongos y decorado con las vainas de chauchas.",
-      "Nota: El caldo de konbu se puede encontrar en locales de alimentos asiáticos. De no conseguirlo se puede remplazar por caldo de verduras.",
+      "Envuelva el tofu en una toalla de papel, coloque un plato encima y refrigere durante 30 minutos para eliminar el exceso de humedad.",
+      "Rompa los hongos shimeji y enoki en bocados y corte los demás hongos en rodajas finas.",
+      "En una sartén, combine el caldo de kombu, la salsa de soja, el sake, el mirin, el azúcar y la sal. Lleve a ebullición y luego agregue los hongos y la zanahoria. Baje el fuego a medio y cocine durante 3-4 minutos más.",
+      "Corte el tofu por la mitad y colóquelo en la sartén, teniendo cuidado de que las mitades no se superpongan. Cocine a fuego bajo durante 5 minutos.",
+      "Agregue la maicena disuelta a la sartén y revuelva suavemente, sin romper el tofu, hasta que la salsa se espese.",
+      "Corte el tofu en 4 piezas y sírvalo caliente en tazones individuales, cubierto con la salsa de hongos y decorado con las vainas de chauchas."
+    ],
+    "notes": [
+      "El caldo de kombu puede ser encontrado en locales de alimentos asiáticos. De no conseguirlo, puede remplazarlo por caldo de verduras o hacer un caldo dashi con el alga kombu y/o hongos shitake secos.",
       "Si no encuentra tofu blando, puede utilizar tofu firme, pero deberá presionarlo más tiempo para eliminar el exceso de humedad."
     ],
     "curiosidad": "Los hongos matsutake, muy valorados por su sabor único, crecen en terrenos forestales específicos y pueden alcanzar precios de más de $1,000 por kilogramo durante la primera cosecha en Japón. Históricamente, recolectar matsutake era una actividad favorita de los samuráis."
@@ -928,12 +933,12 @@
     "ingredients": [
       "2 pepinos (aproximadamente 200 g)",
       "¼ de cucharadita de sal (para salar los pepinos)",
-      "200 g de hongos (puede usar shiitake, portobello o champiñones)",
+      "200 g de hongos (puede usar shitake, portobello o champiñones)",
       "1 taza de agua (200 ml)",
       "1 cucharadita de sal (5 g)",
       "2 cucharaditas de azúcar (6 g) (para el aderezo)",
-      "3 cucharadas de vinagre (45 ml) (para el aderezo)",
-      "¼ de cucharadita de sal (para el aderezo)",
+      "3 cucharadas de vinagre (45 ml)",
+      "¼ de cucharadita de sal",
       "2 cucharadas de agua (30 ml) (para diluir el aderezo, opcional)"
     ],
     "image": "https://i.postimg.cc/rspq0PZ1/sunomono-shitake.jpg",
@@ -951,12 +956,15 @@
       "champiñones"
     ],
     "instruction": [
-      "Corte los pepinos en rodajas finas de aproximadamente 1 mm de grosor. Colóquelos en un tazón, frótelos con ¼ de cucharadita de sal y deje reposar durante unos 5 minutos.",
+      "Corte los pepinos en rodajas finas de aproximadamente 1 mm de grosor. Colóquelos en un tazón, frótelos con ¼ de cucharadita de sal y deje reposar durante unos 5 a 10 minutos.",
       "Limpie y corte los hongos en tiras finas. Lleve 1 taza de agua a ebullición y agregue 1 cucharadita de sal. Cocine los hongos a fuego suave durante unos 3 minutos o hasta que estén tiernos. Retírelos del fuego y deje que se enfríen en el agua con sal.",
       "En un tazón, agregue 3 cucharadas de vinagre, ¼ de cucharadita de sal y 2 cucharaditas de azúcar para preparar el aderezo awase-zu. Mezcle bien, asegurándose de que la sal y el azúcar se disuelvan en el vinagre. Si lo desea, diluya con agua a gusto.",
-      "Aderece los pepinos y los hongos justo antes de servir.",
-      "Tip: agregue semillas de sésamo tostadas sobre el sunomono para un toque especial.",
-      "Nota: el pepino también puede ser cortado con la ayuda de una mandolina para que quede más fino."
+      "Aderece los pepinos y los hongos. Sirva en platitos individuales sin el liquido, para acompañar la comida."
+    ],
+    "notes": [
+      "Agregue semillas de sésamo negro tostadas sobre el sunomono para un toque especial.",
+      "El pepino también puede ser cortado con la ayuda de una mandolina para que quede más fino. Si el pepino es muy grueso y tiene muchas semillas, es recomendable cortarlo a lo largo y retirar el interior con una cucharita. Así quedará con menos agua y más crocante. Luego corte cada mitad en rodajas finas.",
+      "Para dar un sabor más intenso a sésamo al sunomono agregue unas gotitas de aceite de sésamo. Si lo desea picante, también puede agregar un poco de pimienta a gusto."
     ],
     "curiosidad": "Su, Vinagre japonés: Se dice que el vinagre es uno de los condimentos más antiguos, con una historia de aproximadamente 7,000 años. Se cree que el vinagre, o su, fue introducido en Japón alrededor de los siglos IV o V. Se preparaba a partir de arroz fermentado y se dejaba envejecer. En tiempos recientes, el arroz ha sido sustituido o complementado con trigo, maíz u otros cereales. Los vinagres a base de cereales, preparados con arroz sin pulir y cebada, pueden adquirir un tono marrón oscuro a medida que maduran, y se les conoce como kuro-zu o vinagre oscuro. También existen vinagres a base de frutas, como los preparados con manzanas, uvas, etc. En Japón, el vinagre también se sazona con otros ingredientes para diversos usos. Los vinagres sazonados se conocen como awase-zu. En el sushi, el arroz se sazona con sushi-zu o vinagre para sushi (vinagre sazonado con sal, azúcar y otros ingredientes). Ama-zu se refiere a vinagres endulzados. Tosa-zu o vinagre al estilo Tosa es un vinagre sazonado con copos de bonito seco. En tiempos recientes, una variedad de bebidas a base de vinagre son populares en Japón, ya que se cree que el vinagre ayuda a regular la presión arterial y actúa como un restaurador."
   },
@@ -966,17 +974,17 @@
     "description": "Un delicioso platillo de soja y vegetales con un toque de miso, ideal para una comida nutritiva y sabrosa.",
     "portions": "Rinde 2-3 porciones",
     "ingredients": [
-      "50 gramos de raíz de bardana",
+      "50 gramos de raíz de bardana (gobo)",
       "20 gramos de hongos shitake secos",
       "50 gramos de zanahoria, pelada y cortada en cubos de 1 cm",
-      "50 gramos de chauchas, cortadas en tiras finas",
+      "50 gramos de chauchas, cortadas en trozos de aproximadamente 2 cm",
       "50 gramos de soja cocida",
       "2 cucharadas de sake para cocina",
       "2 cucharadas de azúcar",
       "1/2 cucharadita de jengibre fresco finamente picado",
       "2 cucharadas de aceite de sésamo",
       "Una pisca de shichimi tōgarashi (opcional)",
-      "2 cucharadas de miso rojo (puede ser remplazado por el miso blanco"
+      "2 cucharadas de miso rojo (puede ser remplazado por miso blanco)"
     ],
     "image": "https://i.postimg.cc/kGPLXp2y/soja-con-verduras.jpg",
     "tags": [
@@ -994,13 +1002,16 @@
     ],
     "instruction": [
       "Limpie y raspe la raíz de bardana. Córtela en cubos de 1 cm y remoje en agua fría durante 5 minutos.",
-      "Remoje los hongos shitake en agua fría durante 30 minutos para rehidratarlos. Quite las partes duras de los tallos y córtelos en cubos o en láminas.",
+      "Remoje los hongos shitake en agua caliente durante 30 minutos para rehidratarlos, o hasta que estén tiernos. Quite las partes duras de los tallos y córtelos en cubos o en láminas.",
       "Hierva las chauchas en agua salada durante 2-3 minutos.",
-      "En un bowl, combine el miso rojo con el azúcar y 1 cucharada de sake. Mezcle bien.",
+      "En un bowl, combine el miso con el azúcar y 1 cucharada de sake. Mezcle bien.",
       "Saltee el jengibre en el aceite de sésamo durante 2 minutos. Agregue la raíz de bardana, los shitake y la zanahoria, y saltee hasta que estén cocidos. Incorpore la soja y el sake restante.",
       "Agregue la mezcla de miso a la sartén y revuelva a fuego bajo durante 5 minutos. Luego, agregue las chauchas y continúe revolviendo durante 2-3 minutos.",
-      "Divida la mezcla entre los platos individuales y espolvoree con shichimi tōgarashi si lo desea.",
-      "Nota: si no se consigue la bardana, remplace por otro vegetal como el daikon (nabo)."
+      "Divida la mezcla entre los platos individuales y espolvoree con shichimi tōgarashi si lo desea."
+    ],
+    "notes": [
+      "Si no se consigue la bardana, remplace por otro vegetal como el daikon (nabo) u otro de su preferencia.",
+      "El shichimi tōgarashi es opcional, pero le aporta un rico sabor y un poco de picante al plato. Puede remplazarlo por ají molido, gochugaru (ají seco coreano) o un poco de pimienta de Sichuan tostada y molida (que es similar a la pimienta sansho usada en el shichimi tōgarashi) ."
     ],
     "curiosidad": "La raíz de bardana, conocida como gobo en japonés, es un ingrediente tradicional muy valorado en la cocina japonesa. Aunque originalmente fue introducida desde China como una planta medicinal, con el tiempo se convirtió en un alimento esencial en Japón. Rica en fibra y antioxidantes, se utiliza tanto por sus beneficios para la salud como por su sabor único, terroso y ligeramente dulce. En la gastronomía japonesa, el gobo es un componente clave de platillos como el kinpira gobo (raíz de bardana salteada con zanahorias en una mezcla de salsa de soja y mirin) y se incluye en sopas, ensaladas, o incluso tempura. También se cree que tiene propiedades desintoxicantes y que ayuda a mejorar la digestión. Un dato curioso es que la bardana no se consume ampliamente en otros países, pero en Japón es tan popular que se cultiva especialmente para la cocina local, y su uso ha pasado a formar parte del concepto de washoku (la cocina tradicional japonesa) reconocida como Patrimonio Cultural Inmaterial por la UNESCO."
   },
@@ -1021,12 +1032,11 @@
     "image": "https://i.postimg.cc/Y2gGV8TR/chauchas-berenjenas.jpg",
     "tags": ["japonés", "sésamo", "berenjena", "chauchas", "tahihi"],
     "instruction": [
-      "Cocine las chauchas: Hierva las chauchas en agua con sal hasta que estén tiernas. Luego, córtelas en trozos de 3-4 centímetros.",
-      "Prepare la berenjena: Remoje las rodajas de berenjena en agua durante unos minutos para eliminar el amargor. Escúrralas bien.",
-      "Saltee la berenjena: Caliente el aceite de sésamo en una sartén y fría las rodajas de berenjena hasta que estén doradas por ambos lados. Añada el sake, tape la sartén y deje cocinar a fuego medio durante 2-3 minutos para que se cocine al vapor.",
-      "Prepare el aderezo: En un bowl, combine la pasta de sésamo negro, el azúcar y la salsa de soja. Mezcle bien hasta obtener una salsa homogénea.",
-      "Ensamble el plato: Mezcle las chauchas cocidas y la berenjena salteada con el aderezo de sésamo. Si prefiere también puede verter el aderezo sobre los vegetales y agrgear semillas de sésamo tostadas.",
-      "Sabor: Si desea un sabor más intenso, puede aumentar la cantidad de pasta de sésamo."
+      "Hierva las chauchas en agua con sal hasta que estén tiernas. Luego, córtelas en trozos de 3-4 centímetros.",
+      "Remoje las rodajas de berenjena en agua durante unos minutos para eliminar el amargor. Escúrralas bien.",
+      "Caliente el aceite de sésamo en una sartén y fríe las rodajas de berenjena hasta que estén doradas por ambos lados. Añada el sake, tape la sartén y deje cocinar a fuego medio durante 2-3 minutos para que se cocine al vapor.",
+      "En un bowl, combine la pasta de sésamo negro, el azúcar y la salsa de soja. Mezcle bien hasta obtener una salsa homogénea.",
+      "Mezcle las chauchas cocidas y la berenjena salteada con el aderezo de sésamo. Si prefiere también puede verter el aderezo sobre los vegetales y agregar semillas de sésamo tostadas."
     ]
   },
   {
@@ -1042,31 +1052,34 @@
       },
       "6 hongos shitakes secos",
       "200 ml de agua",
-      "60 g de raíz de bardana",
+      "60 g de raíz de bardana (u otro vegetal de su preferencia)",
       "400 g de tofu",
       "3 cucharadas de azúcar",
       "4 cucharadas de salsa de soja",
       "4 cucharadas de sake para cocina",
       "60 g de zanahoria, pelada y cortada en tiras finas",
       "40 g de chauchas cocidas",
-      "60 g de raíz de loto, pelada, cortada en cuartos y en rodajas finas",
+      "60 g de raíz de loto, pelada, cortada en cuartos y en rodajas finas (u otro vegetal de su preferencia)",
       "1 cucharada de vinagre de arroz",
       "1 cucharada de azúcar mezclada con 2 cucharadas de vinagre de arroz",
       "Semillas de sésamo tostadas, para decorar",
       "Ramitas de sansho, para decorar (opcional)"
     ],
     "instruction": [
-      "Remoje los hongos shitake en agua durante 30 minutos para rehidratarlos. Retire los tallos duros y corte las tapas en rodajas finas. Reserve el agua de remojo.",
+      "Remoje los hongos shitake en agua durante 30 minutos (o hasta que estén tiernos) para rehidratarlos. También puede dejarlo en remojo durante toda la noche. Retire los tallos duros y corte las tapas en rodajas finas. Reserve el agua de remojo.",
       "Limpie y raspe la raíz de bardana. Corte en trozos de 2 cm de largo e inmediatamente remoje en agua durante 5 minutos.",
       "Corte el tofu en cubos pequeños. Saltée el tofu en una sartén con un poco de aceite hasta que esté dorado. Reserve.",
-      "En una olla, combine el agua de remojo de los hongos shitake, el azúcar, la salsa de soja y el sake. Coloque a fuego medio y agregue los hongos, la raíz de bardana y el tofu frito. Lleve a ebullición y retire la espuma de la superficie. Baje el fuego a bajo y cocine durante 7-8 minutos más. Apague el fuego y deje reposar durante unos 15 minutos, luego escurra.",
+      "En una olla, combine el agua de remojo de los hongos shitake, el azúcar, la salsa de soja y el sake. Coloque a fuego medio y agregue los hongos, la raíz de bardana y el tofu frito. Lleve a ebullición y retire la espuma de la superficie. Baje el fuego a bajo y cocine durante 7-8 minutos más. Apague el fuego y deje reposar durante unos 15 minuto, luego escurra.",
       "Remoje la raíz de loto en agua fría con unas gotas de vinagre de arroz durante unos minutos para eliminar la astringencia, luego escurra.",
       "Coloque la raíz de loto en una cacerola con 1 cucharada de vinagre de arroz y suficiente agua para cubrirla. Cocine a fuego medio durante 5-6 minutos hasta que esté tierna y crujiente, luego retire, escurra y remoje en la mezcla de azúcar y vinagre durante 20 minutos. Escurra.",
       "Blanquee las chauchas en agua hirviendo con sal, luego escurra.",
       "Mezcle suavemente todos los ingredientes con el arroz para sushi.",
-      "Decore con semillas de sésamo tostadas y sansho, si lo desea.",
-      "Variaciones: Elija los vegetales según su preferencia y de estación. Acompañe el plato con salsa de soja, salsa cremosa de sésamo o salsa teriyaki.",
-      "Tip: en lugar de mezclar todos los ingredientes antes de servir, también es muy común servir todos los acompañamientos sobre el arroz, dejando el plato más colorido."
+      "Decore con semillas de sésamo tostadas y sansho, si lo desea."
+    ],
+    "notes": [
+      "Elija los vegetales según su preferencia y la estación. Lo más importante es que el plato sea colorido. Puede preparar brocoli, coliflor, arvejas, etc.",
+      "Acompañe el plato con salsa de soja, salsa cremosa de sésamo o salsa teriyaki si lo desea.",
+      "En lugar de mezclar todos los ingredientes antes de servir, también es muy común servir los acompañamientos sobre el arroz, dejando el plato más atractivo y colorido."
     ],
     "image": "https://i.postimg.cc/90LQTxx5/chirashi.jpg",
     "tags": [
