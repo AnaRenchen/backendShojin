@@ -1281,7 +1281,7 @@
     "id": 39,
     "title": "Dal Bhat de las monjas tibetanas",
     "description": "Un plato tradicional del sur de Asia, especialmente popular en Nepal e India, que combina lentejas especiadas con arroz basmati para una comida reconfortante y nutritiva.",
-    "portions": "Rinde 2 porciones",
+    "portions": "Rinde 4 porciones",
     "ingredients": [
       "1 taza de lentejas rojas (masoor dal)",
       "1 cucharada de aceite vegetal",
@@ -1290,11 +1290,11 @@
       "½ cucharadita de semillas de mostaza",
       "½ cucharadita de cúrcuma",
       "½ cucharadita de semillas de comino",
-      "½ cucharadita de polvo de cilantro",
+      "½ cucharadita de cilantro (coriandro) en polvo",
       "1 tomate mediano, picado en cubos",
       "½ cucharada de manteca vegana (opcional)",
       "2 cucharadas de cilantro y/o perejil, picadas, para decorar",
-      "Agua, para hacer la sopa",
+      "Agua, para cocinar las lentejas",
       "Arroz basmati (o el tipo que prefiera)",
       "Chutney o encurtido indio de su elección (ejemplo: encurtido de lima Patak's)",
       "Opcional: pimienta de su elección o hojuelas de pimiento rojo",
@@ -1303,7 +1303,7 @@
     "image": "https://i.postimg.cc/cC9NY9rR/dhal_tibetano.jpg",
     "tags": "tradicional, vegano, especiado, India, Nepal, lentejas, arroz, tibet, monjas, monjas tibetanas",
     "instruction": [
-      "Lave las lentejas y enjuáguelas un par de veces. Quite cualquier piedra. Si tiene tiempo, remójelas en agua por varias horas o toda la noche para que se cocinen más rápido y queden más suaves.",
+      "Lave las lentejas y enjuáguelas un par de veces. Quite cualquier piedra. Si tiene tiempo, remójelas en agua por varias horas para que se cocinen más rápido y queden más suaves.",
       "Prepare el arroz a su manera preferida para que esté listo al mismo tiempo que el dal.",
       "Pique  el jengibre. Reserve. Pique el tomate y resérvelo. Lave el cilantro y/o el perejil. Píquelos para decorar y reserve.",
       "Caliente el aceite a fuego alto durante uno o dos minutos.",
@@ -1311,7 +1311,7 @@
       "Agregue los tomates y la manteca. Revuelva, cubra con una tapa y cocine durante 4 minutos. Después de 4 minutos, agregue las lentejas, cubra y cocine durante 5 minutos. Agregue una taza de agua, cubra y cocine durante otros 5 minutos. Agregue 2 tazas más de agua y continúe cocinando a fuego medio durante 10 minutos.",
       "Cuando el dal esté listo, apague la estufa y espolvoree el cilantro picado y/o el perejil por encima. Sirva caliente con arroz basmati y chutney o encurtido indio a gusto."
     ],
-    "curiosidad": "El dal bhat es un plato tradicional de Nepal o India que consiste en una sopa de lentejas (dal) servida con arroz (bhat), que los tibetanos comenzaron a cocinar después de llegar al exilio. Tradicionalmente, los tibetanos en el Tíbet no cocinan dal, pero es un plato muy común entre los tibetanos que viven fuera de su país, especialmente aquellos que residen en India y Nepal."
+    "curiosidad": "El dal bhat es un plato tradicional de India y Nepal que consiste en una sopa de lentejas (dal) servida con arroz (bhat), que los tibetanos comenzaron a cocinar después de llegar al exilio. Tradicionalmente, los tibetanos en el Tíbet no cocinan dal, pero es un plato muy común entre los tibetanos que viven fuera de su país, especialmente aquellos que residen en India y Nepal."
   },
   {
     "id": 40,
@@ -1396,7 +1396,7 @@
       "70 ml de dashi shoyu*",
       "100 ml de vinagre",
       "30 ml de mirin",
-      "2 pimientas rojas (o al gusto)",
+      "2 pimientas rojas (o a gusto)",
       "1 pedazo de jengibre (a gusto)",
       "Alga kombu cortada finamente"
     ],
@@ -1410,12 +1410,16 @@
       "Lleva la mezcla a ebullición a fuego medio y deja hervir durante aproximadamente 10 minutos, permitiendo que los pepinos absorban los sabores y el exceso de líquido se evapore.",
       "Ajusta el color y el sabor añadiendo más salsa de soja si lo desea.",
       "Una vez que el líquido se haya reducido casi por completo, retira la olla del fuego.",
-      "Deja que los pepinos marinados se enfríen completamente antes de servir o almacenar en un frasco hermético en la heladera.",
-      "*Nota: Para preparar el dashi shoyu use 300 ml de salsa de soja, 10 cm de alga kombu en cuadrado, 100 ml de mirin. En una olla pequeña, hierva el mirin, baje el fuego y cocine de 2 a 3 minutos para evaporar el alcohol. Agregue la salsa de soja y el kombu y continúe calentando a fuego lento durante un par de minutos. Retire del fuego y deje enfriar, luego refrigere."
+      "Deja que los pepinos marinados se enfríen completamente antes de servir o almacenar en un frasco hermético en la heladera."
+    ],
+    "notes": [
+      "*Para preparar el dashi shoyu use 300 ml de salsa de soja, 10 cm de alga kombu en cuadrado, 100 ml de mirin. En una olla pequeña, hierva el mirin, baje el fuego y cocine de 2 a 3 minutos para evaporar el alcohol. Agregue la salsa de soja y el kombu y continúe calentando a fuego lento durante un par de minutos. Retire del fuego y deje enfriar, luego refrigere.",
+      "Los pepinos japoneses suelen ser finos y con poca semilla. Si su pepino es ancho y con mucha semilla, se recomienda cortarlo a lo largo y retirar el interior con una cuchara.",
+      "Puede usar otras verduras o hongos, como los shitake, para hacer el Tsukudani."
     ],
     "image": "https://i.postimg.cc/JhwdjtG8/tsukudani.jpg",
     "tags": "tsukudani, pepino, japonés, saludable, acompañamiento, kombu, dashi, mirin, umami, picle, alga, salsa de soja, shoyu",
-    "curiosidad": "El Tsukudani es una técnica tradicional de conservación en Japón. Originalmente creada para preservar pescados y algas, esta preparación combina ingredientes con sabores profundos y equilibrados, haciendo que los alimentos duren más tiempo mientras potencian su sabor."
+    "curiosidad": "El Tsukudani es una técnica tradicional de conservación en Japón. Originalmente creada para preservar pescados y algas, esta preparación combina ingredientes con sabores profundos y equilibrados, haciendo que los alimentos duren más tiempo mientras potencian su sabor. La historia del tsukudani está íntimamente ligada a la isla de Tsukuda en la bahía de Tokio. Fue allí donde, hace siglos, los habitantes locales comenzaron a preparar este plato utilizando la soja como conservante natural. Esta tradición culinaria se ha mantenido viva a lo largo de los años, y aún hoy en día puedes encontrar establecimientos en Tsukuda, cerca de Asakusa, que ofrecen tsukudani elaborado de forma tradicional."
   },
   {
     "id": 43,
