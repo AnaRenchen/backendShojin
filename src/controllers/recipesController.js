@@ -29,6 +29,43 @@ export class RecipesController {
     }
   };
 
+  static getRecipeBy = async (req, res, next) => {
+    try {
+      const filter = {};
+      const validCategories = ["title", "code", "portions", "tags"];
+
+      for (const key in req.query) {
+        if (validCategories.includes(key)) {
+          if (key === "tags") {
+            // Para búsqueda por arrays: tags
+            filter[key] = { $in: req.query[key].split(",") }; // Divide los tags por comas
+          } else {
+            filter[key] = req.query[key];
+          }
+        }
+      }
+
+      let filterResult = await recipesServices.getRecipeBy(filter);
+
+      res.setHeader("Content-Type", "application/json");
+      return res.status(200).json({ filterResult });
+    } catch (error) {
+      req.logger.error(
+        JSON.stringify(
+          {
+            name: error.name,
+            message: error.message,
+            stack: error.stack,
+            code: error.code,
+          },
+          null,
+          5
+        )
+      );
+      return next(error);
+    }
+  };
+
   static getRecipe = async (req, res, next) => {
     try {
       let id = req.params.id;

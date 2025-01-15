@@ -1141,7 +1141,7 @@
     "description": "Instrucciones detalladas para preparar kimchi tradicional coreano.",
     "portions": "Rinde aproximadamente 2.7 kg de kimchi.",
     "ingredients": [
-      "Aproximadamente 2.25 kgs de Akusai",
+      "Aproximadamente 2.25 kg de Akusai",
       "2 tazas de sal marina gruesa, más adicional si es necesario",
       "3 cucharadas de harina de arroz mochi",
       "5 tazas de agua",
@@ -1176,23 +1176,25 @@
       "24 tapas para gyozas",
       "2 zucchinis",
       "1 cucharadita de sal",
-      "4 hongos secos pyogo beoseot (shitake) remojados o frescos (opcional)",
+      "4 hongos secos pyogo beoseot (shitake) remojados o frescos",
       "1/2 cucharada de salsa de soja o 1/4 cucharadita de sal",
       "Aceite de sésamo"
     ],
     "image": "https://i.postimg.cc/J4p9GZyr/mandu-templo.jpgz",
-    "tags": "gyozas, coreano, zucchini, shitake, vegano, tradicional, templos, mandu",
+    "tags": "gyozas, coreano, zucchini, shitake, vegano, tradicional, templos, mandu, corea",
     "instruction": [
-      "Corta los zucchinis en rodajas finas y luego en palitos. Si las rodajas son grandes, córtalas por la mitad antes de cortarlas en palitos. Espolvorea ligeramente con sal (aproximadamente 1 cucharadita) y deja reposar durante unos 15 minutos hasta que se marchiten y se libere algo de líquido. Exprímelos suavemente para eliminar el líquido.",
+      "Corta los zucchinis en rodajas finas y luego en palitos. Si las rodajas son grandes, córtalas por la mitad antes de cortarlas en palitos. Espolvorea ligeramente con sal (aproximadamente 1 cucharadita) y deja reposar durante unos 15 minutos hasta que se marchiten y se libere algo de líquido. Expríme suavemente los zucchinis para eliminar el líquido.",
       "Corta los hongos en tiras finas. Si los shitakes son gruesos, córtalos en diagonal una o dos veces y luego en tiras finas. Mezcla con la salsa de soja (o sal) y un poco (aproximadamente ½ cucharadita) de aceite de sésamo.",
       "Calienta una sartén a fuego alto, agrega dos cucharaditas de aceite de sésamo y saltea el zucchini hasta que esté cocido y seco. Transfiere a un plato grande y extiéndelo para que se enfríe.",
-      "Calienta una sartén a fuego medio-alto y saltea los shitakes durante 2 minutos. Agrega una o dos cucharadas de agua o agua de remojo de los hongos si la sartén se seca demasiado.",
+      "Calienta una sartén a fuego medio-alto y saltea los shitakes durante 2 minutos. Agrega una o dos cucharadas de agua o agua de remojo de los hongos (si se usó hongos secos) en el caso de que la sartén se seque demasiado.",
       "Combina el zucchini y los shitakes. Ajusta el condimento a gusto si es necesario.",
-      "Coloca una cucharadita colmada del relleno sobre una tapa de gyoza (colocada en la palma de la mano). Humedece los bordes de la tapa con agua, dóblala y sella herméticamente (sacando el aire con los dedos) en forma de media luna. Puedes pellizcar un lado de la tapa para formar pliegues. Repite este proceso hasta que se hayan utilizado todo el relleno y tapas.",
-      "Hierve una olla con agua. Agrega las gyozas de a pocas a la vez, revolviendo suavemente para que no se peguen al fondo de la olla. Cocina solo hasta que las gyozas suban a la superficie.",
-      "Prepara un bol con agua fría. Retira las gyozas rápidamente y sumérgelas en el agua fría para enfriarlas. Retira y sirve frías con una salsa para mojar (2 cucharaditas de salsa de soja, 1 cucharadita de vinagre y 2 cucharaditas de agua) si lo deseas.",
-      "Nota: Para hacer las gyozas cuadradas, humedece los bordes, junta los lados opuestos de la tapa hacia el centro y pellizca juntos en el centro. Haz lo mismo con los otros lados, creando 4 costuras. Pellizca las costuras para cerrarlas herméticamente.",
-      "Tip: Puedes cocinar tus gyozas al vapor o también en una sartén, mezclando saltearlas y cocinarlas al vapor para que el fondo se ponga crujiente."
+      "Coloca una cucharadita colmada del relleno sobre una tapa de gyoza (colocada en la palma de la mano). Humedece los bordes de la tapa con agua, dóblala y sella herméticamente (sacando el aire con los dedos) en forma de media luna. Puede pellizcar un lado de la tapa para formar pliegues. Repite este proceso hasta que se hayan utilizado todo el relleno y tapas.",
+      "Hierve una olla con agua. Agrega las gyozas de a pocas a la vez, revolviendo suavemente para que no se peguen en el fondo de la olla. Cocina solo hasta que las gyozas suban a la superficie.",
+      "Prepara un bol con agua fría. Retira las gyozas rápidamente y sumérgelas en el agua fría para enfriarlas. Retira y sirve frías con una salsa para mojar (2 cucharaditas de salsa de soja, 1 cucharadita de vinagre y 2 cucharaditas de agua) si lo desea."
+    ],
+    "notes": [
+      "Para hacer las gyozas cuadradas, humedece los bordes, junta los lados opuestos de la tapa hacia el centro y pellizquelos juntos en el centro. Haga lo mismo con los otros lados, creando 4 costuras. Pellizque las costuras para cerrarlas herméticamente.",
+      "Puede cocinar sus gyozas al vapor o también en una sartén, mezclando saltearlas y cocinarlas al vapor (agregando un poco de agua a la sartén y tapándola) para que el fondo se ponga crujiente."
     ],
     "curiosidad": "Los mandu coreanos no solo son un delicioso platillo, sino que también tienen un significado especial en la cultura de Corea. Tradicionalmente, se preparan en familia durante las festividades, especialmente en el Año Nuevo Lunar (Seollal). Se cree que comer mandu simboliza prosperidad y suerte, ya que su forma redondeada se asemeja a un monedero antiguo que representa riqueza. Además, cada región de Corea tiene su propia versión de mandu, con rellenos y técnicas que varían, reflejando la rica diversidad culinaria del país."
   },

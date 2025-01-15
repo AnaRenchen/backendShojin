@@ -7,7 +7,7 @@ export class RecipeManagerMongo {
   }
 
   async getRecipeBy(filter) {
-    return await recipesModel.findOne(filter).lean();
+    return await recipesModel.find(filter).lean();
   }
 
   async addRecipe(recipe) {
