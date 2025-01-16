@@ -131,7 +131,7 @@ export class RecipesController {
 
       exists = await recipesServices.getRecipeBy({ code });
 
-      if (exists) {
+      if (exists.length > 0) {
         if (req.file) {
           fs.unlinkSync(image);
         } else {

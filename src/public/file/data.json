@@ -1518,9 +1518,82 @@
     "notes": [
       "Los hongos shitake pueden ser remplazados por champiñones o portobellos.",
       "En lugar de blanquear la espinaca, puede saltearla con aceite de oliva y sal.",
-      "*Si usar tofu, opte por uno firme. Envuélvalo en toallas de papel para quitar el exceso de humedad y luego lo desmenuce. También es posible rallarlo en un rallador común. En seguida condimente el tofu con un poco de sal y levadura nutricional. Para darle un sabor ahumado agregue un poco de pimentón ahumado.",
-      "Para una salsa más cremosa, puede agregar maicena diluida en agua fría.",
+      "*Si usar tofu, opte por uno firme. Envuélvalo en toallas de papel para quitar el exceso de humedad y luego lo desmenuce con las manos o con la ayuda de un tenedor. También puede rallarlo en un rallador común. En seguida condimente el tofu con un poco de sal y levadura nutricional. Para darle un sabor ahumado agregue un poco de pimentón ahumado.",
+      "Para una salsa más cremosa, agregue maicena diluida en agua fría.",
       "El tamaño del ñoqui gigante dependerá del tamaño de la olla utilizada."
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Trufas Raw",
+    "description": "Deliciosas y saludables trufas raw hechas con ingredientes naturales y sin cocción, perfectas como snack o postre.",
+    "portions": "Rinde aproximadamente 18 trufas",
+    "ingredients": [
+      "1 taza de ciruelas deshidratadas sin carozo",
+      "1 ½ tazas de nueces",
+      "50 gramos de coco rallado",
+      "Jugo de 1 naranja",
+      "50 gramos de azúcar mascabo"
+    ],
+    "image": "https://i.postimg.cc/0jGm2LKz/trufas-raw.jpg",
+    "tags": [
+      "trufas",
+      "raw",
+      "vegano",
+      "snack",
+      "postre",
+      "coco",
+      "naranja",
+      "ciruela",
+      "dulce",
+      "nueces"
+    ],
+    "instruction": [
+      "Coloca todos los ingredientes en un procesador de alimentos.",
+      "Procesa hasta obtener una mezcla homogénea y con textura de pasta.",
+      "Con ayuda de una cuchara, forma bolitas con la mezcla.",
+      "Pasa cada bolita por coco rallado para cubrirlas por completo (opcional).",
+      "Coloca las trufas en un recipiente y llévalas al congelador durante aproximadamente 15 minutos.",
+      "Sirve y disfruta."
+    ],
+    "notes": [
+      "Puede agregar otros ingredientes a la mezcla, como cacao en polvo, ralladura de naranja o especias como canela."
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Untable de Girasol",
+    "description": "Delicioso untable a base de semillas de girasol, perfecto como acompañamiento o para untar en panes.",
+    "portions": "Rinde aproximadamente 250 gramos",
+    "ingredients": [
+      "1 taza de semillas de girasol remojadas por al menos 8 horas",
+      "1 cucharada de miso",
+      "Jugo de 1 limón",
+      "1 cucharada (o más, si lo desea) de orégano",
+      "1/3 de taza de levadura nutricional (o más, si lo desea)",
+      "Sal a gusto",
+      "Agua (cuanto baste)"
+    ],
+    "image": "https://i.postimg.cc/ZqwtdRpm/untable-girasol.jpg",
+    "tags": [
+      "girasol",
+      "untable",
+      "orégano",
+      "limón",
+      "miso",
+      "levadura",
+      "levadura nutricional"
+    ],
+    "instruction": [
+      "Coloca todos los ingredientes en un procesador de alimentos.",
+      "Procesa por 1-2 minutos y agrega un poco de agua.",
+      "Sigue procesando hasta obtener una pasta con la textura deseada. Si necesario, agregue un poco más de agua.",
+      "Retira del procesador y coloca el untable en un frasco u otro recipiente.",
+      "Espolvorea un poco de orégano por encima y lleva a la heladera."
+    ],
+    "notes": [
+      "Puede reemplazar el orégano por los condimentos de su preferencia.",
+      "Para un gusto ahumado, adicione una cucharada de pimentón ahumado."
     ]
   }
 ]
