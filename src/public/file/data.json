@@ -1215,19 +1215,19 @@
       "1 cucharada de semillas de sésamo"
     ],
     "image": "https://i.postimg.cc/RFF2JNQt/cardo-coreano-arroz.jpg",
-    "tags": "gondre, arroz, coreano, vegetariano, saludable, tradicional, cardo, aceite de sésamo, perilla",
+    "tags": "gondre, arroz, coreano, vegetariano, saludable, tradicional, cardo, aceite de sésamo, perilla, corea",
     "instruction": [
       "Remoje el gondre toda la noche en un bowl grande, o al menos 5-6 horas si lo prepara el mismo día. Escurra el gondre después del remojo y lávelo con agua corriente, enjuagándolo 2-3 veces para eliminar cualquier suciedad o residuo. Colóquelo en un colador.",
       "Hierva una olla con agua y añada el gondre. Reduzca el fuego a medio, tape la olla y deje hervir suavemente durante 30 minutos.",
       "Mientras tanto, lave el arroz 2-3 veces y luego añada 1,5 tazas de agua. Déjelo reposar para más tarde.",
       "Después de 30 minutos, escurra el gondre hervido y enjuáguelo con agua fría para enfriarlo completamente. Exprima el agua del gondre con las manos y córtelo en trozos más pequeños.",
       "Condimente el gondre con 1 cucharada de aceite de perilla y 1 cucharada de salsa de soja. Mezcle bien para cubrirlo uniformemente.",
-      "Coloque el arroz y su agua en una olla y agregue el gondre encima. Añada 2-3 chorritos de agua adicionales al arroz.",
+      "Coloque el arroz y su agua en una olla y agregue el gondre encima. Añada 2-3 chorritos de agua adicionales al arroz (aproximadamente media taza).",
       "Cocine el arroz en una arrocera o en una olla. Si usa una olla, cocine a fuego alto hasta que hierva, luego reduzca a fuego bajo y cocine hasta que el agua se evapore. Deje reposar con la olla tapada de 5 a 10 minutos.",
       "Mientras el arroz se cocina, prepare el condimento mezclando las 3 cucharadas de salsa de soja, 1 cucharada de aceite de sésamo, ½ cucharada de gochugaru y 1 cucharada de semillas de sésamo.",
-      "Cuando el arroz esté listo, mezcle el gondre con el arroz usando una espátula. Sirva el arroz mezclado en un bowl y añada unas cucharadas del condimento para arroz antes de servir.",
-      "Nota: de no conseguir el cardo coreano usar otra hoja verde como la espinaca, el kale o la mostaza."
-    ]
+      "Pruebe un poco del arroz de la superficie. Si todavía está muy duro, agregue un poco más de agua y deje que se cocine unos minutos más, hasta que el agua se evapore. Cuando el arroz esté listo, mezcle el gondre con el arroz usando una espátula. Sirva el arroz mezclado en un bowl y añada unas cucharadas del condimento para arroz antes de servir."
+    ],
+    "notes": "Si no consigue el cardo coreano, use otra hoja verde como la espinaca, el kale o la mostaza."
   },
   {
     "id": 37,
@@ -1254,9 +1254,11 @@
       "Procese las castañas con 2 cucharadas de leche de almendras para conseguir una crema de castañas suave pero espesa. Usa más leche de almendras o ½ taza de crema espesa de castañas, si fuera necesario, para procesarlas. Añade la sal, el azúcar y el azafrán, y procese un poco más hasta que se incorporen todos los ingredientes y quede suave.",
       "Coloque la crema de castañas en una sartén a fuego medio-bajo. Añade la manteca y cocínala, revolviendo hasta que la mezcla se espese y adquiera la textura de una crema pastelera (entre 3 y 5 minutos). Revuelve con frecuencia para evitar la formación de grumos. Déjala enfriar completamente para después pasarla a la heladera y refrigerarla durante 15 minutos.",
       "Añade el extracto de vainilla y el jugo de limón. Incorpora ½ taza de harina de avena dosificándola a cucharadas y revolviendo para mezclarla. Añade la harina blanca. La mezcla debe convertirse en una masa espesa y pegajosa. Si la masa está muy pegajosa para hacer los dulces, siga añadiendo harina de avena y/o castaña de cajú molida hasta que adquiera la textura necesaria. Prueba y agrega azúcar impalpable si fuera necesario.",
-      "Coloque aceite en las manos, toma 1 cucharada de la mezcla y forme discos con las manos. Si lo desea, pase las pedas por azúcar impalpable. Eso hace que las bolitas queden menos pegajosas. Coloque los pistachos o almendras en su parte superior con una ligera presión. Puede guardarlos a temperatura ambiente todo el día o refrigerarlos hasta una semana.",
-      "Variación: Para convertirlos en galletas, cocina los pedas en un horno precalentado a 150 °C durante 10 a 12 minutos. Déjelos enfriar por completo antes de servir.",
-      "Tip: Puede agregar un poco de cardamomo en polvo para dejar los dulces más especiados."
+      "Coloque aceite en las manos, toma 1 cucharada de la mezcla y forme discos con las manos. Si lo desea, pase los dulces por azúcar impalpable. Eso hace que los discos queden menos pegajosos. Coloque los pistachos o almendras en su parte superior con una ligera presión. Puede guardarlos a temperatura ambiente todo el día o refrigerarlos hasta una semana."
+    ],
+    "notes": [
+      "Agregue un poco de cardamomo molido para dejar los dulces más especiados.",
+      "Para convertir los dulces en galletas, cocina los pedas en un horno precalentado a 150 °C durante 10 a 12 minutos. Déjelos enfriar por completo antes de servir."
     ],
     "curiosidad": "El Malai Peda es un dulce muy popular en la India, especialmente en las festividades religiosas. Tradicionalmente, se ofrece como prasad (ofrenda sagrada) en los templos hindúes. Su distintivo aroma a azafrán y cardamomo lo convierte en un símbolo de pureza y lujo culinario. Este dulce también simboliza prosperidad y buenos deseos, por lo que es común regalarlo en bodas y celebraciones."
   },
@@ -1266,7 +1268,7 @@
     "description": "Un delicioso dulce tradicional elaborado con harina de garbanzo, cardamomo y anacardos, perfecto para celebraciones y festividades.",
     "portions": "Rinde 12 unidades",
     "ingredients": [
-      "2 cucharadas de aceite de canola orgánico o de aceite de cártamo",
+      "2 cucharadas de aceite de neutro",
       "2 cucharadas de manteca vegana, manteca de cacao o aceite de coco",
       "1 taza de harina de garbanzo o besan",
       "½ taza de castañas de cajú molidas groseramente",
@@ -1275,11 +1277,11 @@
       "½ taza + 2 cucharadas de azúcar no refinado o azúcar impalpable"
     ],
     "image": "https://i.postimg.cc/T292fQYY/besan_ladoo.jpg",
-    "tags": "dulce, vegano, tradicional, india, garbanzo",
+    "tags": "dulce, vegano, tradicional, india, garbanzo, besan, ladoo",
     "instruction": [
       "Calienta el aceite y la mantequilla en una sartén a fuego medio-bajo. Cuando la mantequilla se haya derretido, incorpora la harina de garbanzo y revuelve bien para hacer migas. Tuesta la harina durante 30 o 40 minutos. Revuelve arrastrando la mezcla por la sartén cada 5 minutos. Dependiendo de la sartén y de la cocina, la harina de garbanzo cambiará de color y la mezcla continuará abultándose y compactándose, y comenzará a brillar de aceite. Si lo tuesta más bien a fuego medio, la harina estará lista en 12 o 18 minutos. Revuelvela cada minuto o cada 2 minutos.",
       "Agrega las castañas de cajú, las pasas, el cardamomo y el azúcar, y mézclalos bien. Cocina durante 3 minutos, mezclando el azúcar en la harina de garbanzo hasta que ya no sea visible. Obtendrá una especie de migas gruesas.",
-      "Retira del fuego y deja enfriar 5 minutos o hasta que la mezcla se enfríe lo suficiente como para poder manejarla. Eso sí, no deje que se enfríe por completo. Forma bolas presionando un poco de masa con una mano y luego haciéndola rodar entre las 2 manos. La masa se compacta gracias a la presión y se aligera si continúa dando cada bola unos 10 segundos. Si la masa se desmenuza demasiado, añade un poco de aceite o leche vegetal para ligarla, o también puede servirla como está. Para almacenar la masa, guárdala en un recipiente hermético a temperatura ambiente. Se conserva hasta 2 semanas."
+      "Retira del fuego y deja enfriar 5 minutos o hasta que la mezcla se enfríe lo suficiente como para poder manejarla. Eso sí, no deje que se enfríe por completo. Forma bolas presionando un poco de masa con una mano y luego haciéndola rodar entre las 2 manos. La masa se compacta gracias a la presión y se aligera si continúa haciendo cada bola durante unos 10 segundos. Si la masa se desmenuza demasiado, añade un poco de aceite o leche vegetal para ligarla, o también puede servirla como está. Para almacenar la masa, guárdala en un recipiente hermético a temperatura ambiente. Se conserva hasta 2 semanas."
     ],
     "curiosidad": "El Besan Ladoo es uno de los dulces más antiguos de la India, tradicionalmente preparado durante festivales como Diwali y Ganesh Chaturthi. Su sabor distintivo proviene del tostado lento de la harina de garbanzo, un ingrediente rico en proteínas, que lo convierte en un dulce tanto delicioso como nutritivo."
   },
@@ -1296,7 +1298,7 @@
       "½ cucharadita de semillas de mostaza",
       "½ cucharadita de cúrcuma",
       "½ cucharadita de semillas de comino",
-      "½ cucharadita de cilantro (coriandro) en polvo",
+      "½ cucharadita de cilantro (coriandro) molido",
       "1 tomate mediano, picado en cubos",
       "½ cucharada de manteca vegana (opcional)",
       "2 cucharadas de cilantro y/o perejil, picadas, para decorar",
@@ -1313,7 +1315,7 @@
       "Prepare el arroz a su manera preferida para que esté listo al mismo tiempo que el dal.",
       "Pique  el jengibre. Reserve. Pique el tomate y resérvelo. Lave el cilantro y/o el perejil. Píquelos para decorar y reserve.",
       "Caliente el aceite a fuego alto durante uno o dos minutos.",
-      "Agregue jengibre y saltee a fuego alto por 1 minuto. Agregue las semillas de comino, sal, cúrcuma, semillas de mostaza y el polvo de cilantro. Baje el fuego a medio y cocine durante 2 minutos, revolviendo con frecuencia.",
+      "Agregue jengibre y saltee a fuego alto por 1 minuto. Agregue las semillas de comino, sal, cúrcuma, semillas de mostaza y el cilantro molido. Baje el fuego a medio y cocine durante 2 minutos, revolviendo con frecuencia.",
       "Agregue los tomates y la manteca. Revuelva, cubra con una tapa y cocine durante 4 minutos. Después de 4 minutos, agregue las lentejas, cubra y cocine durante 5 minutos. Agregue una taza de agua, cubra y cocine durante otros 5 minutos. Agregue 2 tazas más de agua y continúe cocinando a fuego medio durante 10 minutos.",
       "Cuando el dal esté listo, apague la estufa y espolvoree el cilantro picado y/o el perejil por encima. Sirva caliente con arroz basmati y chutney o encurtido indio a gusto."
     ],
@@ -1323,7 +1325,7 @@
     "id": 40,
     "title": "Guthuk (Guiso tibetano)",
     "description": "El Guthuk Vegetariano es una sopa tibetana tradicional que se disfruta especialmente en el festival de Losar, con fideos caseros y bolas de masa que esconden mensajes o artículos especiales.",
-    "portions": "Rinde 2-3 porciones",
+    "portions": "Rinde 3-4 porciones",
     "ingredients": [
       "1 cucharada de jengibre, picado",
       "5 champiñones shitake medianos, picados",
@@ -1373,18 +1375,20 @@
       "1/2 taza de porotos mung partidos (o enteros si no se consigue partidos. Si son eneteros dejar en remojo por mínimo 8 horas)",
       "4-6 tazas de agua",
       "3 tazas de vegetales mixtos (zanahorias, zucchini, zapallitos) cortados en cubos",
-      "Sal marina al gusto"
+      "Sal marina a gusto"
     ],
     "instruction": [
       "En una olla grande, calienta el ghee o aceite de girasol a fuego medio.",
       "Agrega las semillas de comino, la hoja de laurel, las semillas de cilantro, la cúrcuma y el orégano. Sofríe durante unos 30 segundos, o hasta que las especias liberen su aroma.",
       "Incorpora el arroz basmati y los porotos mung partidos a la olla. Revuelve bien para cubrirlos con las especias.",
-      "Vierte el agua y agrega los vegetales cortados en cubos. Añade sal al gusto.",
+      "Vierte el agua y agrega los vegetales cortados en cubos. Añade sal a gusto.",
       "Lleva la mezcla a ebullición, luego reduce el fuego a bajo y cocina a fuego lento, tapado, durante unos 25-30 minutos, o hasta que el arroz y los porotos estén tiernos y el líquido se haya absorbido casi por completo.",
       "Si nota que el líquido se está consumiendo demasiado rápido, agrega un poco más de agua caliente para evitar que el Kitchari se seque.",
-      "Puede personalizar el Kitchari agregando otras especias como jengibre, cardamomo o pimienta negra, o utilizando diferentes tipos de legumbres o verduras.",
       "Retire la olla del fuego y deje reposar el Kitchari durante unos minutos antes de servir.",
-      "El Kitchari se puede servir solo o acompañado de yogur vegano, chutney o encurtidospara resaltar los sabores."
+      "El Kitchari se puede servir solo o acompañado de yogur vegano, chutney o encurtidos para resaltar los sabores."
+    ],
+    "notes": [
+      "Puede personalizar el Kitchari agregando otras especias como jengibre, cardamomo o pimienta negra, o utilizando diferentes tipos de legumbres o verduras."
     ],
     "image": "https://i.postimg.cc/L4ZXPJvW/kitchari.jpg",
     "tags": "kitchari, ayurvédico, saludable, arroz basmati, porotos mung,india, arroz, zucchini, zanahoria, especias",
@@ -1396,7 +1400,7 @@
     "description": "Una receta tradicional japonesa para preparar pepinos marinados en una mezcla de sabores dulces, salados y umami. Perfecto como acompañamiento o snack saludable.",
     "portions": "Rinde entre 20 y 25 porciones",
     "ingredients": [
-      "1.5 kilos de pepino",
+      "1,5 kilos de pepino",
       "15 gramos de sal",
       "60 gramos de azúcar",
       "70 ml de dashi shoyu*",
@@ -1404,15 +1408,15 @@
       "30 ml de mirin",
       "2 pimientas rojas (o a gusto)",
       "1 pedazo de jengibre (a gusto)",
-      "Alga kombu cortada finamente"
+      "Alga kombu cortada finamente (opcional)"
     ],
     "instruction": [
       "Lava bien los pepinos y córtalos en rodajas finas, de aproximadamente 2 a 3 mm de grosor.",
-      "Coloca las rodajas de pepino en un recipiente y añade 15 gramos de sal. Frota suavemente los pepinos con la sal para que comiencen a liberar líquido. Deja reposar durante 15 minutos.",
+      "Coloca las rodajas de pepino en un bowl y añade 15 gramos de sal. Frota suavemente los pepinos con la sal para que comiencen a liberar líquido. Deja reposar durante 15 minutos.",
       "Lava los pepinos con agua fría para retirar la sal. Colócalos en una bolsa de tela o un repasador limpio, y apriétalos firmemente para eliminar el exceso de líquido.",
       "En una olla mediana, mezcla el azúcar, el dashi de salsa de soja, el vinagre y el mirin.",
       "Corta las pimientas rojas, el jengibre y el alga kombu finamente, y agrégalos a la olla.",
-      "Añade los pepinos escurridos a la olla con el aderezo preparado.",
+      "Añade los pepinos escurridos a la olla con los demás ingredientes.",
       "Lleva la mezcla a ebullición a fuego medio y deja hervir durante aproximadamente 10 minutos, permitiendo que los pepinos absorban los sabores y el exceso de líquido se evapore.",
       "Ajusta el color y el sabor añadiendo más salsa de soja si lo desea.",
       "Una vez que el líquido se haya reducido casi por completo, retira la olla del fuego.",
@@ -1424,7 +1428,7 @@
       "Puede usar otras verduras o hongos, como los shitake, para hacer el Tsukudani."
     ],
     "image": "https://i.postimg.cc/JhwdjtG8/tsukudani.jpg",
-    "tags": "tsukudani, pepino, japonés, saludable, acompañamiento, kombu, dashi, mirin, umami, picle, alga, salsa de soja, shoyu",
+    "tags": "tsukudani, pepino, japonés, saludable, acompañamiento, kombu, dashi, mirin, umami, picle, alga, salsa de soja, shoyu, japón, picante",
     "curiosidad": "El Tsukudani es una técnica tradicional de conservación en Japón. Originalmente creada para preservar pescados y algas, esta preparación combina ingredientes con sabores profundos y equilibrados, haciendo que los alimentos duren más tiempo mientras potencian su sabor. La historia del tsukudani está íntimamente ligada a la isla de Tsukuda en la bahía de Tokio. Fue allí donde, hace siglos, los habitantes locales comenzaron a preparar este plato utilizando la soja como conservante natural. Esta tradición culinaria se ha mantenido viva a lo largo de los años, y aún hoy en día puedes encontrar establecimientos en Tsukuda, cerca de Asakusa, que ofrecen tsukudani elaborado de forma tradicional."
   },
   {
@@ -1450,16 +1454,17 @@
       "coliflor",
       "aderezo",
       "miso",
-      "tofu"
+      "tofu",
+      "sésamo"
     ],
     "instruction": [
       "Envuelva el tofu en papel absorbente, coloque un plato encima y refrigere durante aproximadamente 30 minutos para eliminar el exceso de humedad.",
-      "Hierva el brócoli y la coliflor en agua salada durante 5 a 6 minutos, verificando ocasionalmente con un tenedor para asegurarse de que no se cocinen demasiado.",
+      "Hierva el brócoli y el coliflor en agua salada durante 5 a 6 minutos, verificando ocasionalmente con un tenedor para asegurarse de que no se cocinen demasiado.",
       "En un procesador de alimentos, mezcle el tofu, el miso, las semillas de sésamo, el vinagre de arroz, el aceite de oliva y el vino blanco hasta obtener una mezcla suave y cremosa.",
       "Coloque las verduras en un plato para servir y cúbralas con el aderezo de tofu."
     ],
     "notes": [
-      "Tostar las semillas de sésamo realza su sabor y aroma. Puedes tostarlas en una sartén seca a fuego medio hasta que estén doradas y aromáticas.",
+      "Tostar las semillas de sésamo realza su sabor y aroma. Puede tostarlas en una sartén seca a fuego medio hasta que estén doradas y aromáticas.",
       "El miso blanco tiene un sabor más suave que el miso rojo. Ajusta la cantidad de miso según su preferencia de sabor."
     ],
     "curiosidad": "El tofu es una fuente rica en proteínas de origen vegetal, altamente apreciada en la cocina asiática. Su origen se remonta a China hace más de 2,000 años, y su versatilidad lo convierte en un ingrediente ideal para ensaladas, sopas y platos principales."
@@ -1498,7 +1503,8 @@
       "plato principal",
       "salsa cremosa",
       "leche de coco",
-      "brasil"
+      "brasil",
+      "papa"
     ],
     "instruction": [
       "Para la masa, mezcle el puré de papas, la manteca vegana, el queso de rallar vegano, la maicena, la harina de trigo, la sal y la nuez moscada. Agregue la harina de a pocos hasta lograr una masa suave y manipulable (mínimo 1 taza).",
@@ -1507,10 +1513,10 @@
       "Coloque el ñoqui gigante en una olla con agua hirviendo. Cocine hasta que flote, como un ñoqui tradicional. Una vez que flote, retírelo y espere enfriar un poco para abrir el repasador.",
       "Para la salsa, caliente el aceite de oliva en una sartén y añada los tomates y los hongos shitake. Condimente con sal y pimienta blanca. Agregue el caldo y cocine hasta que los tomates estén tiernos.",
       "Incorpore la crema vegana (o leche de coco) y mezcle bien. Ajuste los condimentos a gusto y añada perejil picado.",
-      "Sirva el ñoqui gigante en una fuente y cúbralo con la salsa cremosa."
+      "Sirva el ñoqui gigante en una fuente y cúbralo con la salsa."
     ],
     "notes": [
-      "Se puede reemplazar los hongos shitake por champiñones o portobellos.",
+      "Los hongos shitake pueden ser remplazados por champiñones o portobellos.",
       "En lugar de blanquear la espinaca, puede saltearla con aceite de oliva y sal.",
       "*Si usar tofu, opte por uno firme. Envuélvalo en toallas de papel para quitar el exceso de humedad y luego lo desmenuce. También es posible rallarlo en un rallador común. En seguida condimente el tofu con un poco de sal y levadura nutricional. Para darle un sabor ahumado agregue un poco de pimentón ahumado.",
       "Para una salsa más cremosa, puede agregar maicena diluida en agua fría.",
