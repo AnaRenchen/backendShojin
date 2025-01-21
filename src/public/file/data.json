@@ -1595,5 +1595,49 @@
       "Puede reemplazar el orégano por los condimentos de su preferencia.",
       "Para un gusto ahumado, adicione una cucharada de pimentón ahumado."
     ]
+  },
+  {
+    "id": 47,
+    "title": "Repollo Salteado con Salsa de Vinagre",
+    "description": "Un plato vegetariano rápido y satisfactorio. El repollo queda tierno y ligeramente dulce, con un toque de sabor gracias a los aromas frescos.",
+    "portions": "Rinde 4 porciones",
+    "ingredients": [
+      "2 cucharadas de vinagre de arroz",
+      "2 cucharadas de salsa de soja clara (salsa de soja común)",
+      "½ cucharada de salsa de soja oscura",
+      "2 cucharaditas de azúcar",
+      "1 cucharadita de maicena",
+      "½ cabeza de repollo pequeña (aproximadamente 565 g), cortada en trozos",
+      "1 ½ cucharadas de aceite de maní (o un aceite neutro)",
+      "½ cucharadita de pimienta de Sichuan entera",
+      "2 o 3 ajís secos chinos",
+      "Una pizca de sal (opcional)",
+      "1 ½ cucharadita de aceite de sésamo tostado"
+    ],
+    "image": "https://i.postimg.cc/Gh5SBPD0/repollo2.jpg",
+    "tags": [
+      "repollo",
+      "salteado",
+      "vegetariano",
+      "salsa de vinagre",
+      "salsa de soja",
+      "pimienta",
+      "aceite de sésamo",
+      "sichuan",
+      "china"
+    ],
+    "instruction": [
+      "En un bowl pequeño, combine 2 cucharadas de agua con el vinagre, las salsas de soja, el azúcar y la maicena. Revuelva hasta que la maicena se disuelva. Reserve.",
+      "En una sartén grande, caliente el aceite de maní y las pimientas de Sichuan a fuego medio. Cocine hasta que las pimientas estén oscuras pero no quemadas. Retire y deseche las pimientas.",
+      "Agregue los ajíes a la sartén, revolviendo un par de veces para liberar el aroma. Añada el repollo y cocine, revolviendo constantemente, hasta que el repollo esté tierno, pero todavía crujiente, y con algunas partes doradas.",
+      "Revuelva nuevamente la salsa para asegurarse de que la maicena esté disuelta, luego viértala en la sartén. Cocine y revuelva hasta que la salsa se haya espesado.",
+      "Retire del fuego y pruebe un trozo de repollo. Agregue una pizca de sal si es necesario. Rocíe con un poco de aceite de sésamo y revuelva bien. Transfiera el contenido de la sartén a un plato grande para servir y sirva caliente."
+    ],
+    "notes": [
+      "Para obtener los mejores resultados, use un repollo joven con hojas sueltas y de color verde claro.",
+      "Puede remplazar la salsas de soja oscura por 1 cucharada extra de salsa de soja clara.",
+      "Si no se consigue la pimienta de Sichuan o los ajíes secos chinos, agregue al repollo un poco de ají en polvo, pimienta cayena o gochugaru."
+    ],
+    "curiosidad": "A diferencia de otras pimientas, la pimienta de Sichuan no proviene de una planta de la familia de las pimientas, sino de los frutos secos de un arbusto del género Zanthoxylum. Su característica más interesante es que contiene una molécula llamada hidroxi-alfa-sanshool, que produce una sensación única de hormigueo y ligero adormecimiento en la lengua. Este efecto no es picante, sino una sensación vibrante y eléctrica que realza los sabores de los platos, convirtiéndola en un ingrediente esencial en la cocina china, especialmente en la región de Sichuan."
   }
 ]

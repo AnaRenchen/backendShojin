@@ -126,7 +126,6 @@ function mostrarRecetas(arregloRecetas, actualPage = 1) {
 
     const cardBody = document.createElement("div");
     cardBody.className = "card-body d-flex  justify-content-center";
-    cardBody.style.height = "50px";
 
     const linkTitle = document.createElement("a");
     linkTitle.textContent = item.title;
