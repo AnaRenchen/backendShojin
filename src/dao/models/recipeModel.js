@@ -9,8 +9,13 @@ const recipesSchema = new mongoose.Schema(
     portions: { type: String, required: true },
     ingredients: [
       {
-        type: mongoose.Schema.Types.Mixed,
-        required: true, // Acepta cadenas y objetos
+        subtitle: { type: String },
+        items: [
+          {
+            type: mongoose.Schema.Types.Mixed,
+            required: true, // Acepta cadenas y objetos
+          },
+        ],
       },
     ],
     image: { type: String, required: true },

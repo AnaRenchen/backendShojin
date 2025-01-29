@@ -5,11 +5,15 @@
     "description": "Tofu de sésamo blanco",
     "portions": "Sirve entre 8 y 10 porciones",
     "ingredients": [
-      "500 ml (1/2 litro) de agua",
-      "Un trozo de 5 cm de kombu (opcional)",
-      "50 gramos de almidón de kudzu (búscalo en tiendas de alimentos naturales o mercados japoneses, posiblemente bajo el nombre de kuzuko)",
-      "70 gramos de pasta de sésamo blanco (puede usar tahini o neri-goma japonés, lo que sea más fácil de encontrar)",
-      "1 cucharada de sake (opcional)"
+      {
+        "items": [
+          "500 ml (1/2 litro) de agua",
+          "Un trozo de 5 cm de kombu (opcional)",
+          "50 gramos de almidón de kudzu (búscalo en tiendas de alimentos naturales o mercados japoneses, posiblemente bajo el nombre de kuzuko)",
+          "70 gramos de pasta de sésamo blanco (puede usar tahini o neri-goma japonés, lo que sea más fácil de encontrar)",
+          "1 cucharada de sake (opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/SRT92Smh/gomadofu.jpg",
     "tags": "sésamo, sesamo, tofu, koyasan, gomadofu",
@@ -31,10 +35,14 @@
     "description": "Sopa de miso",
     "portions": "Sirve 2 porciones",
     "ingredients": [
-      "2 tazas de agua (500ml)",
-      "2 cucharadas de pasta de miso (40g)",
-      "1/3 de tofu (aproximadamente 100g) cortado en cubos",
-      "Opcional: alga wakame cortada en trozos, hongos shitakes hidratados y cortados en trozos, espinaca blanqueda y cortada, etc"
+      {
+        "items": [
+          "2 tazas de agua (500ml)",
+          "2 cucharadas de pasta de miso (40g)",
+          "1/3 de tofu (aproximadamente 100g) cortado en cubos",
+          "Opcional: alga wakame cortada en trozos, hongos shitakes hidratados y cortados en trozos, espinaca blanqueda y cortada, etc"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/yYY21DqZ/misoSoup.webp",
     "tags": "miso, sopa, tofu",
@@ -52,14 +60,18 @@
     "description": "Hamburguesitas de tofu",
     "portions": "Se hacen aproximadamente 11 hamburguesitas",
     "ingredients": [
-      "1 paquete de tofu firme (400 gramos)",
-      "Media zanahoria",
-      "1 cuchara de alga hijiki seca (se puede remplazar por perejil)",
-      "4 hongos shitake (frescos o hidratados) o portobellos",
-      "3 cucharas de edamame cocido (se puede remplazar por arvejas o porotos de soja)",
-      "2-3 cucharas de fécula de papa (o fécula de mandioca)",
-      "1 cucharadita de sal",
-      "Aceite para freír"
+      {
+        "items": [
+          "1 paquete de tofu firme (400 gramos)",
+          "Media zanahoria",
+          "1 cuchara de alga hijiki seca (se puede remplazar por perejil)",
+          "4 hongos shitake (frescos o hidratados) o portobellos",
+          "3 cucharas de edamame cocido (se puede remplazar por arvejas o porotos de soja)",
+          "2-3 cucharas de fécula de papa (o fécula de mandioca)",
+          "1 cucharadita de sal",
+          "Aceite para freír"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/htrjQXd6/ganmodoki2.webp",
     "tags": "hijiki, tofu, koyasan, hamburguesas, algas",
@@ -81,13 +93,17 @@
     "description": "Arroz con hongos y otros vegetales.",
     "portions": "Sirve 4 porciones",
     "ingredients": [
-      "300 gramos de arroz (preferentemente arroz japonés como koshihikari, arroz fortuna o doble carolina)",
-      "50 gramos de zanahoria",
-      "100 gramos de hongos shimeji, portobello o champiñón",
-      "2 hongos shitake frescos o hidratados",
-      "80 gramos de batata",
-      "2 cucharadas de salsa de soja",
-      "agua para cocinar el arroz"
+      {
+        "items": [
+          "300 gramos de arroz (preferentemente arroz japonés como koshihikari, arroz fortuna o doble carolina)",
+          "50 gramos de zanahoria",
+          "100 gramos de hongos shimeji, portobello o champiñón",
+          "2 hongos shitake frescos o hidratados",
+          "80 gramos de batata",
+          "2 cucharadas de salsa de soja",
+          "agua para cocinar el arroz"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/q7vN7bDX/kinoko-gohan.jpg",
     "tags": "arroz, verduras, hongos, salsa de soja, shoyu, koyasan",
@@ -110,16 +126,25 @@
     "description": "Tofu frito acompañado con una salsa dulce espesa y verduras.",
     "portions": "Sirve 4 porciones",
     "ingredients": [
-      "2 cuadrados grandes de koya dofu (*puede ser remplazado por tofu congelado)",
-      "1/4 de zanahoria",
-      "4 chauchas",
-      "Aceite neutro para freír",
-      "200 ml de agua a temperatura ambiente (para cocinar)",
-      "1 cucharada de salsa de soja",
-      "1 cucharada de azúcar",
-      "1 cucharadita de sal",
-      "1 cucharadita de fécula de papa o maíz (maicena)",
-      "2 cucharaditas de agua (para disolver la fécula)"
+      {
+        "items": [
+          "2 cuadrados grandes de koya dofu (*puede ser remplazado por tofu congelado)",
+          "1/4 de zanahoria",
+          "4 chauchas",
+          "Aceite neutro para freír"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa",
+        "items": [
+          "200 ml de agua a temperatura ambiente",
+          "1 cucharada de salsa de soja",
+          "1 cucharada de azúcar",
+          "1 cucharadita de sal",
+          "1 cucharadita de fécula de papa o maíz (maicena)",
+          "2 cucharaditas de agua (para disolver la fécula)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/8ckYhKyn/koya_dofu_ankake.jpg",
     "tags": "tofu, koya dofu, koyadofu, frito, salsa dulce, ankake, vegetales",
@@ -141,11 +166,15 @@
     "description": "Bolas de arroz a la parrilla.",
     "portions": "Sirve 4 porciones",
     "ingredients": [
-      "4 tazas de arroz japonés cocido",
-      "1 cucharadita de sal",
-      "1 cucharadita de aceite de sésamo",
-      "Semillas de sésamo previamente tostadas",
-      "Salsa de soja"
+      {
+        "items": [
+          "4 tazas de arroz japonés cocido",
+          "1 cucharadita de sal",
+          "1 cucharadita de aceite de sésamo",
+          "Semillas de sésamo previamente tostadas",
+          "Salsa de soja"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/Mpb1YmjK/Whats-App-Image-2024-10-30-at-6-28-00-PM.jpg",
     "tags": "arroz, onigiri, parrilla, koyasan, sésamo, sesamo, salsa de soja, shoyu",
@@ -162,14 +191,23 @@
     "description": "Tofu frito cubierto con daikon rallado y jengibre, servido con una salsa de caldo dashi vegano.",
     "portions": "Sirve 4 porciones",
     "ingredients": [
-      "2 bloques de tofu firme, con un peso total de 600-700 g",
-      "100 g de daikon (nabo)",
-      "1 trozo (15 g) de jengibre",
-      "10-15 g de shiitake seco",
-      "2 cucharadas de salsa de soja",
-      "2 cucharaditas de azúcar",
-      "Harina",
-      "Aceite vegetal"
+      {
+        "items": [
+          "2 bloques de tofu firme, con un peso total de 600-700 g",
+          "100 g de daikon (nabo)",
+          "1 trozo (15 g) de jengibre"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa dashi",
+        "items": [
+          "10-15 g de shiitake seco",
+          "2 cucharadas de salsa de soja",
+          "2 cucharaditas de azúcar",
+          "Harina",
+          "Aceite vegetal"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/7PsrhR29/agedashi-dofu.jpg",
     "tags": "tofu, frito, daikon, jengibre, shitake, shoyu, agedashi, salsa de soja, dashi",
@@ -193,19 +231,29 @@
     "description": "Ensalada fresca con un cremoso aderezo de tofu, maní y limón, perfecta para realzar el sabor de las verduras frescas.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1 bloque de tofu (preferentemente blando), aproximadamente 200g",
-      "2 cucharadas de mantequilla de maní sin azúcar",
-      "2 cucharadas de vinagre de arroz o cualquier vinagre blanco",
-      "2 cucharadas de aceite de oliva",
-      "2 cucharadas de jarabe de arce o 1 cucharada de azúcar",
-      "Una pizca de pimienta negra",
-      "1 cucharadita de sal",
-      "2 cucharadas de jugo de limón",
-      "8 espárragos, sin las extremidades fibrosas",
-      "4 hojas de lechuga, cortadas en trozos grandes",
-      "300g de tomates, cortados en cubos de 1cm, o tomates cherry cortados a la mitad",
-      "2 paltas, cortadas en cubos de 1cm",
-      "2 pepinos japoneses, cortados en cubos de 1cm"
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "1 bloque de tofu (preferentemente blando), aproximadamente 200g",
+          "2 cucharadas de mantequilla de maní sin azúcar",
+          "2 cucharadas de vinagre de arroz o cualquier vinagre blanco",
+          "2 cucharadas de aceite de oliva",
+          "2 cucharadas de jarabe de arce o 1 cucharada de azúcar",
+          "Una pizca de pimienta negra",
+          "1 cucharadita de sal",
+          "2 cucharadas de jugo de limón"
+        ]
+      },
+      {
+        "subtitle": "Para la ensalada",
+        "items": [
+          "8 espárragos, sin las extremidades fibrosas",
+          "4 hojas de lechuga, cortadas en trozos grandes",
+          "300g de tomates, cortados en cubos de 1cm, o tomates cherry cortados a la mitad",
+          "2 paltas, cortadas en cubos de 1cm",
+          "2 pepinos japoneses, cortados en cubos de 1cm"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/fRwtBnV9/ensalada-shojin2.jpg",
     "tags": "ensalada, tofu, maní, vegano, saludable, fresco, lechuga, tomate, limón, palta, mani",
@@ -225,19 +273,28 @@
     "description": "Rodajas de calabaza doradas y tiernas, acompañadas con una salsa cremosa de maní y miso.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "4 cucharadas de aceite de sésamo o aceite de oliva",
-      "Aproximadamente 400 gramos de calabaza kabocha, kikuzuki o una variedad similar, sin semillas ni fibra, cortada en rodajas finas",
-      "6 cucharadas de mantequilla de maní sin azúcar",
-      "2 cucharaditas de miso blanco o 1 cucharadita de miso rojo",
-      "2 cucharadas de sake para cocina o vino blanco seco",
-      "3 cucharadas de jugo de limón",
-      "2 cucharadas de mirin o 1 cucharada de azúcar"
+      {
+        "items": [
+          "4 cucharadas de aceite de sésamo o aceite de oliva",
+          "Aproximadamente 400 gramos de calabaza kabocha, kikuzuki o una variedad similar, sin semillas ni fibra, cortada en rodajas finas"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa",
+        "items": [
+          "6 cucharadas de mantequilla de maní sin azúcar",
+          "2 cucharaditas de miso blanco o 1 cucharadita de miso rojo",
+          "2 cucharadas de sake para cocina o vino blanco seco",
+          "3 cucharadas de jugo de limón",
+          "2 cucharadas de mirin o 1 cucharada de azúcar"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/fRSgK6mC/calabaza-mani3.jpg",
     "tags": "calabaza, maní, mani, miso, frito, guarnición, vegano. aceite de sésamo, aceite de sesamo, limón, otoño",
     "instruction": [
-      "Fríe la calabaza: Calienta el aceite de sésamo o de oliva en una sartén grande a fuego medio. Agrega las rodajas de calabaza y fríelas, tapadas, durante 10-15 minutos por cada lado, o hasta que estén doradas y tiernas. Alternativamente, puede pincelar las rodajas de calabaza con aceite y hornearlas a 160°C durante 15 minutos.",
-      "Prepara la salsa: En un bowl pequeño, combina la mantequilla de maní, el miso, el sake, el jugo de limón y el mirin (o azúcar). Mezcla bien hasta obtener una salsa cremosa.",
+      "Calienta el aceite de sésamo o de oliva en una sartén grande a fuego medio. Agrega las rodajas de calabaza y fríelas, tapadas, durante 10-15 minutos por cada lado, o hasta que estén doradas y tiernas. Alternativamente, puede pincelar las rodajas de calabaza con aceite y hornearlas a 160°C durante 15 minutos.",
+      "En un bowl pequeño, combina la mantequilla de maní, el miso, el sake, el jugo de limón y el mirin (o azúcar). Mezcla bien hasta obtener una salsa cremosa.",
       "Coloca las rodajas de calabaza frita en un plato para servir. Vierte la salsa de maní por encima. Si quiere puede agregar trocitos de maní sobre el plato."
     ],
     "notes": [
@@ -250,13 +307,17 @@
     "description": "Rodajas de banana cubiertas con una ligera masa de tempura y fritas hasta dorarse, perfectas para un postre ligero.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "4 bananas, peladas y cortadas en diagonal en rodajas de aproximadamente 2 cm de grosor",
-      "½ taza (60 gramos) de harina para todo uso",
-      "⅓ taza (80 ml) de agua",
-      "½ cucharadita de sal",
-      "2 cucharaditas de semillas de sésamo blanco, tostadas",
-      "Aceite vegetal para freír",
-      "Un toque de té verde en polvo o canela en polvo (opcional, para espolvorear)"
+      {
+        "items": [
+          "4 bananas, peladas y cortadas en diagonal en rodajas de aproximadamente 2 cm de grosor",
+          "½ taza (60 gramos) de harina para todo uso",
+          "⅓ taza (80 ml) de agua",
+          "½ cucharadita de sal",
+          "2 cucharaditas de semillas de sésamo blanco, tostadas",
+          "Aceite vegetal para freír",
+          "Un toque de té verde en polvo o canela en polvo (opcional, para espolvorear)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/Kv6Y6VKD/banana-tempura.jpg",
     "tags": "banana, tempura, frito, postre, vegano, sésamo, matcha, canela",
@@ -270,17 +331,21 @@
     ]
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Filets de Papa y Alga Nori",
     "description": "Filets de papa con alga nori, con un toque de salsa de soja y mirin.",
     "portions": "Rinde 9 filets",
     "ingredients": [
-      "120 gramos de papas, peladas",
-      "1 hoja de alga nori, aproximadamente 19x21 cm",
-      "1/2 cucharada de aceite de sésamo",
-      "1 cucharada de mirin mezclada con 1 cucharada de salsa de soja",
-      "1 cucharadita de semillas de sésamo blanco, tostadas (opcional)",
-      "Shichimi togarashi, para decorar (opcional)"
+      {
+        "items": [
+          "120 gramos de papas, peladas",
+          "1 hoja de alga nori, aproximadamente 19x21 cm",
+          "1/2 cucharada de aceite de sésamo",
+          "1 cucharada de mirin mezclada con 1 cucharada de salsa de soja",
+          "1 cucharadita de semillas de sésamo blanco, tostadas (opcional)",
+          "Shichimi togarashi, para decorar (opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/mgK6NY5D/patties.jpg",
     "tags": "papa, alga nori, frito, japonés, vegano, filet, salsa de soja",
@@ -295,29 +360,38 @@
     ]
   },
   {
-    "id": 12,
-    "title": "Kakiage de Papa y Zanahoria",
+    "id": 11,
+    "title": "Kakiage de Papa y Zanahoria con salsa Tendashi",
     "description": "Kakiage crujiente de papa, zanahoria y perejil fresco, acompañado de una salsa Tendashi.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "120 gramos de zanahoria, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
-      "120 gramos de papa, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
-      "2 cucharadas de perejil fresco picado",
-      "1 taza (200 ml) de agua helada",
-      "1 1/2 tazas (150 gramos) de harina",
-      "Aceite vegetal para freír",
-      "150 ml de agua (para la salsa Tendashi)",
-      "2 cucharadas (30 ml) de salsa de soja",
-      "2 cucharaditas (6 gramos) de azúcar",
-      "1 trozo pequeño de alga kombu (para la salsa Tendashi)"
+      {
+        "items": [
+          "120 gramos de zanahoria, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
+          "120 gramos de papa, cortada en tiras finas (6 cm de largo, 1/2 cm de grosor)",
+          "2 cucharadas de perejil fresco picado",
+          "1 taza (200 ml) de agua helada",
+          "1 1/2 tazas (150 gramos) de harina",
+          "Aceite vegetal para freír"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa Tendashi",
+        "items": [
+          "150 ml de agua ",
+          "2 cucharadas (30 ml) de salsa de soja",
+          "2 cucharaditas (6 gramos) de azúcar",
+          "1 trozo pequeño de alga kombu"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/0QZ4qcRn/kakiage.jpg",
-    "tags": "kakiage, papa, zanahoria, perejil, vegano, japonés",
+    "tags": "kakiage, papa, zanahoria, perejil, vegano, japonés, tendashi, salsa de soja",
     "instruction": [
       "Corta la zanahoria y la papa en tiras finas de aproximadamente 6 cm de largo y 1/2 cm de grosor. Pica finamente el perejil fresco.",
       "En un bowl grande, mezcla el agua helada con la harina hasta obtener una masa suave y homogénea. Añade las verduras (zanahoria, papa y perejil) y mézclalas bien para que queden cubiertas uniformemente.",
       "Calienta aceite vegetal en una sartén a 160 °C. Toma porciones de la mezcla con una cuchara y colócalas cuidadosamente en el aceite caliente. Fríe durante 4 minutos o hasta que estén dorados y crujientes. Retira y deja escurrir en papel absorbente.",
-      "En una olla, combina el agua, la salsa de soja, el azúcar y el alga kombu. Lleva a ebullición, retira el kombu y cuela la mezcla. Sirve la salsa en pequeños recipientes.",
+      "Prepara la salsa: En una olla, combina el agua, la salsa de soja, el azúcar y el alga kombu. Lleva a ebullición, retira el kombu y cuela la mezcla. Sirve la salsa en pequeños recipientes.",
       "Acompaña el kakiage con la salsa Tendashi. Si lo desea, añade daikon rallado o jengibre rallado como guarnición opcional."
     ],
     "notes": [
@@ -326,20 +400,25 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Dago-Jiru (Sopa con Dango y Verduras)",
     "description": "Deliciosa sopa vegana de miso con dumplings (dango) y una combinación de vegetales frescos.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1200 ml de caldo dashi vegano (o caldo de verduras)",
-      "2 hongos shiitake secos",
-      "150 g de daikon (nabo)",
-      "100 g o 1 zanahoria pequeña",
-      "50 g o 1/2 raíz de bardana (opcional, puede ser remplazada por otra verdura como papa ñame o batata)",
-      "3 a 4 cucharadas de pasta de miso",
-      "100 g de harina (para los dango)",
-      "Pizca de sal (para los dango)",
-      "50 ml de agua tibia (para los dango)"
+      {
+        "items": [
+          "1200 ml de caldo dashi vegano (o caldo de verduras)",
+          "2 hongos shiitake secos",
+          "150 g de daikon (nabo)",
+          "100 g o 1 zanahoria pequeña",
+          "50 g o 1/2 raíz de bardana (opcional, puede ser remplazada por otra verdura como papa ñame o batata)",
+          "3 a 4 cucharadas de pasta de miso"
+        ]
+      },
+      {
+        "subtitle": "Para los dangos",
+        "items": ["100 g de harina ", "Pizca de sal ", "50 ml de agua tibia "]
+      }
     ],
     "image": "https://i.postimg.cc/d0w7b1Vv/dago-jiru.jpg",
     "tags": "sopa, vegano, miso, dango, verduras, shitake, dango, dumplings",
@@ -365,13 +444,17 @@
     "description": "Sopa cremosa hecha con zanahorias, champiñones y leche de soja.",
     "portions": "Rinde: 4 porciones",
     "ingredients": [
-      "3/4 de taza (100 g) de zanahoria, pelada y cortada en cubos de 1 cm",
-      "1 ⅔ tazas (400 ml) de leche de soja (se puede remplazar por otra leche vegetal sin azúcar)",
-      "8 champiñones, portobellos o shiitakes frescos, cortados en láminas delgadas",
-      "1 ⅔ tazas (400 ml) de caldo de kombu (se puede remplazar por caldo de verduras)",
-      "2 cucharaditas de sal",
-      "2 cucharadas de sake para cocina",
-      "Hojas de zanahoria o perejil, para decorar (opcional)"
+      {
+        "items": [
+          "3/4 de taza (100 g) de zanahoria, pelada y cortada en cubos de 1 cm",
+          "1 ⅔ tazas (400 ml) de leche de soja (se puede remplazar por otra leche vegetal sin azúcar)",
+          "8 champiñones, portobellos o shiitakes frescos, cortados en láminas delgadas",
+          "1 ⅔ tazas (400 ml) de caldo de kombu (se puede remplazar por caldo de verduras)",
+          "2 cucharaditas de sal",
+          "2 cucharadas de sake para cocina",
+          "Hojas de zanahoria o perejil, para decorar (opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/FFBK34FK/sopa-zanahoria.png",
     "tags": [
@@ -405,19 +488,28 @@
     "description": "Un plato fresco y saludable con batata, soja y un delicioso aderezo de miso y limón.",
     "portions": "Rinde: 4 porciones",
     "ingredients": [
-      "300 gramos de batata cortada, sin pelar, en cubos de 1 cm",
-      "½ taza (85 gramos) de soja cocida",
-      "3 cucharadas de jugo de limón",
-      "2-3 hojas de lechuga",
-      "2-3 hojas de rúcula",
-      "60 gramos de papa, pelada y cortada en trozos pequeños",
-      "1 cucharada de miso blanco (o 1 cucharadita de miso rojo)",
-      "1 cucharada de aceite de sésamo",
-      "1 cucharada de jugo de limón",
-      "1 cucharada de vinagre de arroz (o cualquier vinagre blanco)",
-      "1 cucharadita de jarabe de arce (o miel de caña)",
-      "2 cucharadas de vino blanco (se puede remplazar por sake de cocina o mirin)",
-      "½ cucharadita de sal"
+      {
+        "items": [
+          "300 gramos de batata cortada, sin pelar, en cubos de 1 cm",
+          "½ taza (85 gramos) de soja cocida",
+          "3 cucharadas de jugo de limón",
+          "2-3 hojas de lechuga",
+          "2-3 hojas de rúcula"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "60 gramos de papa, pelada y cortada en trozos pequeños",
+          "1 cucharada de miso blanco (o 1 cucharadita de miso rojo)",
+          "1 cucharada de aceite de sésamo",
+          "1 cucharada de jugo de limón",
+          "1 cucharada de vinagre de arroz (o cualquier vinagre blanco)",
+          "1 cucharadita de jarabe de arce (o miel de caña)",
+          "2 cucharadas de vino blanco (se puede remplazar por sake de cocina o mirin)",
+          "½ cucharadita de sal"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/qMvV4mPH/ensalada-batata-soja-2.jpg",
     "tags": [
@@ -436,7 +528,7 @@
       "Mezcla la batata con la soja y el jugo de limón.",
       "Coloca la papa en una olla con suficiente agua con sal para cubrirla y lleva a ebullición. Reduce el fuego a medio y cocina durante 10 minutos.",
       "Escurre el exceso de líquido y tritura la papa hasta obtener un puré suave.",
-      "En un procesador de alimentos (o con un batidor manual), mezcla el puré de patata, el miso, el aceite de sésamo, el jugo de limón, el vinagre, el jarabe de arce, el vino blanco y la sal hasta obtener una salsa homogénea.",
+      "En un procesador de alimentos (o con un batidor manual), mezcla el puré de papa, el miso, el aceite de sésamo, el jugo de limón, el vinagre, el jarabe de arce, el vino blanco y la sal hasta obtener una salsa homogénea.",
       "Coloca las hojas de lechuga y rúcula en un plato.",
       "Añade la mezcla de batata y soja encima.",
       "Agregue el aderezo."
@@ -452,17 +544,26 @@
     "description": "Una receta súper fácil y deliciosa con un aderezo único.",
     "portions": "Rinde: 4 porciones",
     "ingredients": [
-      "1/2 taza de lentejas turcas secas",
-      "1/2 taza de arvejas congeladas",
-      "2 cucharadas de aceite de oliva",
-      "8 champiñones, cortados en láminas",
-      "2 pepinos japoneses, cortados en rodajas finas",
-      "2 cucharadas de jugo de limón",
-      "1 cucharadita de sal",
-      "1 cucharadita de curry en polvo",
-      "2 cucharadas de salsa de soja",
-      "2 cucharadas de vino blanco (o mirin o sake de cocina)",
-      "2 cucharadas de vinagre de arroz (o cualquier vinagre blanco)"
+      {
+        "items": [
+          "1/2 taza de lentejas turcas secas",
+          "1/2 taza de arvejas congeladas",
+          "8 champiñones, cortados en láminas",
+          "2 pepinos japoneses, cortados en rodajas finas"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "2 cucharadas de aceite de oliva",
+          "2 cucharadas de jugo de limón",
+          "1 cucharadita de sal",
+          "1 cucharadita de curry en polvo",
+          "2 cucharadas de salsa de soja",
+          "2 cucharadas de vino blanco (o mirin o sake de cocina)",
+          "2 cucharadas de vinagre de arroz (o cualquier vinagre blanco)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/90gjvSYb/ensalada-lenteja-arveja.jpg",
     "tags": [
@@ -493,14 +594,23 @@
     "description": "Rodajas de berenjena fritas, acompañadas de una deliciosa salsa de sésamo con un toque de miso y limón.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "4 berenjenas, de aproximadamente 120 gramos cada una, cortadas en rodajas de 1 cm de grosor",
-      "Aceite vegetal para freír",
-      "Semillas de sésamo blanco tostadas para decorar",
-      "2 cucharadas de semillas de sésamo blanco tostadas y molidas",
-      "1 cucharada de azúcar",
-      "1 cucharada de salsa de soja",
-      "1 cucharadita de jugo de limón",
-      "1 cucharadita de miso blanco (o 1/2 cucharadita de miso rojo)"
+      {
+        "items": [
+          "4 berenjenas, de aproximadamente 120 gramos cada una, cortadas en rodajas de 1 cm de grosor",
+          "Aceite vegetal para freír",
+          "Semillas de sésamo blanco tostadas para decorar"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "2 cucharadas de semillas de sésamo blanco tostadas y molidas",
+          "1 cucharada de azúcar",
+          "1 cucharada de salsa de soja",
+          "1 cucharadita de jugo de limón",
+          "1 cucharadita de miso blanco (o 1/2 cucharadita de miso rojo)"
+        ]
+      }
     ],
     "image": "/uploads/1733524432567-13347268-berenjenas_miso.jpg",
     "tags": [
@@ -529,18 +639,27 @@
     "description": "Hongos eringi acompañados de un aderezo de miso rojo y verduras salteadas.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "200 gramos de champiñones eringi, cortados en láminas finas (puede ser remplazado por portobello o champiñones)",
-      "4 cucharadas de aceite de sésamo",
-      "2-3 cucharadas de jugo de limón",
-      "1/2 cucharadita de sal",
-      "30 gramos de chauchas, sin hilos, cortadas en pedazos de 2-3 mm",
-      "15 gramos de zanahoria, pelada y picada finamente",
-      "2 cucharadas de miso rojo (puede ser remplazado por miso blanco)",
-      "2 cucharadas de sake para cocina o vino blanco",
-      "2 cucharadas de azúcar",
-      "7 cucharadas de nueces picadas",
-      "3 cucharadas de aceite de semilla de uva u otro aceite vegetal",
-      "4 tapas de hongos shitake frescos, picadas finamente"
+      {
+        "items": [
+          "200 gramos de hongos eringi, cortados en láminas finas (puede ser remplazado por portobello o champiñones)",
+          "4 cucharadas de aceite de sésamo",
+          "2-3 cucharadas de jugo de limón",
+          "1/2 cucharadita de sal"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "30 gramos de chauchas, sin hilos, cortadas en pedazos de 2-3 mm",
+          "15 gramos de zanahoria, pelada y picada finamente",
+          "2 cucharadas de miso rojo (puede ser remplazado por miso blanco)",
+          "2 cucharadas de sake para cocina o vino blanco",
+          "2 cucharadas de azúcar",
+          "7 cucharadas de nueces picadas",
+          "3 cucharadas de aceite de semilla de uva u otro aceite vegetal",
+          "4 tapas de hongos shitake frescos, picadas finamente"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/XXXXX/champinones-eringi.jpg",
     "tags": [
@@ -565,15 +684,19 @@
     "description": "Hongos shitake rellenos con una mezcla cremosa de tofu, salsa de soja y semillas de sésamo.",
     "portions": "Rinde 8 porciones",
     "ingredients": [
-      "Un bloque de tofu (blando,si lo prefiere), aproximadamente 300 gramos",
-      "Ocho hongos shitake grandes frescos, con los sombreritos de aproximadamente 8 cm de diámetro",
-      "Dos cucharadas de mirin",
-      "Dos cucharadas de salsa de soja",
-      "Dos cucharadas de semillas de sésamo blanco, tostadas",
-      "Media cucharadita de sal",
-      "Harina para espolvorear",
-      "Aceite de sésamo, para freír",
-      "Cuatro hojas de shiso, finamente picadas (opcional)"
+      {
+        "items": [
+          "Un bloque de tofu (blando,si lo prefiere), aproximadamente 300 gramos",
+          "Ocho hongos shitake grandes frescos, con los sombreritos de aproximadamente 8 cm de diámetro",
+          "Dos cucharadas de mirin",
+          "Dos cucharadas de salsa de soja",
+          "Dos cucharadas de semillas de sésamo blanco, tostadas",
+          "Media cucharadita de sal",
+          "Harina para espolvorear",
+          "Aceite de sésamo, para freír",
+          "Cuatro hojas de shiso, finamente picadas (opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/XXXXX/hongos-shiitake-tofu.jpg",
     "tags": [
@@ -605,12 +728,16 @@
     "description": "Un plato tradicional japonés de arroz cocido con castañas y aromatizado con té verde tostado.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1½ tazas (320 g) de arroz",
-      "12 castañas, peladas",
-      "1½ tazas (440 ml) de agua",
-      "2 cucharaditas de salsa de soja",
-      "½ cucharadita de sal",
-      "1 cucharada colmada de hojas de té verde sencha"
+      {
+        "items": [
+          "1½ tazas (320 g) de arroz",
+          "12 castañas, peladas",
+          "1½ tazas (440 ml) de agua",
+          "2 cucharaditas de salsa de soja",
+          "½ cucharadita de sal",
+          "1 cucharada colmada de hojas de té verde sencha"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/FsVhr7NG/arroz-casta-a-sencha-2.jpg",
     "tags": [
@@ -638,12 +765,16 @@
     "description": "Un delicioso plato japonés de tofu reconstituido y salteado, acompañado de un toque cítrico de yuzu.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "4 porciones de koyadofu, aproximadamente 80 g en total (lo puede remplazar por tofu congelado)",
-      "1 taza (240 ml) de caldo de kombu (o caldo de verduras, o caldo de shitake)",
-      "2 cucharadas de azúcar",
-      "3 cucharadas de salsa de soja",
-      "2-3 cucharadas de aceite de sésamo o aceite de oliva",
-      "Ralladura de yuzu para decorar (la puede remplazar por ralladura de limón)"
+      {
+        "items": [
+          "4 porciones de koyadofu, aproximadamente 80 g en total (lo puede remplazar por tofu congelado)",
+          "1 taza (240 ml) de caldo de kombu (o caldo de verduras, o caldo de shitake)",
+          "2 cucharadas de azúcar",
+          "3 cucharadas de salsa de soja",
+          "2-3 cucharadas de aceite de sésamo o aceite de oliva",
+          "Ralladura de yuzu para decorar (la puede remplazar por ralladura de limón)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/MH96P9WM/koyadofu-teriyaki.jpg",
     "tags": [
@@ -669,16 +800,25 @@
     "description": "Una ensalada fresca con un aderezo cremoso de nueces, ideal como acompañamiento o comida ligera.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "10 tallos de espárrago, con los extremos fibrosos removidos",
-      "120 gramos de zanahorias, peladas y cortadas en juliana de 2.5 cm",
-      "2 cucharadas de jugo de limón",
-      "60 gramos de nueces",
-      "2 cucharadas de miso blanco o 1 cucharadita de miso rojo",
-      "2 cucharadas de aceite de oliva",
-      "2 cucharadas de vino blanco",
-      "2 cucharadas de vinagre de arroz o cualquier vinagre blanco",
-      "2 cucharadas de mirin",
-      "2 cucharaditas de salsa de soja"
+      {
+        "items": [
+          "10 tallos de espárrago, con los extremos fibrosos removidos",
+          "120 gramos de zanahorias, peladas y cortadas en juliana de 2.5 cm",
+          "2 cucharadas de jugo de limón"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "60 gramos de nueces",
+          "2 cucharadas de miso blanco o 1 cucharadita de miso rojo",
+          "2 cucharadas de aceite de oliva",
+          "2 cucharadas de vino blanco",
+          "2 cucharadas de vinagre de arroz o cualquier vinagre blanco",
+          "2 cucharadas de mirin",
+          "2 cucharaditas de salsa de soja"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/LsLknZGs/ensalad-esparragos.jpg",
     "tags": [
@@ -709,13 +849,17 @@
     "description": "Un plato lleno de sabor, con papas tiernas cubiertas en una salsa picante y aromática.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "400 g de papas, peladas y cortadas en cubos de 1/2 pulgada (1 cm)",
-      "2 cucharadas de miso rojo",
-      "1/2 cucharada de azúcar",
-      "2 cucharadas de sake",
-      "2 cucharadas de aceite de sésamo",
-      "2 ajíes rojos secos, cortados en rodajas finas",
-      "2 cucharaditas de salsa de soja"
+      {
+        "items": [
+          "400 g de papas, peladas y cortadas en cubos de 1/2 pulgada (1 cm)",
+          "2 cucharadas de miso rojo",
+          "1/2 cucharada de azúcar",
+          "2 cucharadas de sake",
+          "2 cucharadas de aceite de sésamo",
+          "2 ajíes rojos secos, cortados en rodajas finas",
+          "2 cucharaditas de salsa de soja"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/sDXYY0qb/papa-chili.jpg",
     "tags": [
@@ -744,16 +888,20 @@
     "description": "Deliciosas croquetas crujientes hechas con zanahoria, tofu y un toque de frutos secos, ideales como entrada o acompañamiento.",
     "portions": "Rinde 14 croquetas",
     "ingredients": [
-      "1 bloque de tofu firme (aproximadamente 450 g)",
-      "300 g de zanahorias, peladas y cortadas en rodajas finas",
-      "1 cucharadita de sal",
-      "2 cucharadas de nueces picadas o maní triturado",
-      "2 cucharadas de maicena",
-      "Harina para espolvorear",
-      "½ taza de harina + 3 cucharadas de agua",
-      "1 taza de pan rallado",
-      "Aceite vegetal para freír",
-      "1 limón o lima, cortado en gajos"
+      {
+        "items": [
+          "1 bloque de tofu firme (aproximadamente 450 g)",
+          "300 g de zanahorias, peladas y cortadas en rodajas finas",
+          "1 cucharadita de sal",
+          "2 cucharadas de nueces picadas o maní triturado",
+          "2 cucharadas de maicena",
+          "Harina para espolvorear",
+          "½ taza de harina + 3 cucharadas de agua",
+          "1 taza de pan rallado",
+          "Aceite vegetal para freír",
+          "1 limón o lima, cortado en gajos"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/QdCFZxcb/croquetas-zanahorias.jpg",
     "tags": [
@@ -780,12 +928,21 @@
     "description": "Un plato tradicional japonés con berenjenas doradas bañadas en una rica salsa Dengaku a base de miso.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "4 berenjenas, cada una de aproximadamente 120 gramos",
-      "4 cucharadas de aceite de sésamo o aceite de oliva",
-      "2 cucharadas de miso rojo (para la salsa)",
-      "1 cucharada de azúcar",
-      "2 cucharadas de sake para cocina o vino blanco",
-      "1 cucharada de semillas de sésamo blanco, molidas y tostadas"
+      {
+        "items": [
+          "4 berenjenas, cada una de aproximadamente 120 gramos",
+          "4 cucharadas de aceite de sésamo o aceite de oliva"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa Dengaku",
+        "items": [
+          "2 cucharadas de miso rojo ",
+          "1 cucharada de azúcar",
+          "2 cucharadas de sake para cocina o vino blanco",
+          "1 cucharada de semillas de sésamo blanco, molidas y tostadas"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/NMLzTn2Y/berenjena-dengaku.jpg",
     "tags": [
@@ -811,13 +968,17 @@
     "description": "Los colores frescos y vibrantes le dan un toque primaveral a este plato.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1 taza (200 ml) de caldo de kombu (o caldo de verduras)",
-      "100 g de arvejas frescas, sin vaina (o arvejas congeladas)",
-      "200 g de coliflor, separada en floretes",
-      "1 cucharadita de sal",
-      "2 cucharadas de sake de cocina o vino blanco",
-      "1 cucharada de miso blanco",
-      "½ taza (120 ml) de leche de soja (u otra leche vegetal sin azúcar)"
+      {
+        "items": [
+          "1 taza (200 ml) de caldo de kombu (o caldo de verduras)",
+          "100 g de arvejas frescas, sin vaina (o arvejas congeladas)",
+          "200 g de coliflor, separada en floretes",
+          "1 cucharadita de sal",
+          "2 cucharadas de sake de cocina o vino blanco",
+          "1 cucharada de miso blanco",
+          "½ taza (120 ml) de leche de soja (u otra leche vegetal sin azúcar)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/wML4xFVg/estofado-coliflor-arveja.jpg",
     "tags": [
@@ -845,13 +1006,22 @@
     "description": "Un plato delicioso y nutritivo con papas tiernas y un aderezo cremoso y lleno de sabor.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "240 gramos de papas (cerca de 2 papas medianas), peladas y cortadas en palitos de 5 cm",
-      "60 gramos de zanahoria (1 zanahoria mediana), peladas y cortadas en palitos de 5 cm",
-      "1 cucharada sopera de miso rojo",
-      "2 cucharadas soperas de mirin",
-      "1 cucharada sopera de azúcar",
-      "2 cucharadas soperas de jugo de limón",
-      "4 cucharadas soperas de maní triturado finamente (o semillas de sésamo, nueces, o 2 cucharadas de mantequilla de maní sin azúcar)"
+      {
+        "items": [
+          "240 gramos de papas (cerca de 2 papas medianas), peladas y cortadas en palitos de 5 cm",
+          "60 gramos de zanahoria (1 zanahoria mediana), peladas y cortadas en palitos de 5 cm"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "1 cucharada sopera de miso rojo",
+          "2 cucharadas soperas de mirin",
+          "1 cucharada sopera de azúcar",
+          "2 cucharadas soperas de jugo de limón",
+          "4 cucharadas soperas de maní triturado finamente (o semillas de sésamo, nueces, o 2 cucharadas de mantequilla de maní sin azúcar)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/0j7jt5LQ/papa-miso2.jpg",
     "tags": [
@@ -883,17 +1053,21 @@
     "description": "Un plato nutritivo y reconfortante para los días más fríos.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1 bloque de tofu (blando si lo prefiere), aproximadamente 400 gramos",
-      "50 gramos de hongos variados (por ejemplo: shimeji, enoki, matsutake, shitake o portobello)",
-      "1 2/3 tazas o 400 ml de caldo de alga kombu (o caldo de verduras)",
-      "40 gramos de zanahoria, pelada y cortada en juliana",
-      "2 cucharadas de salsa de soja",
-      "2 cucharadas de sake para cocina",
-      "2 cucharadas de mirin",
-      "1 cucharada de azúcar",
-      "1 cucharadita de sal",
-      "4 cucharadas de maicena disueltas en 4 cucharadas de agua",
-      "Vainas de chauchas blanqueadas, para decorar (opcional)"
+      {
+        "items": [
+          "1 bloque de tofu (blando si lo prefiere), aproximadamente 400 gramos",
+          "50 gramos de hongos variados (por ejemplo: shimeji, enoki, matsutake, shitake o portobello)",
+          "1 2/3 tazas o 400 ml de caldo de alga kombu (o caldo de verduras)",
+          "40 gramos de zanahoria, pelada y cortada en juliana",
+          "2 cucharadas de salsa de soja",
+          "2 cucharadas de sake para cocina",
+          "2 cucharadas de mirin",
+          "1 cucharada de azúcar",
+          "1 cucharadita de sal",
+          "4 cucharadas de maicena disueltas en 4 cucharadas de agua",
+          "Vainas de chauchas blanqueadas, para decorar (opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/zBhM7Hx2/hongos-tofu.jpg",
     "tags": [
@@ -933,15 +1107,24 @@
     "description": "Una refrescante ensalada de pepinos y hongos con un aderezo suave y ácido, ideal para acompañar platos japoneses.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "2 pepinos (aproximadamente 200 g)",
-      "¼ de cucharadita de sal (para salar los pepinos)",
-      "200 g de hongos (puede usar shitake, portobello o champiñones)",
-      "1 taza de agua (200 ml)",
-      "1 cucharadita de sal (5 g)",
-      "2 cucharaditas de azúcar (6 g) (para el aderezo)",
-      "3 cucharadas de vinagre (45 ml)",
-      "¼ de cucharadita de sal",
-      "2 cucharadas de agua (30 ml) (para diluir el aderezo, opcional)"
+      {
+        "items": [
+          "2 pepinos (aproximadamente 200 g)",
+          "¼ de cucharadita de sal (para salar los pepinos)",
+          "200 g de hongos (puede usar shitake, portobello o champiñones)",
+          "1 taza de agua (200 ml)",
+          "1 cucharadita de sal (5 g)"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "2 cucharaditas de azúcar (6 g) ",
+          "3 cucharadas de vinagre (45 ml)",
+          "¼ de cucharadita de sal",
+          "2 cucharadas de agua (30 ml) (para diluir el aderezo, opcional)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/rspq0PZ1/sunomono-shitake.jpg",
     "tags": [
@@ -976,17 +1159,21 @@
     "description": "Un delicioso platillo de soja y vegetales con un toque de miso, ideal para una comida nutritiva y sabrosa.",
     "portions": "Rinde 2-3 porciones",
     "ingredients": [
-      "50 gramos de raíz de bardana (gobo)",
-      "20 gramos de hongos shitake secos",
-      "50 gramos de zanahoria, pelada y cortada en cubos de 1 cm",
-      "50 gramos de chauchas, cortadas en trozos de aproximadamente 2 cm",
-      "50 gramos de soja cocida",
-      "2 cucharadas de sake para cocina",
-      "2 cucharadas de azúcar",
-      "1/2 cucharadita de jengibre fresco finamente picado",
-      "2 cucharadas de aceite de sésamo",
-      "Una pisca de shichimi tōgarashi (opcional)",
-      "2 cucharadas de miso rojo (puede ser remplazado por miso blanco)"
+      {
+        "items": [
+          "50 gramos de raíz de bardana (gobo)",
+          "20 gramos de hongos shitake secos",
+          "50 gramos de zanahoria, pelada y cortada en cubos de 1 cm",
+          "50 gramos de chauchas, cortadas en trozos de aproximadamente 2 cm",
+          "50 gramos de soja cocida",
+          "2 cucharadas de sake para cocina",
+          "2 cucharadas de azúcar",
+          "1/2 cucharadita de jengibre fresco finamente picado",
+          "2 cucharadas de aceite de sésamo",
+          "Una pisca de shichimi tōgarashi (opcional)",
+          "2 cucharadas de miso rojo (puede ser remplazado por miso blanco)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/kGPLXp2y/soja-con-verduras.jpg",
     "tags": [
@@ -1023,13 +1210,22 @@
     "description": "Un platillo japonés delicioso y saludable, ideal como guarnición o plato principal acompañado de arroz.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "150 gramos de chauchas",
-      "3 berenjenas medianas (aproximadamente 120 gramos cada una), cortadas en rodajas de 1 centímetro",
-      "3 cucharadas de aceite de sésamo",
-      "4 cucharadas de sake",
-      "3 cucharadas de pasta de sésamo negro (o sesamo blanco, o tahini)",
-      "2 cucharadas de azúcar",
-      "2 cucharadas de salsa de soja"
+      {
+        "items": [
+          "150 gramos de chauchas",
+          "3 berenjenas medianas (aproximadamente 120 gramos cada una), cortadas en rodajas de 1 centímetro",
+          "3 cucharadas de aceite de sésamo",
+          "4 cucharadas de sake"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "3 cucharadas de pasta de sésamo negro (o sesamo blanco, o tahini)",
+          "2 cucharadas de azúcar",
+          "2 cucharadas de salsa de soja"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/Y2gGV8TR/chauchas-berenjenas.jpg",
     "tags": ["japonés", "sésamo", "berenjena", "chauchas", "tahihi"],
@@ -1052,21 +1248,25 @@
         "linkText": "arroz para sushi",
         "link": "/recipes/recipe?id=6765521f412679f5bb3eef00"
       },
-      "6 hongos shitakes secos",
-      "600 ml de agua",
-      "60 g de raíz de bardana (u otro vegetal de su preferencia)",
-      "200 g de tofu",
-      "3 cucharadas de azúcar",
-      "4 cucharadas de salsa de soja",
-      "4 cucharadas de sake para cocina",
-      "60 g de zanahoria, pelada y cortada en tiras finas",
-      "40 g de soja cocida o edamame (soja verde)",
-      "50 g de chauchas cortadas en trozos chicos",
-      "60 g de raíz de loto, pelada, cortada en cuartos y en rodajas finas (u otro vegetal de su preferencia)",
-      "1 cucharada de vinagre de arroz",
-      "1 cucharada de azúcar mezclada con 2 cucharadas de vinagre de arroz",
-      "Semillas de sésamo tostadas, para decorar",
-      "Ramitas de sansho, para decorar (opcional)"
+      {
+        "items": [
+          "6 hongos shitakes secos",
+          "600 ml de agua",
+          "60 g de raíz de bardana (u otro vegetal de su preferencia)",
+          "200 g de tofu",
+          "3 cucharadas de azúcar",
+          "4 cucharadas de salsa de soja",
+          "4 cucharadas de sake para cocina",
+          "60 g de zanahoria, pelada y cortada en tiras finas",
+          "40 g de soja cocida o edamame (soja verde)",
+          "50 g de chauchas cortadas en trozos chicos",
+          "60 g de raíz de loto, pelada, cortada en cuartos y en rodajas finas (u otro vegetal de su preferencia)",
+          "1 cucharada de vinagre de arroz",
+          "1 cucharada de azúcar mezclada con 2 cucharadas de vinagre de arroz",
+          "Semillas de sésamo tostadas, para decorar",
+          "Ramitas de sansho, para decorar (opcional)"
+        ]
+      }
     ],
     "instruction": [
       "Remoje los hongos shitake en el agua durante 30 minutos (o hasta que estén tiernos) para rehidratarlos. También puede dejarlo en remojo durante toda la noche. Retire los tallos duros y corte las tapas en rodajas finas. Reserve el agua de remojo.",
@@ -1101,12 +1301,16 @@
     "description": "Instrucciones detalladas para lavar, cocinar y aderezar el arroz de sushi.",
     "portions": "Rinde aproximadamente 5 tazas y media (700 gramos) de arroz cocido",
     "ingredients": [
-      "1 taza y media (320 gramos) de arroz",
-      "1 taza y media (440 mililitros) de agua",
-      "1 pieza de alga kombu seca (aproximadamente de 5 x 5 centímetros)",
-      "½ taza (60 mililitros) de vinagre de arroz",
-      "2 cucharadas de azúcar",
-      "1 cucharadita de sal"
+      {
+        "items": [
+          "1 taza y media (320 gramos) de arroz",
+          "1 taza y media (440 mililitros) de agua",
+          "1 pieza de alga kombu seca (aproximadamente de 5 x 5 centímetros)",
+          "½ taza (60 mililitros) de vinagre de arroz",
+          "2 cucharadas de azúcar",
+          "1 cucharadita de sal"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/zfzRShLZ/arroz-sushi.jpg",
     "tags": [
@@ -1141,20 +1345,24 @@
     "description": "Instrucciones detalladas para preparar kimchi tradicional coreano.",
     "portions": "Rinde aproximadamente 2.7 kg de kimchi.",
     "ingredients": [
-      "Aproximadamente 2.25 kg de Akusai",
-      "2 tazas de sal marina gruesa, más adicional si es necesario",
-      "3 cucharadas de harina de arroz mochi",
-      "5 tazas de agua",
-      "57 g de algas secas (2 a 3 pedazos de alga kombu)",
-      "2 tazas de gochugaru (chile rojo coreano en polvo) o a gusto",
-      "2 chiles rojos secos, remojados y triturados (opcional)",
-      "½ cucharada de salsa de soja",
-      "450 g de mu (1 nabo coreano grande o 2 a 3 nabos chicos o medianos), pelados y cortados en tiras",
-      "2 caquis comunes, pelados y cortados a la mitad (opcional)",
-      "4 caquis rojos y blandos (hongsi), pelados y triturados (pueden ser reemplazados por peras)",
-      "57 g (un trozo de aproximadamente 6-7 cms) de jengibre fresco, pelado y rallado",
-      "57 g (2 a 3 tazas de hojas crudas) de mostaza verde, cortadas en trozos (de no encontrarla utilice otro vegetal de hoja verde como la espinaca)",
-      "Opcional: 1-2 litros de agua fría"
+      {
+        "items": [
+          "Aproximadamente 2.25 kg de Akusai",
+          "2 tazas de sal marina gruesa, más adicional si es necesario",
+          "3 cucharadas de harina de arroz mochi",
+          "5 tazas de agua",
+          "57 g de algas secas (2 a 3 pedazos de alga kombu)",
+          "2 tazas de gochugaru (chile rojo coreano en polvo) o a gusto",
+          "2 chiles rojos secos, remojados y triturados (opcional)",
+          "½ cucharada de salsa de soja",
+          "450 g de mu (1 nabo coreano grande o 2 a 3 nabos chicos o medianos), pelados y cortados en tiras",
+          "2 caquis comunes, pelados y cortados a la mitad (opcional)",
+          "4 caquis rojos y blandos (hongsi), pelados y triturados (pueden ser reemplazados por peras)",
+          "57 g (un trozo de aproximadamente 6-7 cms) de jengibre fresco, pelado y rallado",
+          "57 g (2 a 3 tazas de hojas crudas) de mostaza verde, cortadas en trozos (de no encontrarla utilice otro vegetal de hoja verde como la espinaca)",
+          "Opcional: 1-2 litros de agua fría"
+        ]
+      }
     ],
     "instruction": [
       "Lave el Akusai una vez y escurra. Retire las hojas exteriores más duras y reserve para su uso posterior. Corte la parte inferior del Akusai, dejando un poco para sostenerlo. Con una mano, sostenga el Akusai por la punta inferior, con un cuchillo afilado, córtelo longitudinalmente por la mitad, hasta la mitad de su altura. Con ambas manos, separe el Akusai en dos mitades. Repita con los Akusais restantes. Si el Akusai es demasiado grande, se pueden cortar longitudinalmente las mitades en cuartos. Lave una vez más, pero no escurra.",
@@ -1173,12 +1381,16 @@
     "description": "Delicadas gyozas rellenas de zucchini y shitakes, inspiradas en la cocina tradicional de los templos coreanos.",
     "portions": "Rinde aproximadamente 24 gyozas",
     "ingredients": [
-      "24 tapas para gyozas",
-      "2 zucchinis",
-      "1 cucharadita de sal",
-      "4 hongos secos pyogo beoseot (shitake) remojados o frescos",
-      "1/2 cucharada de salsa de soja o 1/4 cucharadita de sal",
-      "Aceite de sésamo"
+      {
+        "items": [
+          "24 tapas para gyozas",
+          "2 zucchinis",
+          "1 cucharadita de sal",
+          "4 hongos secos pyogo beoseot (shitake) remojados o frescos",
+          "1/2 cucharada de salsa de soja o 1/4 cucharadita de sal",
+          "Aceite de sésamo"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/J4p9GZyr/mandu-templo.jpgz",
     "tags": "gyozas, coreano, zucchini, shitake, vegano, tradicional, templos, mandu, corea",
@@ -1204,15 +1416,24 @@
     "description": "Un plato tradicional coreano hecho con gondre (cardo coreano) y arroz, acompañado de un condimento sabroso. Ideal para una comida nutritiva y reconfortante.",
     "portions": "Rinde 2-3 porciones",
     "ingredients": [
-      "50 gramos de gondre (cardo coreano)",
-      "1,5 tazas de arroz",
-      "1,5 tazas de agua",
-      "1 cucharada de aceite de perilla o aceite de sésamo (para condimentar el gondre)",
-      "1 cucharada de salsa de soja (para condimentar el gondre)",
-      "3 cucharadas de salsa de soja (para el aderezo)",
-      "1 cucharada de aceite de sésamo",
-      "½ cucharada de gochugaru (ají coreano en polvo)",
-      "1 cucharada de semillas de sésamo"
+      {
+        "items": [
+          "50 gramos de gondre (cardo coreano)",
+          "1,5 tazas de arroz",
+          "1,5 tazas de agua",
+          "1 cucharada de aceite de perilla o aceite de sésamo (para condimentar el gondre)",
+          "1 cucharada de salsa de soja (para condimentar el gondre)"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "3 cucharadas de salsa de soja",
+          "1 cucharada de aceite de sésamo",
+          "½ cucharada de gochugaru (ají coreano en polvo)",
+          "1 cucharada de semillas de sésamo"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/RFF2JNQt/cardo-coreano-arroz.jpg",
     "tags": "gondre, arroz, coreano, vegetariano, saludable, tradicional, cardo, aceite de sésamo, perilla, corea",
@@ -1224,8 +1445,8 @@
       "Condimente el gondre con 1 cucharada de aceite de perilla y 1 cucharada de salsa de soja. Mezcle bien para cubrirlo uniformemente.",
       "Coloque el arroz y su agua en una olla y agregue el gondre encima. Añada 2-3 chorritos de agua adicionales al arroz (aproximadamente media taza).",
       "Cocine el arroz en una arrocera o en una olla. Si usa una olla, cocine a fuego alto hasta que hierva, luego reduzca a fuego bajo y cocine hasta que el agua se evapore. Deje reposar con la olla tapada de 5 a 10 minutos.",
-      "Mientras el arroz se cocina, prepare el condimento mezclando las 3 cucharadas de salsa de soja, 1 cucharada de aceite de sésamo, ½ cucharada de gochugaru y 1 cucharada de semillas de sésamo.",
-      "Pruebe un poco del arroz de la superficie. Si todavía está muy duro, agregue un poco más de agua y deje que se cocine unos minutos más, hasta que el agua se evapore. Cuando el arroz esté listo, mezcle el gondre con el arroz usando una espátula. Sirva el arroz mezclado en un bowl y añada unas cucharadas del condimento para arroz antes de servir."
+      "Mientras el arroz se cocina, prepare el aderezo mezclando las 3 cucharadas de salsa de soja, 1 cucharada de aceite de sésamo, ½ cucharada de gochugaru y 1 cucharada de semillas de sésamo.",
+      "Pruebe un poco del arroz de la superficie. Si todavía está muy duro, agregue un poco más de agua y deje que se cocine unos minutos más, hasta que el agua se evapore. Cuando el arroz esté listo, mezcle el gondre con el arroz usando una espátula. Sirva el arroz mezclado en un bowl y añada unas cucharadas del aderezo antes de servir."
     ],
     "notes": "Si no consigue el cardo coreano, use otra hoja verde como la espinaca, el kale o la mostaza."
   },
@@ -1235,18 +1456,22 @@
     "description": "Un dulce que se deshace en la boca, tradicionalmente elaborado con leche condensada y leche en polvo, aquí adaptado con ingredientes veganos como anacardos y leche de almendras, con el exquisito aroma del azafrán.",
     "portions": "Rinde 10 porciones o más",
     "ingredients": [
-      "½ taza de castaña de cajú, dejadas en remojo durante 4 horas o durante toda la noche, y escurridas",
-      "2 a 4 cucharadas de leche de almendras",
-      "½ cucharadita de sal",
-      "½ cucharadita de azafrán (6 a 8 hebras)",
-      "1 cucharadita de manteca vegana o aceite",
-      "½ taza de azúcar",
-      "1 cucharadita de extracto de vainilla",
-      "2 cucharaditas de jugo de limón",
-      "½ taza de harina de avena (o más para hacer los pedas)",
-      "1 a 2 cucharadas de harina blanca o 1 cucharada de maicena",
-      "1 a 2 cucharadas de azúcar molida o azúcar impalpable",
-      "Almendras y pistachos en láminas, para decorar"
+      {
+        "items": [
+          "½ taza de castaña de cajú, dejadas en remojo durante 4 horas o durante toda la noche, y escurridas",
+          "2 a 4 cucharadas de leche de almendras",
+          "½ cucharadita de sal",
+          "½ cucharadita de azafrán (6 a 8 hebras)",
+          "1 cucharadita de manteca vegana o aceite",
+          "½ taza de azúcar",
+          "1 cucharadita de extracto de vainilla",
+          "2 cucharaditas de jugo de limón",
+          "½ taza de harina de avena (o más para hacer los pedas)",
+          "1 a 2 cucharadas de harina blanca o 1 cucharada de maicena",
+          "1 a 2 cucharadas de azúcar molida o azúcar impalpable",
+          "Almendras y pistachos en láminas, para decorar"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/kgbTbqPG/malai-peda2.jpg",
     "tags": "dulce, azafrán, vegano, postre, india, castaña de cajú, peda",
@@ -1268,13 +1493,17 @@
     "description": "Un delicioso dulce tradicional elaborado con harina de garbanzo, cardamomo y anacardos, perfecto para celebraciones y festividades.",
     "portions": "Rinde 12 unidades",
     "ingredients": [
-      "2 cucharadas de aceite de neutro",
-      "2 cucharadas de manteca vegana, manteca de cacao o aceite de coco",
-      "1 taza de harina de garbanzo o besan",
-      "½ taza de castañas de cajú molidas groseramente",
-      "2 cucharadas de pasas (opcional)",
-      "½ cucharadita de cardamomo molido grueso",
-      "½ taza + 2 cucharadas de azúcar no refinado o azúcar impalpable"
+      {
+        "items": [
+          "2 cucharadas de aceite de neutro",
+          "2 cucharadas de manteca vegana, manteca de cacao o aceite de coco",
+          "1 taza de harina de garbanzo o besan",
+          "½ taza de castañas de cajú molidas groseramente",
+          "2 cucharadas de pasas (opcional)",
+          "½ cucharadita de cardamomo molido grueso",
+          "½ taza + 2 cucharadas de azúcar no refinado o azúcar impalpable"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/T292fQYY/besan_ladoo.jpg",
     "tags": "dulce, vegano, tradicional, india, garbanzo, besan, ladoo",
@@ -1291,22 +1520,26 @@
     "description": "Un plato tradicional del sur de Asia, especialmente popular en Nepal e India, que combina lentejas especiadas con arroz basmati para una comida reconfortante y nutritiva.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1 taza de lentejas rojas (masoor dal)",
-      "1 cucharada de aceite vegetal",
-      "1 cucharada de jengibre, picado",
-      "¾ cucharadita de sal",
-      "½ cucharadita de semillas de mostaza",
-      "½ cucharadita de cúrcuma",
-      "½ cucharadita de semillas de comino",
-      "½ cucharadita de cilantro (coriandro) molido",
-      "1 tomate mediano, picado en cubos",
-      "½ cucharada de manteca vegana (opcional)",
-      "2 cucharadas de cilantro y/o perejil, picadas, para decorar",
-      "Agua, para cocinar las lentejas",
-      "Arroz basmati (o el tipo que prefiera)",
-      "Chutney o encurtido indio de su elección (ejemplo: encurtido de lima Patak's)",
-      "Opcional: pimienta de su elección o hojuelas de pimiento rojo",
-      "Opcional: Shan Dal Curry Mix o garam masala (en lugar de cúrcuma, comino y cilantro)"
+      {
+        "items": [
+          "1 taza de lentejas rojas (masoor dal)",
+          "1 cucharada de aceite vegetal",
+          "1 cucharada de jengibre, picado",
+          "¾ cucharadita de sal",
+          "½ cucharadita de semillas de mostaza",
+          "½ cucharadita de cúrcuma",
+          "½ cucharadita de semillas de comino",
+          "½ cucharadita de cilantro (coriandro) molido",
+          "1 tomate mediano, picado en cubos",
+          "½ cucharada de manteca vegana (opcional)",
+          "2 cucharadas de cilantro y/o perejil, picadas, para decorar",
+          "Agua, para cocinar las lentejas",
+          "Arroz basmati (o el tipo que prefiera)",
+          "Chutney o encurtido indio de su elección (ejemplo: encurtido de lima Patak's)",
+          "Opcional: pimienta de su elección o ají molido",
+          "Opcional: Shan Dal Curry Mix o garam masala (en lugar de cúrcuma, comino y cilantro)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/cC9NY9rR/dhal_tibetano.jpg",
     "tags": "tradicional, vegano, especiado, India, Nepal, lentejas, arroz, tibet, monjas, monjas tibetanas",
@@ -1327,20 +1560,24 @@
     "description": "El Guthuk Vegetariano es una sopa tibetana tradicional que se disfruta especialmente en el festival de Losar, con fideos caseros y bolas de masa que esconden mensajes o artículos especiales.",
     "portions": "Rinde 3-4 porciones",
     "ingredients": [
-      "1 cucharada de jengibre, picado",
-      "5 champiñones shitake medianos, picados",
-      "1 tomate, picado",
-      "2 tallos de apio, picados",
-      "1 cucharadita de sal",
-      "3 cucharaditas de salsa de soja baja en sodio (si usa salsa de soja normal, omita la sal)",
-      "3 tazas de agua (primera cocción)",
-      "3 tazas de agua (segunda cocción)",
-      "1/3 taza de arvejas congeladas",
-      "2/3 de un labu grande, cortado en tiras (daikon o nabo japonés)",
-      "5 tazas de espinacas, picadas groseramente",
-      "1 taza de cilantro, picado (o perejil)",
-      "1 1/2 tazas de harina blanca de trigo",
-      "1/2 taza más 2 cucharadas de agua"
+      {
+        "items": [
+          "1 cucharada de jengibre, picado",
+          "5 champiñones shitake medianos, picados",
+          "1 tomate, picado",
+          "2 tallos de apio, picados",
+          "1 cucharadita de sal",
+          "3 cucharaditas de salsa de soja baja en sodio (si usa salsa de soja normal, omita la sal)",
+          "3 tazas de agua (primera cocción)",
+          "3 tazas de agua (segunda cocción)",
+          "1/3 taza de arvejas congeladas",
+          "2/3 de un labu grande, cortado en tiras (daikon o nabo japonés)",
+          "5 tazas de espinacas, picadas groseramente",
+          "1 taza de cilantro, picado (o perejil)",
+          "1 1/2 tazas de harina blanca de trigo",
+          "1/2 taza más 2 cucharadas de agua"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/cLKd7S7r/sopa_tibetana.jpg",
     "tags": "sopa, vegetariano, tibetano, Losar, fideos, masa, festival, arveja, shitake, espinaca, monjas, tibet",
@@ -1350,11 +1587,11 @@
       "Pique las espinacas y el cilantro. Reserve.",
       "Para la masa, mezcle lentamente el agua con la harina hasta formar una bola. Amasar durante unos minutos, agregando más agua o harina si es necesario.",
       "Divida la masa en dos partes: una para hacer los bhatsa (que serían como ñoquis con la forma de una cucharita) y otra para hacer las grandes bolas de masa (una para cada persona que coma la sopa), que tienen en su interior un mensaje u otro objeto, y es lo que hace que esta sopa sea un guthuk.",
-      "A continuación, frote cada trozo de masa entre sus manos para formar cuerdas largas y delgadas de masa. Corte un trozo del tamaño de la punta de su uña o más pequeño. Frote la masa con un dedo en la palma de su mano para hacer que el pequeño trozo de masa se enrolle (para poder absorber mejor la sopa). Estos pequeños trozos de masa enrollados, que se parecen a ñoquis, son sus bhatsa. Repita hasta que haya utilizado todas las cuerdas de masa excepto una. Puede espolvorear un poco de harina alrededor de la pila de bhatsa para evitar que se peguen.",
-      "Corte un trozo de masa de 4 a 5 veces más grande que uno de los bhatsa normales. Básicamente, las bolas de masa deben ser fácilmente distinguibles en la sopa, para que podamos elegir nuestra bola de masa entre los bhatsa. Enróllelo groseramente en forma de círculo entre sus manos, pero antes de terminar de enrollarlo, doble uno de los papeles con los mensajes especiales y métalo en el centro de la bola de masa, luego vuelva a enrollarlo para hacer la bola lo más lisa posible. Es mejor si no hay grietas para que el papel se mantenga seco dentro de la bola de masa cuando la cocine. Si lo desea, puede agregar otros objetos, como sal o carbón, dentro de la bola de masa. Pero hoy en día, la mayoría de las personas fuera del Tíbet simplemente coloca un papel con una palabra o símbolo escrito en él para representar el objeto. Haga una bola de masa por cada persona que coma su guthuk",
+      "Para los bhatsa: frote cada trozo de masa entre sus manos para formar cuerdas largas y delgadas de masa. Corte un trozo del tamaño de la punta de su uña o más pequeño. Frote la masa con un dedo en la palma de su mano para hacer que el pequeño trozo de masa se enrolle (para poder absorber mejor la sopa). Estos pequeños trozos de masa enrollados, que se parecen a ñoquis, son sus bhatsa. Repita hasta que haya utilizado todas las cuerdas de masa excepto una. Puede espolvorear un poco de harina alrededor de la pila de bhatsa para evitar que se peguen.",
+      "Para las bolas de masa: corte un trozo de masa de 4 a 5 veces más grande que uno de los bhatsa normales. Básicamente, las bolas de masa deben ser fácilmente distinguibles en la sopa, para que podamos elegir nuestra bola de masa entre los bhatsa. Enróllelo groseramente en forma de círculo entre sus manos, pero antes de terminar de enrollarlo, doble uno de los papeles con los mensajes especiales y métalo en el centro de la bola de masa, luego vuelva a enrollarlo para hacer la bola lo más lisa posible. Es mejor si no hay grietas para que el papel se mantenga seco dentro de la bola de masa cuando la cocine. Si lo desea, puede agregar otros objetos, como sal o carbón, dentro de la bola de masa. Pero hoy en día, la mayoría de las personas fuera del Tíbet simplemente coloca un papel con una palabra o símbolo escrito en él para representar el objeto. Haga una bola de masa por cada persona que coma su guthuk",
       "En una olla, dore ligeramente el jengibre a fuego medio-alto durante 1 minuto. Agregue el apio, los champiñones, el tomate, la salsa de soja y la sal. Cocine a fuego alto durante 7 minutos.",
       "Agregue 3 tazas de agua y lleve a ebullición. Después, baje el fuego y cocine a fuego lento durante 10 minutos. Agregue 3 tazas más de agua y lleve nuevamente a ebullición. Luego, agregue el labu y las arvejas. Después de 5 minutos, agregue los bhatsa y las bolas de masa grandes. Cocine durante 5 minutos hasta que las masas y las bolas floten a la superficie.",
-      "Apague el fuego y agregue las espinacas y el cilantro. Sirva de inmediato.",
+      "Apague el fuego y agregue las espinacas y el cilantro.",
       "Coloque una bola de masa grande en cada tazón y sirva caliente."
     ],
     "curiosidad": "El Guthuk es una sopa tradicional tibetana que se sirve durante el festival de Losar (año nuevo tibetano). En algunas culturas, cada persona debe pescar su bola de masa para descubrir el mensaje o artículo escondido adentro de la masa, lo que agrega un elemento divertido y simbólico a la comida."
@@ -1365,17 +1602,21 @@
     "description": "Un plato tradicional ayurvédico, balanceado y nutritivo, ideal para desintoxicar el cuerpo y aportar energía.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "1/2 cucharadita de semillas de comino",
-      "2 cucharadas de ghee vegano o aceite de girasol",
-      "1 hoja de laurel",
-      "1/2 cucharadita de semillas de cilantro",
-      "1 cucharadita de cúrcuma",
-      "1 cucharadita de orégano seco",
-      "1 taza de arroz basmati",
-      "1/2 taza de porotos mung partidos (o enteros si no se consigue partidos. Si son eneteros dejar en remojo por mínimo 8 horas)",
-      "4-6 tazas de agua",
-      "3 tazas de vegetales mixtos (zanahorias, zucchini, zapallitos) cortados en cubos",
-      "Sal marina a gusto"
+      {
+        "items": [
+          "1/2 cucharadita de semillas de comino",
+          "2 cucharadas de ghee vegano o aceite de girasol",
+          "1 hoja de laurel",
+          "1/2 cucharadita de semillas de cilantro",
+          "1 cucharadita de cúrcuma",
+          "1 cucharadita de orégano seco",
+          "1 taza de arroz basmati",
+          "1/2 taza de porotos mung partidos (o enteros si no se consigue partidos. Si son eneteros dejar en remojo por mínimo 8 horas)",
+          "4-6 tazas de agua",
+          "3 tazas de vegetales mixtos (zanahorias, zucchini, zapallitos) cortados en cubos",
+          "Sal marina a gusto"
+        ]
+      }
     ],
     "instruction": [
       "En una olla grande, calienta el ghee o aceite de girasol a fuego medio.",
@@ -1400,15 +1641,19 @@
     "description": "Una receta tradicional japonesa para preparar pepinos marinados en una mezcla de sabores dulces, salados y umami. Perfecto como acompañamiento o snack saludable.",
     "portions": "Rinde entre 20 y 25 porciones",
     "ingredients": [
-      "1,5 kilos de pepino",
-      "15 gramos de sal",
-      "60 gramos de azúcar",
-      "70 ml de dashi shoyu*",
-      "100 ml de vinagre",
-      "30 ml de mirin",
-      "2 pimientas rojas (o a gusto)",
-      "1 pedazo de jengibre (a gusto)",
-      "Alga kombu cortada finamente (opcional)"
+      {
+        "items": [
+          "1,5 kilos de pepino",
+          "15 gramos de sal",
+          "60 gramos de azúcar",
+          "70 ml de dashi shoyu*",
+          "100 ml de vinagre",
+          "30 ml de mirin",
+          "2 pimientas rojas (o a gusto)",
+          "1 pedazo de jengibre (a gusto)",
+          "Alga kombu cortada finamente (opcional)"
+        ]
+      }
     ],
     "instruction": [
       "Lava bien los pepinos y córtalos en rodajas finas, de aproximadamente 2 a 3 mm de grosor.",
@@ -1437,14 +1682,23 @@
     "description": "Una ensalada fresca y ligera con un aderezo cremoso de tofu, perfecta para acompañar cualquier comida.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "200 g de brócoli, separado en floretes pequeños",
-      "200 g de coliflor, separado en floretes pequeños",
-      "1 bloque de tofu firme (aprox. 100 g)",
-      "1 cucharada de miso blanco o 1 cucharadita de miso rojo",
-      "1 cucharada de semillas de sésamo blanco, tostadas y molidas",
-      "3 cucharadas de vinagre de arroz o cualquier vinagre blanco",
-      "2 cucharadas de aceite de oliva",
-      "1 cucharada de vino blanco o sake para cocina"
+      {
+        "items": [
+          "200 g de brócoli, separado en floretes pequeños",
+          "200 g de coliflor, separado en floretes pequeños"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "1 bloque de tofu firme (aprox. 100 g)",
+          "1 cucharada de miso blanco o 1 cucharadita de miso rojo",
+          "1 cucharada de semillas de sésamo blanco, tostadas y molidas",
+          "3 cucharadas de vinagre de arroz o cualquier vinagre blanco",
+          "2 cucharadas de aceite de oliva",
+          "1 cucharada de vino blanco o sake para cocina"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/T1rB9jkm/ensalad-tofu.jpg",
     "tags": [
@@ -1475,23 +1729,32 @@
     "description": "Un ñoqui gigante relleno con espinaca y queso vegano, acompañado de una deliciosa salsa cremosa de tomates y hongos.",
     "portions": "Rinde entre 6 a 8 porciones",
     "ingredients": [
-      "1 kilo de puré de papas",
-      "2 cucharadas de manteca vegana, margarina u otro aceite vegetal",
-      "100 gramos de queso de rallar vegano (o levadura nutricional)",
-      "100 gramos de maicena",
-      "Harina de trigo (lo necesario)",
-      "Sal y nuez moscada a gusto",
-      "200 gramos de espinaca blanqueada y cortada en pedazos pequeños",
-      "500 gramos de queso vegano rallado o cortado en pedazos pequeños (o tofu desmenuzado y condimentado)*",
-      "2 cucharadas de aceite de oliva (para la salsa)",
-      "4 tomates sin piel ni semillas, picados en cubos",
-      "250 gramos de hongos shitake frescos o secos hidratados, cortados en rodajas finas",
-      "500 ml de caldo de verduras",
-      "1 lata (aproximadamente 300 gramos) de crema vegana (o leche de coco)",
-      "1 cucharadita de pimentón ahumado",
-      "Perejil picado a gusto",
-      "Pimienta blanca a gusto",
-      "Sal a gusto"
+      {
+        "items": [
+          "1 kilo de puré de papas",
+          "2 cucharadas de manteca vegana, margarina u otro aceite vegetal",
+          "100 gramos de queso de rallar vegano (o levadura nutricional)",
+          "100 gramos de maicena",
+          "Harina de trigo (lo necesario)",
+          "Sal y nuez moscada a gusto",
+          "200 gramos de espinaca blanqueada y cortada en pedazos pequeños",
+          "500 gramos de queso vegano rallado o cortado en pedazos pequeños (o tofu desmenuzado y condimentado)*"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa",
+        "items": [
+          "2 cucharadas de aceite de oliva",
+          "4 tomates sin piel ni semillas, picados en cubos",
+          "250 gramos de hongos shitake frescos o secos hidratados, cortados en rodajas finas",
+          "500 ml de caldo de verduras",
+          "1 lata (aproximadamente 300 gramos) de crema vegana (o leche de coco)",
+          "1 cucharadita de pimentón ahumado",
+          "Perejil picado a gusto",
+          "Pimienta blanca a gusto",
+          "Sal a gusto"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/857W3wZn/nhocao.jpg",
     "tags": [
@@ -1529,11 +1792,15 @@
     "description": "Deliciosas y saludables trufas raw hechas con ingredientes naturales y sin cocción, perfectas como snack o postre.",
     "portions": "Rinde aproximadamente 18 trufas",
     "ingredients": [
-      "1 taza de ciruelas deshidratadas sin carozo",
-      "1 ½ tazas de nueces",
-      "50 gramos de coco rallado",
-      "Jugo de 1 naranja",
-      "50 gramos de azúcar mascabo"
+      {
+        "items": [
+          "1 taza de ciruelas deshidratadas sin carozo",
+          "1 ½ tazas de nueces",
+          "50 gramos de coco rallado",
+          "Jugo de 1 naranja",
+          "50 gramos de azúcar mascabo"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/0jGm2LKz/trufas-raw.jpg",
     "tags": [
@@ -1566,13 +1833,17 @@
     "description": "Delicioso untable a base de semillas de girasol, perfecto como acompañamiento o para untar en panes.",
     "portions": "Rinde aproximadamente 250 gramos",
     "ingredients": [
-      "1 taza de semillas de girasol remojadas por al menos 8 horas",
-      "1 cucharada de miso",
-      "Jugo de 1 limón",
-      "1 cucharada (o más, si lo desea) de orégano",
-      "1/3 de taza de levadura nutricional (o más, si lo desea)",
-      "Sal a gusto",
-      "Agua (cuanto baste)"
+      {
+        "items": [
+          "1 taza de semillas de girasol remojadas por al menos 8 horas",
+          "1 cucharada de miso",
+          "Jugo de 1 limón",
+          "1 cucharada (o más, si lo desea) de orégano",
+          "1/3 de taza de levadura nutricional (o más, si lo desea)",
+          "Sal a gusto",
+          "Agua (cuanto baste)"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/ZqwtdRpm/untable-girasol.jpg",
     "tags": [
@@ -1602,17 +1873,26 @@
     "description": "Un plato vegetariano rápido y satisfactorio. El repollo queda tierno y ligeramente dulce, con un toque de sabor gracias a los aromas frescos.",
     "portions": "Rinde 4 porciones",
     "ingredients": [
-      "2 cucharadas de vinagre de arroz",
-      "2 cucharadas de salsa de soja clara (salsa de soja común)",
-      "½ cucharada de salsa de soja oscura",
-      "2 cucharaditas de azúcar",
-      "1 cucharadita de maicena",
-      "½ cabeza de repollo pequeña (aproximadamente 565 g), cortada en trozos",
-      "1 ½ cucharadas de aceite de maní (o un aceite neutro)",
-      "½ cucharadita de pimienta de Sichuan entera",
-      "2 o 3 ajís secos chinos",
-      "Una pizca de sal (opcional)",
-      "1 ½ cucharadita de aceite de sésamo tostado"
+      {
+        "items": [
+          "1 ½ cucharadas de aceite de maní (o un aceite neutro)",
+          "½ cucharadita de pimienta de Sichuan entera",
+          "2 o 3 ajís secos chinos",
+          "½ cabeza de repollo pequeña (aproximadamente 565 g), cortada en trozos",
+          "Una pizca de sal (opcional)",
+          "1 ½ cucharadita de aceite de sésamo tostado"
+        ]
+      },
+      {
+        "subtitle": "Para el aderezo",
+        "items": [
+          "2 cucharadas de vinagre de arroz",
+          "2 cucharadas de salsa de soja clara (salsa de soja común)",
+          "½ cucharada de salsa de soja oscura",
+          "2 cucharaditas de azúcar",
+          "1 cucharadita de maicena"
+        ]
+      }
     ],
     "image": "https://i.postimg.cc/Gh5SBPD0/repollo2.jpg",
     "tags": [

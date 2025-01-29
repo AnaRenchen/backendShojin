@@ -295,33 +295,49 @@ function cargarDetalleReceta(receta) {
 
   const listaIngredientes = document.getElementById("ingredientes");
   listaIngredientes.innerHTML = "";
-  receta.ingredients.forEach((ingredient) => {
-    const li = document.createElement("li");
-    li.className = "ingredient-item";
 
-    if (typeof ingredient === "string") {
-      // Si es texto plano, agrégalo directamente
-      li.textContent = ingredient;
-    } else if (
-      typeof ingredient === "object" &&
-      ingredient.text &&
-      ingredient.linkText &&
-      ingredient.link
-    ) {
-      // Si es un objeto con texto y enlace, crea el contenido mixto
-      const span = document.createElement("span");
-      span.textContent = ingredient.text;
-
-      const a = document.createElement("a");
-      a.textContent = ingredient.linkText;
-      a.href = ingredient.link;
-      a.className = "ingredient-link"; // Clase personalizada
-
-      li.appendChild(span);
-      li.appendChild(a);
+  receta.ingredients.forEach((section) => {
+    // Si hay un subtítulo, agregarlo como un encabezado
+    if (section.subtitle) {
+      const subtitle = document.createElement("h6");
+      subtitle.textContent = section.subtitle;
+      subtitle.className = "subtitle-ingredients";
+      listaIngredientes.appendChild(subtitle);
     }
 
-    listaIngredientes.appendChild(li);
+    // Crear la lista de ingredientes para esta sección
+    const ul = document.createElement("ul");
+
+    section.items.forEach((ingredient) => {
+      const li = document.createElement("li");
+      li.className = "ingredient-item";
+
+      if (typeof ingredient === "string") {
+        // Si es texto plano, agrégalo directamente
+        li.textContent = ingredient;
+      } else if (
+        typeof ingredient === "object" &&
+        ingredient.text &&
+        ingredient.linkText &&
+        ingredient.link
+      ) {
+        // Si es un objeto con texto y enlace, crea el contenido mixto
+        const span = document.createElement("span");
+        span.textContent = ingredient.text;
+
+        const a = document.createElement("a");
+        a.textContent = ingredient.linkText;
+        a.href = ingredient.link;
+        a.className = "ingredient-link"; // Clase personalizada
+
+        li.appendChild(span);
+        li.appendChild(a);
+      }
+
+      ul.appendChild(li);
+    });
+
+    listaIngredientes.appendChild(ul);
   });
 
   const contenedorInstrucciones = document.getElementById("instrucciones");

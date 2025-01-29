@@ -459,6 +459,16 @@
     margin-top: 20px ;
     margin-bottom: 35px;
   }
+
+  .subtitle-ingredients{
+    font-family: 'Yu Gothic', sans-serif;
+    color:#212529;
+    letter-spacing: 0.04rem;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+  }
   
   .h5-receta{
     font-family: 'Yu Gothic', sans-serif;
