@@ -383,7 +383,7 @@ function cargarDetalleReceta(receta) {
   const notesList = document.getElementById("notas-container");
   if (receta.notes && Array.isArray(receta.notes) && receta.notes.length > 0) {
     notesList.style.display = "block";
-    notesList.innerHTML = "<h5 class='h6-receta'>Notas:</h5>";
+    notesList.innerHTML = "<h5 class='h5-receta'>Notas:</h5>"; // Agregamos el título de las notas
 
     const ul = document.createElement("ul"); // Lista para las notas
     ul.className = "notes-list";
@@ -414,10 +414,13 @@ function cargarDetalleReceta(receta) {
         li.appendChild(a);
       }
 
-      notesList.appendChild(li);
+      ul.appendChild(li);
     });
+
+    notesList.appendChild(ul);
   } else {
     notesList.style.display = "none";
+    notesList.innerHTML = ""; // Limpiar contenido si no hay notas
   }
 
   const curiosidadContainer = document.getElementById("curiosidad-container");
