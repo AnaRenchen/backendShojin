@@ -659,6 +659,10 @@
     .h5-receta{
       font-size: 1.3rem;
     }
+
+    .subtitle-ingredients{
+      font-size: 1rem;
+    }
     
     .image-ingredientes {
       flex-direction: row; 
@@ -728,6 +732,10 @@
 
     .h5-receta{
       font-size: 1.3rem;
+    }
+
+    .subtitle-ingredients{
+      font-size: 1rem;
     }
 
     .h6-receta{
@@ -822,6 +830,10 @@
 
   .h5-receta{
     font-size: 1.3rem;
+  }
+
+  .subtitle-ingredients{
+    font-size: 1rem;
   }
 
   .h6-receta{
