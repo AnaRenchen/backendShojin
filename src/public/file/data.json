@@ -1919,5 +1919,65 @@
       "Si no se consigue la pimienta de Sichuan o los ajíes secos chinos, agregue al repollo un poco de ají en polvo, pimienta cayena o gochugaru."
     ],
     "curiosidad": "A diferencia de otras pimientas, la pimienta de Sichuan no proviene de una planta de la familia de las pimientas, sino de los frutos secos de un arbusto del género Zanthoxylum. Su característica más interesante es que contiene una molécula llamada hidroxi-alfa-sanshool, que produce una sensación única de hormigueo y ligero adormecimiento en la lengua. Este efecto no es picante, sino una sensación vibrante y eléctrica que realza los sabores de los platos, convirtiéndola en un ingrediente esencial en la cocina china, especialmente en la región de Sichuan."
+  },
+  {
+    "id": 48,
+    "title": "Torta de Palmito",
+    "description": "Una deliciosa torta salada con relleno cremoso de palmito, tomate y especias.",
+    "portions": "Rinde aproximadamente 6 porciones",
+    "ingredients": [
+      {
+        "subtitle": "Para la masa",
+        "items": [
+          "1 ½ tazas de maicena",
+          "1 ½ tazas de harina de trigo",
+          "1 cucharadita de sal",
+          "1 cucharadita de polvo de hornear",
+          "¼ de taza de leche vegetal",
+          "¼ de taza de aceite vegetal"
+        ]
+      },
+      {
+        "subtitle": "Para el relleno",
+        "items": [
+          "¼ de taza de aceite de oliva",
+          "4 tomates maduros cortados en cubos",
+          "800 gramos de palmitos cortados en trozos pequeños",
+          "2 tazas de leche vegetal",
+          "2 cucharadas de maicena",
+          "1 lata de choclo",
+          "1 lata de arvejas",
+          "Aceitunas a gusto",
+          "1 cucharadita de pimentón dulce",
+          "1 cucharada de orégano (opcional)",
+          "Sal a gusto",
+          "Pimienta negra a gusto"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/XNTjcs8T/torta-palmito.jpg",
+    "tags": [
+      "palmito",
+      "torta",
+      "salado",
+      "vegetariano",
+      "maicena",
+      "horno",
+      "aceituna",
+      "brasil"
+    ],
+    "instruction": [
+      "Para la masa: en un bowl agregue la maicena, la harina de trigo, la sal, el polvo de hornear, la leche vegetal y el aceite.",
+      "Mezcle bien todos los ingredientes con la punta de los dedos hasta formar una masa homogénea. Deje la masa descansar por 30 minutos.",
+      "Para el relleno: en una olla adicione el aceite de oliva, los tomates, los palmitos, el orégano, el pimentón y la sal.nCocine por unos 15 minutos.",
+      "Mezcle la maicena en la leche y agregue la mistura al relleno, revolviendo hasta que espese bien.",
+      "Incorpore al relleno el choclo, las arvejas y las aceitunas.",
+      "Adicione la pimienta negra y pruebe la sal. De ser necesario agregue un poco más.nApague el fuego y reserve.",
+      "Abra 2/3 de la masa sobre una fuente redonda de aproximadamente 22 cm de diámetro.",
+      "Agregue el relleno ya frío y cubra con el restante de la masa.",
+      "Pincele la masa con un poco de leche vegetal mezclado con un poco de cúrcuma (opcional).",
+      "Lleve la torta al horno precalentado a 180°C por aproximadamente 30 minutos o hasta que esté levemente dorada.",
+      "Espere que se enfríe un poco antes de cortar y servir las porciones."
+    ]
   }
 ]

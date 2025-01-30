@@ -381,7 +381,7 @@ function cargarDetalleReceta(receta) {
 
   // Renderizar notas
   const notesList = document.getElementById("notas-container");
-  if (receta.notes && Array.isArray(receta.notes)) {
+  if (receta.notes && Array.isArray(receta.notes) && receta.notes.length > 0) {
     notesList.style.display = "block";
     notesList.innerHTML = "<h5 class='h6-receta'>Notas:</h5>";
 
