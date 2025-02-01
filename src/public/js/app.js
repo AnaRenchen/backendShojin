@@ -246,21 +246,24 @@ function search() {
       .toLowerCase()
       .includes(searchTerm);
 
-    const ingredientsMatches = item.ingredients.some((ingredient) => {
-      if (typeof ingredient === "string") {
-        return ingredient.toLowerCase().includes(searchTerm);
-      } else if (typeof ingredient === "object") {
-        return (
-          (ingredient.text &&
-            ingredient.text.toLowerCase().includes(searchTerm)) ||
-          (ingredient.linkText &&
-            ingredient.linkText.toLowerCase().includes(searchTerm)) ||
-          (ingredient.link &&
-            ingredient.link.toLowerCase().includes(searchTerm))
-        );
-      }
-      return false;
-    });
+    // Búsqueda de ingredientes dentro de subgrupos
+    const ingredientsMatches = item.ingredients.some((group) =>
+      group.items.some((ingredient) => {
+        if (typeof ingredient === "string") {
+          return ingredient.toLowerCase().includes(searchTerm);
+        } else if (typeof ingredient === "object") {
+          return (
+            (ingredient.text &&
+              ingredient.text.toLowerCase().includes(searchTerm)) ||
+            (ingredient.linkText &&
+              ingredient.linkText.toLowerCase().includes(searchTerm)) ||
+            (ingredient.link &&
+              ingredient.link.toLowerCase().includes(searchTerm))
+          );
+        }
+        return false;
+      })
+    );
 
     const tagsMatches = item.tags.some((tag) =>
       tag.toLowerCase().includes(searchTerm)
