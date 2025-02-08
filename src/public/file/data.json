@@ -1979,5 +1979,63 @@
       "Lleve la torta al horno precalentado a 180°C por aproximadamente 30 minutos o hasta que esté levemente dorada.",
       "Espere que se enfríe un poco antes de cortar y servir las porciones."
     ]
+  },
+  {
+    "id": 49,
+    "title": "Fideos de Sésamo",
+    "description": "Un plato fresco y sabroso con una salsa de sésamo cremosa, ideal para los días calurosos.",
+    "portions": "Rinde de 2 a 4 porciones",
+    "ingredients": [
+      {
+        "items": [
+          "454 g de fideos hechos a mano o fideos de trigo frescos",
+          "o 255 g de fideos de trigo secos"
+        ]
+      },
+      {
+        "items": [
+          "1 pepino, en juliana",
+          "1 zanahoria, en juliana",
+          "4 nabos, en juliana",
+          "Semillas de sésamo tostadas"
+        ]
+      },
+      {
+        "subtitle": "Para la salsa",
+        "items": [
+          "4 cucharadas de pasta de sésamo chino (o mantequilla de maní natural sin sal, o tahini)",
+          "2 a 4 cucharadas de agua tibia",
+          "2 cucharadas de salsa de soja clara",
+          "2 cucharadas de vinagre Chinkiang (remplace por vinagre de arroz o aceto)",
+          "1 cucharada de jarabe de arce (o azúcar)",
+          "2 cucharaditas de aceite de ají, o a gusto",
+          "1 cucharadita de aceite de sésamo tostado",
+          "1 cucharadita de jengibre rallado",
+          "½ cucharadita de pimienta de Sichuan recién molida"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/SNqmYYJV/sesame-noodles.jpg",
+    "tags": [
+      "fideos",
+      "sésamo",
+      "tahini",
+      "mantequilla de maní",
+      "zanahoria",
+      "picante",
+      "pepino",
+      "nabo",
+      "ají",
+      "vinagre",
+      "aceite de sésamo"
+    ],
+    "instruction": [
+      "Prepare la salsa: Coloque la pasta de sésamo en un tazón mediano y agregue lentamente el agua tibia, un poco a la vez, revolviendo hasta obtener una pasta suave.",
+      "Incorpore la salsa de soja, el vinagre, el jarabe de arce y los aceites, mezclando bien después de cada adición.",
+      "Incorpore el jengibre y la pimienta de Sichuan y mezcle hasta que la salsa esté homogénea.",
+      " Hierva los fideos según las instrucciones del paquete, escúrralos y enjuáguelos con agua fría para detener la cocción.",
+      "Coloque los fideos en tazones individuales y sirva la salsa por separado, permitiendo que cada persona agregue sus ingredientes preferidos y mezcle al gusto.",
+      "Decore con pepino, zanahoria, nabo y semillas de sésamo."
+    ]
   }
 ]
