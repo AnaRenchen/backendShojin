@@ -78,7 +78,7 @@ export class VistasController {
           <meta charset="UTF-8">
           <meta property="og:title" content="${recipe.title}" />
           <meta property="og:description" content="${recipe.description}" />
-          <meta property="og:image" content="${recipe.imageUrl}" />
+          <meta property="og:image" content="${recipe.image}" />
           <meta property="og:url" content="https://tusitio.com/receta/${recipe._id}" />
           <meta property="og:type" content="article" />
           `;
