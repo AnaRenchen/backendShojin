@@ -84,11 +84,11 @@ export class VistasController {
           `;
 
       // Reemplazar el marcador en el HTML con las Open Graph tags generadas
-      htmlContent = htmlContent.replace("{{OG_TAGS}}", ogTags);
+      const updatehtml = htmlContent.replace("<!--OG_TAGS-->", ogTags);
 
       // Configurar el tipo de contenido antes de enviar la respuesta
       res.setHeader("Content-Type", "text/html; charset=utf-8");
-      res.status(200).send(htmlContent);
+      res.status(200).send(updatehtml);
     } catch (error) {
       req.logger.error(
         JSON.stringify(
