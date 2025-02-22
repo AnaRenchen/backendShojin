@@ -69,24 +69,25 @@ export class VistasController {
         return res.status(404).send("Receta no encontrada");
       }
 
-      // Leer el archivo HTML base
+      // Leer el archivo HTML base de manera asíncrona
       const htmlPath = path.join(__dirname, "../public/html/recipe.html");
-      let htmlContent = fs.readFileSync(htmlPath, "utf-8");
+      let htmlContent = await fs.promises.readFile(htmlPath, "utf-8");
 
-      // Inyectar las Open Graph tags en el `<head>`
-      htmlContent = htmlContent.replace(
-        "</head>",
-        `
-    <meta property="og:title" content="${recipe.title}" />
-    <meta property="og:description" content="${recipe.description}" />
-    <meta property="og:image" content="${recipe.image}" />
-    <meta property="og:url" content="https://tusitio.com/receta/${recipe._id}" />
-    <meta property="og:type" content="article" />
-</head>`
-      );
+      // Meta tags de Open Graph
+      const ogTags = `
+          <meta charset="UTF-8">
+          <meta property="og:title" content="${recipe.title}" />
+          <meta property="og:description" content="${recipe.description}" />
+          <meta property="og:image" content="${recipe.imageUrl}" />
+          <meta property="og:url" content="https://tusitio.com/receta/${recipe._id}" />
+          <meta property="og:type" content="article" />
+          `;
 
-      // Enviar el HTML modificado
-      res.send(htmlContent);
+      // Reemplazar el marcador en el HTML con las Open Graph tags generadas
+      htmlContent = htmlContent.replace("{{OG_TAGS}}", ogTags);
+
+      // Configurar el tipo de contenido antes de enviar la respuesta
+      res.setHeader("Content-Type", "text/html; charset=utf-8");
     } catch (error) {
       req.logger.error(
         JSON.stringify(
