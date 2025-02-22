@@ -88,6 +88,7 @@ export class VistasController {
 
       // Configurar el tipo de contenido antes de enviar la respuesta
       res.setHeader("Content-Type", "text/html; charset=utf-8");
+      res.status(200).send(htmlContent);
     } catch (error) {
       req.logger.error(
         JSON.stringify(
