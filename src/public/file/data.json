@@ -2037,5 +2037,91 @@
       "Coloque los fideos en tazones individuales y sirva la salsa por separado, permitiendo que cada persona agregue sus ingredientes preferidos y mezcle al gusto.",
       "Decore con pepino, zanahoria, nabo y semillas de sésamo."
     ]
+  },
+  {
+    "id": 50,
+    "title": "Bolo de milho (Budín de choclo)",
+    "description": "Una receta del campo y muy típica de Brasil.",
+    "portions": "Rinde un molde de 20cm de diámetro",
+    "ingredients": [
+      {
+        "items": [
+          "1 taza (de té) de agua",
+          "1/3 de taza (de té) de aceite vegetal",
+          "1 y 1/2 tazas (de té) de choclo crudo (cerca de 3 choclos)",
+          "1/2 taza (de té) de coco rallado no endulzado",
+          "3/4 de taza (de té) de azúcar demerara o cristal",
+          "1 taza (de té) de harina de maíz fina (harina paraguaya, fubá)",
+          "1 cucharada (sopera) de vinagre blanco o de manzana",
+          "1 cucharada (sopera) de levadura en polvo",
+          "Una pizca de sal"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/P5c9vP5J/bolo-de-milho.jpg",
+    "tags": [
+      "budín",
+      "maíz",
+      "choclo",
+      "sin gluten",
+      "vegano",
+      "postre",
+      "café",
+      "brasil"
+    ],
+    "instruction": [
+      "Precaliente el horno a 210ºC y engrase un molde mediano con aceite y harina de maíz fina.",
+      "En una licuadora, coloque el agua, el aceite, el maíz, el coco rallado, el azúcar, la harina de maíz fina, el vinagre, una pizca de sal y bata hasta obtener una mezcla uniforme.",
+      "Agregue la levadura química en polvo y bata rápidamente para mezclar.",
+      "Coloque esta masa en el molde y lleve a hornear por cerca de 40 minutos o hasta que al insertar un cuchillo o tenedor, este salga limpio.",
+      "Si usted quiere, puede derretir cerca de 1 taza de dulce de guayaba bien picadito con agua para hacer un almíbar. Solo tiene que mezclar el dulce de guayaba con cerca de 1/2 taza de agua y dejar cocinar a fuego bajo, revolviendo siempre hasta que esté bien derretido. En caso de ser necesario, agregue más agua."
+    ],
+    "notes": [
+      "Como el budín es amarillo, se recomienda engrasar el molde con harina de maíz fina, para que el budín no quede con esas marquitas blancas de harina de trigo. Pero si usted quiere/prefiere, puede usar la harina de trigo para engrasar.",
+      "En lugar del agua, puede usar leche de almendras, de maní o de coco casera. Sin embargo, no se nota tanta diferencia con el uso de leches vegetales.",
+      "Usted puede usar los residuos de la leche de coco en lugar del coco rallado, pero tendrá menos sabor.",
+      "El vinagre reacciona con la levadura y ayuda a que la masa quede más esponjosa, y no deja sabor en el budín.",
+      "También se puede usar el choclo vendido en lata,  usando la misma cantidad."
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Cookies con chips de chocolate",
+    "description": "Receta para preparar deliciosas cookies con chips de chocolate.",
+    "portions": "Aproximadamente 15 cookies de tamaño mediano",
+    "ingredients": [
+      {
+        "items": [
+          "1/2 taza de azúcar blanco",
+          "1/2 taza de azúcar mascabo",
+          "1/2 taza de aceite",
+          "1/4 taza de leche vegetal",
+          "2 tazas de harina 0000",
+          "1 pizca de sal",
+          "1 cdita de polvo para hornear",
+          "150gr de chocolate semiamargo (cortado en trozos o en chips)"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/2jXC7dT8/gatito-cookie.png",
+    "tags": [
+      "cookies",
+      "chips de chocolate",
+      "horno",
+      "dulce",
+      "galletitas",
+      "postre"
+    ],
+    "instruction": [
+      "En un bowl incorpore los ingredientes líquidos y mezcle bien, hasta que el azúcar mascabo esté disuelto.",
+      "En seguida incorpore los ingredientes secos y el chocolate.",
+      "Deje la masa descansar en la heladera por al menos 1 hora.",
+      "Haga bolitas con la masa, aplástelas un poco haciendo la forma de cookies y ponga para hornear por aproximadamente 12 minutos, en un horno precalentado a 180 grados."
+    ],
+    "notes": [
+      "Precaliente el horno por aproximadamente 10 minutos antes de poner las cookies.",
+      "También se puede usar solo azúcar blanco. En ese caso, se recomienda reducir la cantidad total de azúcar a 3/4 de taza.",
+      "Se pueden mezclar los chips de chocolate con frutos secos como nueces, almendras o maní."
+    ]
   }
 ]
