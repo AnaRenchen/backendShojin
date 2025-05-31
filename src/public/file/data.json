@@ -2113,15 +2113,50 @@
       "postre"
     ],
     "instruction": [
-      "En un bowl incorpore los ingredientes líquidos y mezcle bien, hasta que el azúcar mascabo esté disuelto.",
-      "En seguida incorpore los ingredientes secos y el chocolate.",
+      "En un bowl incorpore los ingredientes líquidos con los dos tipos de azúcar y mezcle bien, hasta que el azúcar mascabo esté disuelto.",
+      "En seguida incorpore los ingredientes secos y el chocolate. De ser necesario, agregue un poco más de leche vegetal hasta que la masa quede suave, pero maleable.",
       "Deje la masa descansar en la heladera por al menos 1 hora.",
       "Haga bolitas con la masa, aplástelas un poco haciendo la forma de cookies y ponga para hornear por aproximadamente 12 minutos, en un horno precalentado a 180 grados."
     ],
     "notes": [
       "Precaliente el horno por aproximadamente 10 minutos antes de poner las cookies.",
       "También se puede usar solo azúcar blanco. En ese caso, se recomienda reducir la cantidad total de azúcar a 3/4 de taza.",
-      "Se pueden mezclar los chips de chocolate con frutos secos como nueces, almendras o maní."
+      "Se pueden mezclar los chips de chocolate con frutos secos como nueces, almendras o maní.",
+      "Para que las cookies tengan un gusto más acentuado a vainilla, agregue un poco de esencia de vainilla."
     ]
+  },
+  {
+    "id": 52,
+    "title": "Receta de Tofu casero",
+    "description": "Receta para preparar tofu casero.",
+    "portions": "Rinde un tofu grande de aproximadamente 800 gramos",
+    "ingredients": [
+      {
+        "items": [
+          "500 gramos de porotos de soja secos",
+          "Agua",
+          "30 gramos de nigari"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/HskyvhL5/foto-tofu.png",
+    "tags": ["tofu", "vegano", "casero", "proteina", "soja", "nigari"],
+    "instruction": [
+      "Poner en remojo los 500 gr de porotos de soja secos de 8 a 12 horas.",
+      "En la licuadora mezclar una taza (250 ml) de los porotos de soja con 2 tazas y media (625 ml) de agua durante un minuto hasta que tenga consistencia cremosa.",
+      "Verter este puré en una manta de cielo y apretar hasta quitar toda la leche. Repetir la operación con el resto de los porotos de soja.",
+      "En una olla, mezclar la leche obtenida a fuego medio y remover con una cuchara de madera hasta que cueza durante 2 minutos.",
+      "Mientras, calentar aparte una taza (250 ml) de agua, agregar el sobrecito de 30 gr de nigari y revolver hasta que quede bien disuelto. Reservar.",
+      "Cuando la leche esté a punto, apagar el fuego y añadir la mezcla de agua y nigari con un movimiento circular del borde al centro para que se reparta bien el coagulante. Terminar el movimiento con la cuchara en el centro hasta que el movimiento de la leche cese.",
+      "Retirar la cuchara con suavidad. Dejar reposar más o menos 15 minutos o hasta que quede bien cuajado.",
+      "Con un colador retirar el cuajo y colocarlo en la prensa de tofu cubierta con la manta de cielo. Colocar la prensa de tofu de forma que quede en vilo para que caiga el exceso de líquido.",
+      "Cerrar la manta de cielo y tapar con la tapa superior de la prensa.",
+      "Poner algo de peso encima (una botella con agua se pone en general) y dejar que repose 60 minutos, retirar el peso y la manta de cielo y guardarlo en un recipiente cubierto con agua.",
+      "Meterlo en la heladera, cambiar el agua cada 2 días. Se conservará de 5 a 7 días."
+    ],
+    "notes": [
+      "En el caso de no conseguir nigari se puede usar vinagre o limón para cuajar la leche de soja. Sin embargo, la textura del tofu puede quedar un poco diferente a la del tofu hecho con nigari; generalmente es más firme y granulosa, como una ricota."
+    ],
+    "curiosidad": "El historia del tofu se remonta a la antigua China. Se dice que fue inventado por el príncipe Liu An, quien gobernó el estado de Huainan desde el 179 al 122 a. C. La leyenda cuenta que Liu An estaba tratando de crear un elixir de la inmortalidad con leche de soja, y por descuido, la leche se cuajó. Este cuajo se convirtió en la base del tofu, que luego se convirtió en un alimento popular en China. El tofu se introdujo en Japón y Corea en el período Nara (710-794) y Heian (794-1185). En Japón, el tofu se convirtió en un alimento básico en la dieta de los monjes budistas, quienes lo utilizaban como fuente de proteínas vegetariana. Con el tiempo, el tofu se popularizó en Japón y se convirtió en un alimento fundamental en la gastronomía nipona. El tofu también se ha extendido a otros países de Asia y, más recientemente, al resto del mundo. En la cocina occidental moderna, el tofu a menudo se utiliza como sustituto de la carne. "
   }
 ]
