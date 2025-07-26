@@ -509,6 +509,7 @@
   }
 
   
+  
   #curiosidad-container {
     margin: 30px auto; /* Centra horizontalmente y agrega espacio superior */
     display: block;  /* Para que respete el ancho máximo y se centre */
@@ -549,7 +550,7 @@
     color: #556B2F; 
     text-decoration: none; 
     font-weight: bold; /* Aumenta el grosor del texto */
-    transition: color 0.3s; /* Añade una animación al pasar el ratón */
+    transition: color 0.3s; 
   }
 
   .notes-link:hover {
@@ -933,6 +934,15 @@
       right: 5px;  /* Más cerca del borde derecho */
       padding: 5px; /* Padding mínimo */
     }
+
+    .notas-container{
+      padding: 0px;
+    }
+
+    .notes-list{
+      margin-right: 10px;
+    }
+  }
 
     @media (min-width: 1200px) {
       /* Estilos para pantallas de 1200px de ancho o más */
