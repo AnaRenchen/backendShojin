@@ -1244,9 +1244,13 @@
     "portions": "Rinde 4 porciones",
     "ingredients": [
       {
-        "text": "700 g de ",
-        "linkText": "arroz para sushi",
-        "link": "/recipes/recipe?id=6765521f412679f5bb3eef00"
+        "items": [
+          {
+            "text": "700 g de ",
+            "linkText": "arroz para sushi",
+            "link": "/recipes/recipe?id=6765521f412679f5bb3eef00"
+          }
+        ]
       },
       {
         "items": [
@@ -1988,12 +1992,7 @@
     "ingredients": [
       {
         "items": [
-          "454 g de fideos hechos a mano o fideos de trigo frescos",
-          "o 255 g de fideos de trigo secos"
-        ]
-      },
-      {
-        "items": [
+          "454 g de fideos hechos a mano o fideos de trigo frescos (o 255 g de fideos de trigo secos)",
           "1 pepino, en juliana",
           "1 zanahoria, en juliana",
           "4 nabos, en juliana",
@@ -2046,14 +2045,14 @@
     "ingredients": [
       {
         "items": [
-          "1 taza (de té) de agua",
-          "1/3 de taza (de té) de aceite vegetal",
-          "1 y 1/2 tazas (de té) de choclo crudo (cerca de 3 choclos)",
-          "1/2 taza (de té) de coco rallado no endulzado",
-          "3/4 de taza (de té) de azúcar demerara o cristal",
-          "1 taza (de té) de harina de maíz fina (harina paraguaya, fubá)",
-          "1 cucharada (sopera) de vinagre blanco o de manzana",
-          "1 cucharada (sopera) de levadura en polvo",
+          "1 taza de agua",
+          "1/3 de taza de aceite vegetal",
+          "1 y 1/2 tazas de choclo crudo (cerca de 3 choclos)",
+          "1/2 taza de coco rallado no endulzado",
+          "3/4 de taza de azúcar demerara o cristal",
+          "1 taza de harina de maíz fina (harina paraguaya, fubá)",
+          "1 cucharada de vinagre blanco o de manzana",
+          "1 cucharada de levadura en polvo",
           "Una pizca de sal"
         ]
       }
@@ -2159,5 +2158,42 @@
       "En el caso de no conseguir nigari se puede usar vinagre o limón para cuajar la leche de soja. Sin embargo, la textura del tofu puede quedar un poco diferente a la del tofu hecho con nigari; generalmente es más firme y granulosa, como una ricota."
     ],
     "curiosidad": "El historia del tofu se remonta a la antigua China. Se dice que fue inventado por el príncipe Liu An, quien gobernó el estado de Huainan desde el 179 al 122 a. C. La leyenda cuenta que Liu An estaba tratando de crear un elixir de la inmortalidad con leche de soja, y por descuido, la leche se cuajó. Este cuajo se convirtió en la base del tofu, que luego se convirtió en un alimento popular en China. El tofu se introdujo en Japón y Corea en el período Nara (710-794) y Heian (794-1185). En Japón, el tofu se convirtió en un alimento básico en la dieta de los monjes budistas, quienes lo utilizaban como fuente de proteínas vegetariana. Con el tiempo, el tofu se popularizó en Japón y se convirtió en un alimento fundamental en la gastronomía nipona. El tofu también se ha extendido a otros países de Asia y, más recientemente, al resto del mundo. En la cocina occidental moderna, el tofu a menudo se utiliza como sustituto de la carne. "
+  },
+  {
+    "id": 53,
+    "title": "Taiyaki (鯛焼き) ",
+    "description": "El Taiyaki es un dulce con forma de pez, un tentempié callejero por excelencia en Japón, relleno de pasta dulce de aduki.",
+    "portions": "Rinde: 8 porciones",
+    "ingredients": [
+      {
+        "items": [
+          "3/4 taza + 1 1/2 cucharadas de leche de soja u otra leche vegetal (270 ml)",
+          "4 cucharaditas de aceite neutro (20 ml)",
+          "1/4 taza de azúcar (48 g)",
+          "1/4 cucharadita de sal",
+          "Una pizca de sal negra, opcional",
+          "1 taza + 1/3 taza de harina de repostería (200 g)",
+          "2 cucharaditas de levadura en polvo (10 g)",
+          "1/3 cucharadita de bicarbonato de sodio (1.5 g)",
+          "1 taza de Anko, pasta de poroto aduki (240 g)"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/P5hstVSC/taiyaki.png",
+    "tags": ["taiyaki", "japón", "dulce", "aduki", "buñuelo", "postre"],
+    "instruction": [
+      "En un bowl, añada la leche de soja, el aceite, el azúcar y la sal, y misture bien. Tamice la harina de repostería, la levadura en polvo y el bicarbonato de sodio. Misture bien hasta obtener una masa suave (algunos grumos están bien). La consistencia debe ser un poco más viscosa que la masa de panqueques.",
+      "Reposo opcional: Cubra y refrigere la masa durante 30 minutos. Retírela del refrigerador y mézclela suavemente. El reposo ayuda a suavizar la masa y le da una textura más esponjosa.",
+      "Caliente el molde para taiyaki a fuego medio y úntelo con un poco de aceite. Reduzca el fuego a medio-bajo y vierta o eche la masa en el molde hasta un poco más de la mitad (se expandirá a medida que se calienta). Añada 2 cucharadas del relleno de Anko (35-40 g) y luego cúbralo con más masa. Cierre el molde y voltéelo. Cocine por 1 a 2 minutos o hasta que esté dorado. Voltéelo y cocine por otros 1 a 1 1/2 minutos. Cada lado tarda entre 1 1/2 y 2 1/2 minutos en cocinarse desde el momento en que la masa toca el molde.",
+      "Repita con el resto de la masa y el relleno de Anko. Debe obtener entre 7 y 8 taiyakis en total, dependiendo del tamaño de los moldes y la cantidad de masa que use. Si hay algún desbordamiento, recorte el exceso.",
+      "Coloque los taiyakis en una rejilla para que se enfríen brevemente. Sírvalos calientes y ¡disfrute!."
+    ],
+    "notes": [
+      "Puede usar cualquier tipo de leche vegetal, aunque se prefiere la leche de soja.",
+      "Puede usar cualquier endulzante de su elección. Si usa jarabe de arce o agave, use 2 cucharadas (40 g).",
+      "La harina de repostería también se conoce como harina para tortas o budines. Si usa harina de trigo común, sustituya 20 g por fécula de papa o de maíz.",
+      "El relleno de Anko puede ser remplazado por el de su preferencia, pero es el más tradicional. Koshi-an y Ogura-an son los favoritos para taiyaki."
+    ],
+    "curiosidad": "El taiyaki surgió en Tokio en 1909 como una adaptación del imagawayaki, un panqueque redondo relleno de pasta de judía roja popular desde finales del siglo XVIII en el período Edo. Para atraer más clientes, los vendedores empezaron a darle nuevas formas, y la versión con forma de pez se convirtió en un éxito que se expandió por todo Japón y luego al mundo. Su nombre proviene de 'tai' (besugo, un pez muy apreciado en Japón) y 'yaki' (cocinado a la parrilla o al horno). El besugo (tai) fue elegido como forma del taiyaki porque en la era Meiji era un plato caro reservado para ocasiones especiales y se consideraba un símbolo de buena suerte en Japón. Incluso su nombre se asocia con prosperidad, ya que rima con medetai (“feliz” o “próspero”). Así, el taiyaki representaba una manera accesible de disfrutar de este pez de la fortuna. Con el tiempo, se volvió parte de la cultura popular japonesa, al punto de que se dice que la forma en que uno lo come revela la personalidad: quienes empiezan por la cabeza serían optimistas, y quienes lo hacen por la cola, calmados y románticos."
   }
 ]

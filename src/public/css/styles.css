@@ -118,6 +118,7 @@
     margin-top: 15px;
     padding-left: 20px;
   }
+
   
   ul li {
     margin-bottom: 10px;
@@ -940,7 +941,7 @@
     }
 
     .notes-list{
-      margin-right: 10px;
+      margin-right: 20px;
     }
   }
 
