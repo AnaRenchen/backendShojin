@@ -50,6 +50,7 @@
     font-size: 1.2rem;
     font-family: 'Yu Gothic', sans-serif;
     color: black;
+    font-weight: bold;
   }
   
   .navbar .nav-link:hover {
@@ -257,7 +258,7 @@
   .container-imagen-recetas {
     position: relative; /* Necesario para posicionar el contenido sobre la imagen */
     width: 100%; /* Ocupa todo el ancho disponible */
-    height: 18rem; /* Establece la altura fija en 18rem */
+    height: 20rem; /* Establece la altura fija en 20rem */
     overflow: hidden; /* Oculta cualquier contenido que se desborde */
   }
   
@@ -508,7 +509,6 @@
   }
 
   
-  
   #curiosidad-container {
     margin: 30px auto; /* Centra horizontalmente y agrega espacio superior */
     display: block;  /* Para que respete el ancho máximo y se centre */
@@ -610,7 +610,168 @@
   .pagina-fudoji img {
     width: 50px; 
   }
+
+  /*Estilo para el Blog*/
+
+  .imagen-blog {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 70%;
+}
+
   
+#posts.posts-center {
+  max-width: 900px;     /* ancho máximo de la columna */
+  margin: 0 auto;       /* centra el contenido */
+  padding: 0 1rem;      /* margen lateral en mobile */
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+/* ===============================
+   TARJETA / PREVIEW DE CADA POST
+   =============================== */
+
+.post-preview {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+
+}
+
+/* ===============================
+   TÍTULO DEL POST
+   =============================== */
+
+.post-title {
+  font-size: 1.4rem;
+   letter-spacing: 0.1rem;
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: 600;
+  color: #212529;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.post-title:hover {
+  color:#d0a13d;
+}
+
+/* ===============================
+   TEXTO RESUMEN
+   =============================== */
+
+.post-excerpt,
+.post-resumen {
+  color: #212529;
+  font-family: 'Yu Gothic', sans-serif;
+  text-align: justify;
+  letter-spacing: 0.04rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  max-width: 100%;
+
+  /* evita que palabras largas rompan el layout */
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.25rem;
+}
+
+/* ===== ENTRADA BLOG ===== */
+
+.entrada-title {
+  font-size: 2.5rem;
+  color: #212529;
+  font-family: 'Yu Gothic', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 3.5rem 0 2.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.3rem;
+}
+
+/* Contenedor general */
+.container-entrada {
+  max-width: 800px;
+  margin: 1rem auto 4rem;
+  padding: 0 1rem;
+}
+
+/* Imagen principal */
+.imagen-entrada {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Contenido del post */
+#post-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #212529;
+  font-family: 'Yu Gothic', sans-serif;
+  margin-bottom: 1.2rem;
+}
+
+/* Párrafos */
+#post-content p {
+  margin-bottom: 1.4rem;
+}
+
+/* Listas */
+#post-content ul,
+#post-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Citas */
+#post-content blockquote {
+  border-left: 4px solid #8aa398;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .entrada-title {
+    font-size: 2rem;
+  }
+
+  .imagen-entrada {
+    max-height: 300px;
+  }
+}
+
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+
+@media (max-width: 768px) {
+  #posts.posts-center {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+  }
+}
   
   /*Estilo para el footer*/
   footer {

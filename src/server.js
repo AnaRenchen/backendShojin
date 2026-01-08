@@ -6,6 +6,7 @@ import { config } from "../src/config/config.js";
 import mongoose from "mongoose";
 import { routerVistas } from "./routes/vistasRouter.js";
 import { routerRecipes } from "./routes/recipesRouter.js";
+import { routerPosts } from "./routes/postsRouter.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { logger, middLogger } from "./utils/logger.js";
 
@@ -21,6 +22,7 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 app.use("/", routerVistas);
 app.use("/api/recipes", routerRecipes);
+app.use("/api/posts", routerPosts);
 
 app.listen(PORT, () => {
   logger.info("Server listening...");

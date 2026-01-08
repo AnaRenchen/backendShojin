@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    
     <meta charset="UTF-8">
-    <title>Receta | Cocina Shojin Ryori</title>
+    <title>Recetas | Cocina Shojin Ryori</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" Cocina budista Shojin Ryori.">
     <meta name="author" content="Ana Maria Magalhães">
     <meta name="keywords" content="cocina, receta, vegan, vegano, shojin ryori, budista, budismo, animales, compasión, rico">
 
-    <!--OG_TAGS-->
+    <!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://cocinashojinryori.onrender.com/recipes">
+<meta property="og:type" content="website">
+<meta property="og:title" content=" Recetas | Cocina Shojin Ryori">
+<meta property="og:description" content=" Cocina budista Shojin Ryori">
+<meta property="og:image" content="https://i.postimg.cc/QMYBncgw/comida-templo.png">
+<meta property="og:locale" content="es_ES">
 
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="cocinashojinryori.onrender.com">
+<meta property="twitter:url" content="https://cocinashojinryori.onrender.com/recipes">
+<meta name="twitter:title" content=" Recetas | Cocina Shojin Ryori">
+<meta name="twitter:description" content=" Cocina budista Shojin Ryori">
+<meta name="twitter:image" content="https://i.postimg.cc/QMYBncgw/comida-templo.png">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../images/logo-navegador.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+   
 </head>
 <body>
 
   <div class="logo-container"> 
-    <a href="/"><img src="../images/logo_shojin.png" alt="logo-shojin" class="logo-shojin"></a> 
-   </div>
+   <a href="/"><img src="../images/logo_shojin.png" alt="logo-shojin" class="logo-shojin"></a> 
+  </div>
      
   
     <nav class="navbar navbar-expand-lg container-nav">
@@ -29,7 +42,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="/">Home</a>
             <a class="nav-link" href="/recipes">Recetas</a>
@@ -39,58 +52,37 @@
         </div>
       </div>
     </nav>
-
-
-<body>
-  
+   
     <main>
 
-      <h2 id="title" class="titulo-nombre-receta"></h2>
-      
-
-        <div class="container-receta" id="receta-container">
-
-          <div class="image-ingredientes">
-          <div class="container-ingredientes">
-          <p id="portions"></p>
-          <h5 class="h5-receta" >Ingredientes:</h5>
-          <div id="ingredientes">
-              <!-- Inserción de los ingredientes dinámicamente -->
-          </div>
-
-        </div>
-
-        <img src="" alt="Recipe image" id="photo-recipe">
-        </div>
+      <div class="container-imagen-recetas">
+      <img src="https://i.postimg.cc/vHQQ7Jwc/rabbit-writing-notebook-with-coffee-plant.jpg" alt="" class="imagen-blog">
+      <div class="content">
+        <h1 class="titulo-sobre-fondo">Blog</h1>
+     </div>
+     </div>
 
 
-          <h5 class="h5-receta">Modo de preparo:</h5>
-          <div id="instrucciones" class="instrucciones-recetas">
-              <!-- Inserción las instrucciones dinámicamente -->
-          </div>
+        <div id="posts" class="posts-center">
+          <!-- Inserción del resumen de los posts dinámicamente -->
+      </div>
 
-          <div id="notas-container" style="display:none;" class="notas-container">
-            
-          </div>
+      <!-- Contenedor para la paginación -->
+      <div id="pagination" class="my-4">
+        <!-- Controles de paginación dinámicamente con Bootstrap -->
+    </div>
 
-          <div id="curiosidad-container" style="display: none;">
-            <h5 class="titulo_curiosidad">¿Sabía esto?</h5>
-            <p id="curiosidad"></p>
-          </div>
-        </div>
-        <div class="scroll-container" id="scrollToTop">
-          <a href="#top"><img class="scroll-top" src="https://i.postimg.cc/ZRV3YRM3/icons8-scroll-up-50.png" alt="Scroll up"></a>
-          </div>
+    <div class="scroll-container" id="scrollToTop">
+      <a href="#top"><img class="scroll-top" src="https://i.postimg.cc/ZRV3YRM3/icons8-scroll-up-50.png" alt="Scroll up"></a>
+      </div>
     </main>
 
     <footer><p class="text-footer"> "No hay práctica altruista que yo considere tan importante como llevar una dieta vegana/vegetariana, ya que esto es poner la vida del otro antes que nuestra comodidad o placer de la lengua, y nadie nos agradecerá ni aplaudirá por ello.
       En el camino del bodhisattva, hacemos el voto de salvar a todos los seres sintientes del sufrimiento, si no tenemos la capacidad de salvarlos, al menos no les causemos daño."
       Asho</p> </footer>
 
-    
-
-    
-    <script src="../js/app.js"></script>
+  
+    <script src="../js/blog.js"></script>
     <script src="../js/flechaUp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

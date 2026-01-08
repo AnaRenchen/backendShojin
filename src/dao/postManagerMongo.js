@@ -6,7 +6,7 @@ export class PostManagerMongo {
     return posts;
   }
 
-  async getPostsBy(filter) {
+  async getPostBy(filter) {
     return await postModel.find(filter).lean();
   }
 

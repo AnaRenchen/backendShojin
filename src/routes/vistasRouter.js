@@ -10,3 +10,7 @@ routerVistas.get("/recipes", VistasController.getRecipes);
 routerVistas.get("/recipes/recipe", VistasController.getRecipe);
 
 routerVistas.get("/contact", VistasController.getContact);
+
+routerVistas.get("/blog", VistasController.getPosts);
+
+routerVistas.get("/blog/post", VistasController.getPost);

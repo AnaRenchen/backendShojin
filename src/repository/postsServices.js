@@ -9,8 +9,8 @@ class PostsServices {
     return await this.dao.getPosts();
   };
 
-  getPostsBy = async (filter) => {
-    return await this.dao.getPostsBy(filter);
+  getPostBy = async (filter) => {
+    return await this.dao.getPostBy(filter);
   };
 
   getPostById = async (id) => {
