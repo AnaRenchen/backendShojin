@@ -749,8 +749,19 @@
 /* Responsive */
 @media (max-width: 768px) {
   .entrada-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    text-align: left;
   }
+
+  #post-content {
+  font-size: 1rem;
+}
+
+.container-entrada {
+  max-width: 700px;
+  margin: 1rem auto 4rem;
+  padding: 0 2rem;
+}
 
   .imagen-entrada {
     max-height: 300px;
