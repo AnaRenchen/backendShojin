@@ -5,7 +5,9 @@ const apiUrl = "/api/posts";
 let currentPage = 1;
 const postsPerPage = 5;
 
-// Obtener todos los posts
+/* =========================
+   OBTENER TODOS LOS POSTS
+========================= */
 async function obtenerPosts() {
   try {
     const response = await fetch(apiUrl);
@@ -19,28 +21,9 @@ async function obtenerPosts() {
   }
 }
 
-// Obtener post por ID
-async function obtenerPostsPorId(postId) {
-  try {
-    const response = await fetch(`${apiUrl}/${postId}`, {
-      method: "GET",
-      headers: { "Content-Type": "application/json" },
-    });
-
-    if (!response.ok) {
-      throw new Error(
-        `Error en la petición: ${response.status} ${response.statusText}`
-      );
-    }
-
-    const post = await response.json();
-    return post;
-  } catch (error) {
-    mostrarAlerta("Error al obtener post.");
-    console.error(error);
-  }
-}
-
+/* =========================
+   LISTADO DE POSTS
+========================= */
 function mostrarPosts(posts, page = 1) {
   const container = document.getElementById("posts");
   container.innerHTML = "";
@@ -59,19 +42,19 @@ function mostrarPosts(posts, page = 1) {
     title.textContent = post.title;
     title.className = "post-title";
 
-    // RESUMEN
+    // RESUMEN (texto plano, sin markdown)
     const excerpt = document.createElement("p");
     excerpt.className = "post-excerpt";
     excerpt.textContent = cortarTexto(post.content, 300);
 
-    // AUTOR Y FECHA
+    // META
     const meta = document.createElement("p");
     meta.className = "post-meta";
     meta.textContent = `Por ${post.author} · ${formatearFecha(post.createdAt)}`;
 
     postDiv.appendChild(title);
     postDiv.appendChild(excerpt);
-    postDiv.appendChild(meta); // se agrega debajo del resumen
+    postDiv.appendChild(meta);
 
     container.appendChild(postDiv);
   });
@@ -79,20 +62,9 @@ function mostrarPosts(posts, page = 1) {
   showPagination(posts.length, page);
 }
 
-function formatearFecha(fechaISO) {
-  const fecha = new Date(fechaISO);
-  return fecha.toLocaleDateString("es-AR", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-  });
-}
-
-function cortarTexto(texto, maxChars) {
-  if (texto.length <= maxChars) return texto;
-  return texto.substring(0, maxChars) + "...";
-}
-
+/* =========================
+   ENTRADA INDIVIDUAL
+========================= */
 document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const postId = params.get("id");
@@ -117,21 +89,12 @@ function renderPost(post) {
     post.createdAt
   );
 
-  // Convertir saltos de línea en párrafos
+  // 🔥 MARKDOWN → HTML
   const contentDiv = document.getElementById("post-content");
-  contentDiv.innerHTML = "";
+  contentDiv.innerHTML = marked.parse(post.content);
 
-  const paragraphs = post.content.split("\n\n");
-
-  paragraphs.forEach((paragraph) => {
-    const p = document.createElement("p");
-    p.textContent = paragraph;
-    contentDiv.appendChild(p);
-  });
-
-  // Imagen (opcional)
+  // Imagen opcional
   const img = document.getElementById("post-image");
-
   if (post.image) {
     img.src = post.image;
     img.alt = post.title;
@@ -139,6 +102,14 @@ function renderPost(post) {
   } else {
     img.style.display = "none";
   }
+}
+
+/* =========================
+   UTILIDADES
+========================= */
+function cortarTexto(texto, maxChars) {
+  if (texto.length <= maxChars) return texto;
+  return texto.substring(0, maxChars) + "...";
 }
 
 function formatearFecha(fechaISO) {
@@ -149,6 +120,9 @@ function formatearFecha(fechaISO) {
   });
 }
 
+/* =========================
+   PAGINACIÓN
+========================= */
 function showPagination(totalPosts, page) {
   const totalPages = Math.ceil(totalPosts / postsPerPage);
   const paginationDiv = document.getElementById("pagination");
@@ -157,17 +131,13 @@ function showPagination(totalPosts, page) {
   const ul = document.createElement("ul");
   ul.className = "pagination justify-content-center pagination-sm";
 
-  if (page > 1) {
-    ul.appendChild(createPageItem("Anterior", page - 1));
-  }
+  if (page > 1) ul.appendChild(createPageItem("Anterior", page - 1));
 
   for (let i = 1; i <= totalPages; i++) {
     ul.appendChild(createPageItem(i, i, i === page));
   }
 
-  if (page < totalPages) {
-    ul.appendChild(createPageItem("Siguiente", page + 1));
-  }
+  if (page < totalPages) ul.appendChild(createPageItem("Siguiente", page + 1));
 
   paginationDiv.appendChild(ul);
 }
@@ -191,6 +161,4 @@ function createPageItem(text, page, active = false) {
   return li;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  obtenerPosts();
-});
+document.addEventListener("DOMContentLoaded", obtenerPosts);
