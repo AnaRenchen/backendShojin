@@ -42,10 +42,28 @@ function mostrarPosts(posts, page = 1) {
     title.textContent = post.title;
     title.className = "post-title";
 
+    //Función para eliminar el markdown del resumen
+    function stripMarkdown(text) {
+      return text
+        .replace(/!\[.*?\]\(.*?\)/g, "") // imágenes
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // links
+        .replace(/(\*\*|__)(.*?)\1/g, "$2") // negrita
+        .replace(/(\*|_)(.*?)\1/g, "$2") // cursiva
+        .replace(/~~(.*?)~~/g, "$1") // tachado
+        .replace(/`{1,3}.*?`{1,3}/g, "") // código
+        .replace(/^>\s?/gm, "") // blockquote
+        .replace(/^#+\s?/gm, "") // títulos
+        .replace(/-{3,}/g, "") // separadores
+        .replace(/\n+/g, " ") // saltos de línea
+        .trim();
+    }
+
     // RESUMEN (texto plano, sin markdown)
     const excerpt = document.createElement("p");
     excerpt.className = "post-excerpt";
-    excerpt.textContent = cortarTexto(post.content, 300);
+
+    const plainText = stripMarkdown(post.content);
+    excerpt.textContent = cortarTexto(plainText, 300);
 
     // META
     const meta = document.createElement("p");
