@@ -2244,5 +2244,52 @@
       "Es recomendable dejar los porotos en remojo por unas 8 horas antes de la preparación."
     ],
     "curiosidad": "El Anko es uno de los rellenos más tradicionales de la repostería japonesa. Existen dos variedades principales: Tsubu-an, que conserva los granos enteros del poroto aduki, y Koshi-an, que es más fino y cremoso. Es utilizado en postres como dorayaki, daifuku, manjū y taiyaki, siendo un sabor profundamente asociado con la cultura gastronómica de Japón."
+  },
+  {
+    "id": 55,
+    "title": "Doraikare (Curry seco al estilo japonés)",
+    "description": "Una versión de uno de los estilos de curry japonés seco.",
+    "portions": "Rinde: 4 porciones",
+    "ingredients": [
+      {
+        "items": [
+          "600 g de arroz cocido y firme (preferentemente frío)",
+          "120 g de hongos (portobello o champiñones)",
+          "1 morrón verde mediano",
+          "50 g de apio",
+          "30–40 g de zanahoria",
+          "1 cucharada de pasas de uva",
+          "2 cucharadas de aceite vegetal",
+          "2 cucharaditas de curry en polvo",
+          "2 cucharaditas de ketchup",
+          "1 cucharadita de salsa de soja",
+          "Sal y pimienta a gusto"
+        ]
+      }
+    ],
+    "image": "https://i.postimg.cc/SKdrmw2h/doraikare.png",
+    "tags": ["curry", "arroz", "vegano", "seco", "japón", "salteado", "hongos"],
+    "instruction": [
+      "Cortar los hongos en cubos de aproximadamente 1 cm y condimentarlos con sal y pimienta.",
+      "Cortar el morrón verde, el apio y la zanahoria en cubitos pequeños de unos 5 mm.",
+      "Enjuagar las pasas y dejarlas escurrir.",
+      "Calentar una sartén grande a fuego medio y agregar 1 cucharada de aceite.",
+      "Saltear los hongos a fuego medio-bajo hasta que estén dorados y hayan soltado y reabsorbido su jugo.",
+      "Agregar el morrón, el apio y la zanahoria. Saltear suavemente hasta que estén tiernos y fragantes.",
+      "Incorporar el curry en polvo y el ketchup, mezclando bien.",
+      "Agregar la cucharada restante de aceite y apagar el fuego.",
+      "Añadir el arroz cocido con el fuego apagado y mezclar bien, desarmando los grumos con una cuchara de madera.",
+      "Volver la sartén al fuego medio y saltear todo junto.",
+      "Agregar las pasas, espolvorear con aproximadamente 1/2 cucharadita de sal y verter la salsa de soja por los bordes de la sartén.",
+      "Mezclar bien para que el arroz se impregne de los sabores y servir caliente."
+    ],
+    "notes": [
+      "El arroz frío ayuda a que los granos queden bien separados al saltearlos.",
+      "Los hongos aportan umami y reemplazan la textura de la carne.",
+      "El apio sustituye la cebollita de verdeo, pero es posible remplazarlo por la verdura de su preferencia.",
+      "El morrón puede ser remplazados por pimientas verdes, como el shishito japonés.",
+      "Ajustar la cantidad de sal según el tipo de salsa de soja utilizada."
+    ],
+    "curiosidad": "Hay diferentes tipos de curry seco de estilo japonés.En esta receta se prepara un curry seco japonés salteando el arroz y otros ingredientes junto con curry en polvo. Otra versión del curry seco consiste en colocar ingredientes con sabor a curry sobre arroz blanco hervido. Estos acompañamientos pueden incluir carne de soja, tofu y verduras finamente cortadas, que se cocinan a fuego lento en un caldo especiado hasta que la mayor parte del líquido se evapora o es absorbida.Existe además una versión más saludable del curry seco, en la que el arroz y los demás ingredientes se cocinan juntos con curry en polvo en una arrocera o cacerola, sin utilizar aceite."
   }
 ]
