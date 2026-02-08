@@ -2,7 +2,7 @@ import { postModel } from "./models/postModel.js";
 
 export class PostManagerMongo {
   async getPosts() {
-    let posts = await postModel.find().lean();
+    let posts = await postModel.find().sort({ createdAt: -1 }).lean();
     return posts;
   }
 
